@@ -56,6 +56,7 @@ int SoftUpCount;
 int softTimer1;
 int softStart_State=0;
 int SecMain;
+int SecCount;
 //lcd light
 int lcdLight=1;
 
@@ -99,18 +100,25 @@ static void MX_TIM1_Init(void);
 #include "Pictures/StartVoltage.c"
 #include "Pictures/Starttime.c"
 #include "Pictures/kadr.c"
+#include "Pictures/saveEEprom.c"
+#include "Pictures/softstarttime.c"
+
+
 void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim) // 100ms
 {
   
-  if (htim->Instance == TIM1)
+  if (htim->Instance == TIM1) // 1000 --->1s
   {
-   if(softStart_State == 0)++softTimer1;
+    if(softStart_State == 0)softTimer1++;
+
+    
+   
    
    ++SecMain;
-   if(SecMain >=120){
+   if(SecMain >=1000){
      SecMain = 0;
      if(lcdLight == 1 && setting ==0) ++lcdLightTimer;
-     if(lcdLightTimer >= 10 && lcdLight == 1){
+     if(lcdLightTimer >= 120 && lcdLight == 1){
        lcdLight = 0;
        lcdLightTimer =0;
        HAL_GPIO_WritePin(LcdLight_GPIO_Port, LcdLight_Pin, GPIO_PIN_RESET);
@@ -163,7 +171,9 @@ int main(void)
   HAL_GPIO_WritePin(LcdLight_GPIO_Port, LcdLight_Pin, GPIO_PIN_SET);
   //eeprom config
   I2C_init();
-  //  eeprom_write_int16(156,0);
+//    eeprom_write_int16(2000,10);
+//     HAL_Delay(10);
+//      eeprom_write_int16(2000,20);
   
   StartVoltage_eeprom = eeprom_read_int16(0);
   HAL_Delay(10);
@@ -178,11 +188,18 @@ int main(void)
   Lcd_Put_Icon2_Invert(0,0,logo); // YplusOnXbyte = (LedHeight + 7) / 8;
   Lcd_Refresh();
   char ss[20];
-  sprintf(ss , "Voltage:%dV " , Voltage);
+  sprintf(ss , "Voltage:%dV " , StartVoltage_eeprom);
   lcd_putsf_point(0,0,ss,TAHOMA_8x10);
   lcd_putsf_point(0,10,"Soft Start",TAHOMA_8x10);
   Lcd_Refresh();
-
+  
+//  while(1){
+//    sprintf(ss , "Time:%dS  " , softTimer1);
+//    lcd_putsf_point(0,0,ss,TAHOMA_8x10);
+//    Lcd_Refresh();
+//    
+//  }
+  
 
   /* USER CODE END 2 */
 
@@ -360,7 +377,7 @@ static void MX_TIM1_Init(void)
           
   /* USER CODE END TIM1_Init 1 */
   htim1.Instance = TIM1;
-  htim1.Init.Prescaler = 24000;
+  htim1.Init.Prescaler = 500;
   htim1.Init.CounterMode = TIM_COUNTERMODE_UP;
   htim1.Init.Period = 100;
   htim1.Init.ClockDivision = TIM_CLOCKDIVISION_DIV1;

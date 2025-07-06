@@ -21,7 +21,7 @@ void delay_us_soft(uint32_t us)
 }
 
 void OutPut(int VoltageInput){
-  long TimeSet = map(VoltageInput, 0, 220, 2000, 0);
+  long TimeSet = map(VoltageInput, 0, 220, 2300, 0);
   if (zero_cross_flag == 1) {   
     zero_cross_flag = 0;
     delay_us_soft(TimeSet);

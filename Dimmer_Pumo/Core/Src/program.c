@@ -1,16 +1,22 @@
 
-
+int volt2;
+int timeSoft2;
 
 void SoftSTART(){
   softTimer1 = 0;
-  while(softTimer1 <= 35){
+  SecCount = 0;
+  Voltage = StartVoltage_eeprom;
+  while(softTimer1 <= StartTime_eeprom){
     OutPut(Voltage);
     if (HAL_GPIO_ReadPin(k_up_GPIO_Port, k_up_Pin) == 0 || HAL_GPIO_ReadPin(k_down_GPIO_Port, k_down_Pin) == 0 || HAL_GPIO_ReadPin(k_ok_GPIO_Port, k_ok_Pin) == 0 || HAL_GPIO_ReadPin(k_back_GPIO_Port, k_back_Pin) == 0)break;
   }
+  volt2 =220 - StartVoltage_eeprom;
+  //volt2 /= 5;
+  timeSoft2 = SoftTime_eeprom / volt2;
   softTimer1= 0;
   while(1){
-    if(softTimer1 >= 1){
-      ++Voltage;
+    if(softTimer1 >= timeSoft2){
+      Voltage+=1;
       softTimer1 = 0;
     }
     OutPut(Voltage);
