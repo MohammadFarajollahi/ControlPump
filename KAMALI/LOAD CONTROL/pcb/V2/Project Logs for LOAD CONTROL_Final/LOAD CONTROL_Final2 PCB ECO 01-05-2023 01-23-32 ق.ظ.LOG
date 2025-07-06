@@ -1,0 +1,9 @@
+Removed Pin From Net: NetName=GND Pin=C14-1
+Removed Pin From Net: NetName=VCC_5V Pin=C14-2
+Removed Pin From Net: NetName=GND Pin=IC6-1
+Removed Pin From Net: NetName=VCC_5V Pin=IC6-2
+Removed Pin From Net: NetName=VCC_5V Pin=IC6-4
+Removed Member From Class: ClassName=LOAD CONTROL_Final2 Member=C14
+Removed Member From Class: ClassName=LOAD CONTROL_Final2 Member=IC6
+Added Pin To Net: NetName=VCC_5V Pin=C13-2
+Added Pin To Net: NetName=VCC_5V Pin=D5-1

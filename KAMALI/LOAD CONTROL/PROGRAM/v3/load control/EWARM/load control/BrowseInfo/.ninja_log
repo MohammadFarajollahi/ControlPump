@@ -1,0 +1,274 @@
+# ninja log v5
+536	715	7612270170000000	C:/Users/Amin/Desktop/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/STM32F0xx_HAL_Driver_12736992878974344111.dir/stm32f0xx_hal_rcc_ex.xcl	70113530c6ee63d2
+28	204	7612270160000000	C:/Users/Amin/Desktop/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/CMSIS_6603591812247902717.dir/system_stm32f0xx.xcl	62c8ff46d43a9a71
+4	188	7612270160000000	C:/Users/Amin/Desktop/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/Core_13247989168731456611.dir/freertos.xcl	a1b209e0875292d0
+545	791	7612270242364761	C:/Users/Amin/Desktop/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/STM32F0xx_HAL_Driver_12736992878974344111.dir/stm32f0xx_hal_pwr.pbi	e60db855dc399f12
+17	292	7612270237404920	C:/Users/Amin/Desktop/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/STM32F0xx_HAL_Driver_12736992878974344111.dir/stm32f0xx_hal_adc.pbi	4dfd5c5feec57186
+20	195	7612270160000000	C:/Users/Amin/Desktop/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/STM32F0xx_HAL_Driver_12736992878974344111.dir/stm32f0xx_hal.xcl	8e54dfc7398fd006
+190	346	7612270160000000	C:/Users/Amin/Desktop/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/STM32F0xx_HAL_Driver_12736992878974344111.dir/stm32f0xx_hal_adc.xcl	62f568cc95be04c4
+14	156	7612270160000000	C:/Users/Amin/Desktop/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/STM32F0xx_HAL_Driver_12736992878974344111.dir/stm32f0xx_hal_adc_ex.xcl	f0d750daf69ae66f
+197	319	7612270160000000	C:/Users/Amin/Desktop/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/Core_13247989168731456611.dir/stm32f0xx_hal_timebase_tim.xcl	59b6ac749f6f89a7
+881	1064	7612270170000000	C:/Users/Amin/Desktop/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/Core_13247989168731456611.dir/stm32f0xx_hal_msp.xcl	2af03c49d51baf5
+158	312	7612270160000000	C:/Users/Amin/Desktop/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/Core_13247989168731456611.dir/stm32f0xx_it.xcl	729c24d09e98180b
+1433	1630	7612270170000000	C:/Users/Amin/Desktop/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/FreeRTOS_4809373609813369194.dir/tasks.xcl	7cb8d3a0328181c
+1455	1786	7612270180789132	C:/Users/Amin/Desktop/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/CMSIS_6603591812247902717.dir/system_stm32f0xx.pbi	dfa73858a94458b5
+205	355	7612270160000000	C:/Users/Amin/Desktop/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/STM32F0xx_HAL_Driver_12736992878974344111.dir/stm32f0xx_hal_dma.xcl	fc14065de3d3fe3a
+12	234	7612270236825730	C:/Users/Amin/Desktop/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/STM32F0xx_HAL_Driver_12736992878974344111.dir/stm32f0xx_hal_adc_ex.pbi	87949aa3edfefc6d
+568	816	7612270242648144	C:/Users/Amin/Desktop/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/STM32F0xx_HAL_Driver_12736992878974344111.dir/stm32f0xx_hal_flash_ex.pbi	665ed50b6a4a908e
+357	558	7612270160000000	C:/Users/Amin/Desktop/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/STM32F0xx_HAL_Driver_12736992878974344111.dir/stm32f0xx_hal_flash_ex.xcl	7c2eb689e979c687
+492	670	7612270160000000	C:/Users/Amin/Desktop/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/STM32F0xx_HAL_Driver_12736992878974344111.dir/stm32f0xx_hal_flash.xcl	391b7e4a82daa39d
+314	501	7612270160000000	C:/Users/Amin/Desktop/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/STM32F0xx_HAL_Driver_12736992878974344111.dir/stm32f0xx_hal_cortex.xcl	7a5bddfbba619d9d
+321	490	7612270160000000	C:/Users/Amin/Desktop/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/STM32F0xx_HAL_Driver_12736992878974344111.dir/stm32f0xx_hal_gpio.xcl	dfc45ff9ce610835
+23	267	7612270237144307	C:/Users/Amin/Desktop/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/STM32F0xx_HAL_Driver_12736992878974344111.dir/stm32f0xx_hal_flash.pbi	c90e2eab563cd6b9
+348	534	7612270160000000	C:/Users/Amin/Desktop/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/STM32F0xx_HAL_Driver_12736992878974344111.dir/stm32f0xx_hal_exti.xcl	eb8e835a61308b4e
+672	905	7612270170000000	C:/Users/Amin/Desktop/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/STM32F0xx_HAL_Driver_12736992878974344111.dir/stm32f0xx_hal_i2c_ex.xcl	7e70872b949a3159
+1104	1290	7612270170000000	C:/Users/Amin/Desktop/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/FreeRTOS_4809373609813369194.dir/heap_4.xcl	a5d41252b6a3cde2
+560	723	7612270170000000	C:/Users/Amin/Desktop/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/STM32F0xx_HAL_Driver_12736992878974344111.dir/stm32f0xx_hal_i2c.xcl	1b17e43f18ac4586
+680	879	7612270170000000	C:/Users/Amin/Desktop/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/STM32F0xx_HAL_Driver_12736992878974344111.dir/stm32f0xx_hal_pwr_ex.xcl	4d825230de99be14
+294	562	7612270240057875	C:/Users/Amin/Desktop/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/STM32F0xx_HAL_Driver_12736992878974344111.dir/stm32f0xx_hal_exti.pbi	1255a2bcbb4b852
+503	678	7612270160000000	C:/Users/Amin/Desktop/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/STM32F0xx_HAL_Driver_12736992878974344111.dir/stm32f0xx_hal_rcc.xcl	bcafd3270d62c5ca
+307	382	7612312643021725	C:/Users/Amin/Desktop/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/FreeRTOS_4809373609813369194.dir/port.pbi	15b6c24b8f14af81
+717	888	7612270170000000	C:/Users/Amin/Desktop/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/STM32F0xx_HAL_Driver_12736992878974344111.dir/stm32f0xx_hal_pwr.xcl	eec788181cb5f18c
+258	515	7612270239609135	C:/Users/Amin/Desktop/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/STM32F0xx_HAL_Driver_12736992878974344111.dir/stm32f0xx_hal_cortex.pbi	7974c3e8f65b05cc
+725	921	7612270170000000	C:/Users/Amin/Desktop/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/Core_13247989168731456611.dir/main.xcl	af4f9e48a0c12943
+1067	1262	7612270170000000	C:/Users/Amin/Desktop/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/FreeRTOS_4809373609813369194.dir/event_groups.xcl	d6f265802bdd9b6f
+235	490	7612270239387363	C:/Users/Amin/Desktop/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/STM32F0xx_HAL_Driver_12736992878974344111.dir/stm32f0xx_hal.pbi	1f08f64195dd308b
+491	870	7612270243194895	C:/Users/Amin/Desktop/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/STM32F0xx_HAL_Driver_12736992878974344111.dir/stm32f0xx_hal_i2c.pbi	f2e6a7cb42d90d9a
+854	1039	7612268870000000	C:/Users/Amin/Desktop/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/FreeRTOS_4809373609813369194.dir/cmsis_os2.xcl	ad22aaa6be2cc178
+890	1094	7612270170000000	C:/Users/Amin/Desktop/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/STM32F0xx_HAL_Driver_12736992878974344111.dir/stm32f0xx_hal_tim_ex.xcl	921aabca75ea2e8b
+907	1111	7612270170000000	C:/Users/Amin/Desktop/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/FreeRTOS_4809373609813369194.dir/croutine.xcl	82eae0b5de95b5e0
+922	1101	7612270170000000	C:/Users/Amin/Desktop/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/STM32F0xx_HAL_Driver_12736992878974344111.dir/stm32f0xx_hal_tim.xcl	e9b3d5d512fb9e1
+1292	1532	7612270170000000	C:/Users/Amin/Desktop/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/FreeRTOS_4809373609813369194.dir/stream_buffer.xcl	e57376e9e883e0df
+1236	1453	7612270170000000	C:/Users/Amin/Desktop/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/FreeRTOS_4809373609813369194.dir/list.xcl	991818071612e505
+784	1006	7612270244485308	C:/Users/Amin/Desktop/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/STM32F0xx_HAL_Driver_12736992878974344111.dir/stm32f0xx_hal_i2c_ex.pbi	5dae743648fc533a
+1302	1541	7612270170000000	C:/Users/Amin/Desktop/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/FreeRTOS_4809373609813369194.dir/queue.xcl	f45fac6e260db1bc
+792	998	7612270244475223	C:/Users/Amin/Desktop/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/STM32F0xx_HAL_Driver_12736992878974344111.dir/stm32f0xx_hal_pwr_ex.pbi	7738093e1ecfdc09
+1113	1300	7612270170000000	C:/Users/Amin/Desktop/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/FreeRTOS_4809373609813369194.dir/timers.xcl	61533717762b6db2
+1264	1431	7612270170000000	C:/Users/Amin/Desktop/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/FreeRTOS_4809373609813369194.dir/port.xcl	1b6acf3abfa81672
+9	250	7612312641703595	C:/Users/Amin/Desktop/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/Core_13247989168731456611.dir/freertos.pbi	93f83eaf62ca3c77
+817	1063	7612270245125117	C:/Users/Amin/Desktop/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/STM32F0xx_HAL_Driver_12736992878974344111.dir/stm32f0xx_hal_rcc.pbi	5faee00da2df335a
+1535	1834	7612270181256123	C:/Users/Amin/Desktop/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/Core_13247989168731456611.dir/stm32f0xx_hal_msp.pbi	ab71cda091825158
+136	306	7612312642261657	C:/Users/Amin/Desktop/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/FreeRTOS_4809373609813369194.dir/event_groups.pbi	2836ec72cec9abf1
+1	188	7612612431297928	C:/Users/Amin/Desktop/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/Core_13247989168731456611.dir/main.pbi	b8d380b46b196d92
+1788	2043	7612270183340451	C:/Users/Amin/Desktop/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/Core_13247989168731456611.dir/stm32f0xx_it.pbi	920f19907ee689c3
+1632	1899	7612270181914596	C:/Users/Amin/Desktop/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/Core_13247989168731456611.dir/stm32f0xx_hal_timebase_tim.pbi	38e397384f8412ac
+1531	1857	7612270253085956	C:/Users/Amin/Desktop/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/load control_part2.pbi	1376dd9ac3cc8a18
+516	782	7612270242314910	C:/Users/Amin/Desktop/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/STM32F0xx_HAL_Driver_12736992878974344111.dir/stm32f0xx_hal_gpio.pbi	f56d518a40b631be
+269	544	7612270239927578	C:/Users/Amin/Desktop/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/STM32F0xx_HAL_Driver_12736992878974344111.dir/stm32f0xx_hal_dma.pbi	fd1828c20bc48e50
+129	280	7612269453613666	C:/Users/Amin/Desktop/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/FreeRTOS_4809373609813369194.dir/cmsis_os2.pbi	f5c044b6cfe0dbef
+1372	1627	7612270250763539	C:/Users/Amin/Desktop/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/STM32F0xx_HAL_Driver_12736992878974344111.dir/stm32f0xx_hal_rcc_ex.pbi	2e60aff48674ca75
+1418	1832	7612270252808697	C:/Users/Amin/Desktop/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/STM32F0xx_HAL_Driver_12736992878974344111.dir/stm32f0xx_hal_tim.pbi	e27df1f26ebe331c
+949	1245	7612270246942760	C:/Users/Amin/Desktop/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/STM32F0xx_HAL_Driver_12736992878974344111.dir/stm32f0xx_hal_tim_ex.pbi	aa3291832247bc68
+15	128	7612309156395431	C:/Users/Amin/Desktop/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/FreeRTOS_4809373609813369194.dir/heap_4.pbi	6bd67514ec31e151
+1454	1774	7612270252248056	C:/Users/Amin/Desktop/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/load control_part1.pbi	310d284d747cf3fe
+118	202	7612312641223232	C:/Users/Amin/Desktop/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/FreeRTOS_4809373609813369194.dir/timers.pbi	79393deb9086e417
+13	135	7612312640540242	C:/Users/Amin/Desktop/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/FreeRTOS_4809373609813369194.dir/tasks.pbi	3cd3cfe2e069dcde
+368	456	7612312643687838	C:/Users/Amin/Desktop/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/FreeRTOS_4809373609813369194.dir/list.pbi	7e37a2e9f35fa0a3
+450	688	7612312646104710	C:/Users/Amin/Desktop/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/load control_part3.pbi	ad8a238567cbe787
+251	324	7612312642439764	C:/Users/Amin/Desktop/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/FreeRTOS_4809373609813369194.dir/queue.pbi	a2b652534dd5e70d
+203	367	7612312642865827	C:/Users/Amin/Desktop/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/FreeRTOS_4809373609813369194.dir/croutine.pbi	8081846b22f67c0
+18	117	7612312640373072	C:/Users/Amin/Desktop/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/FreeRTOS_4809373609813369194.dir/stream_buffer.pbi	3826cbc017eeff0c
+433	478	7612312643997005	C:/Users/Amin/Desktop/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/load control_part5.pbi	c6d066fd05f982d7
+457	515	7612312644362726	C:/Users/Amin/Desktop/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/load control_part4.pbi	ed5fc62da5307d44
+190	366	7612612433114071	C:/Users/Amin/Desktop/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/load control_part0.pbi	cfa260f77354cc0a
+368	538	7612612434837476	C:/Users/Amin/Desktop/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/load control.pbd	9696ff1ae9de394d
+546	1518	7612612170721028	C:/Users/Amin/Desktop/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/load control.pbw	11d32aba825191dc
+1096	1234	7612270170000000	C:/Users/Amin/Desktop/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/FreeRTOS_4809373609813369194.dir/cmsis_os.xcl	83df29c8451f9775
+325	449	7612312643677871	C:/Users/Amin/Desktop/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/FreeRTOS_4809373609813369194.dir/cmsis_os.pbi	81435de5b5f689f5
+3	316	7612309260000000	C:/Users/Amin/Desktop/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/FreeRTOS_4809373609813369194.dir/heap_1.xcl	c4717e3baf9aba3b
+349	431	7612312643494378	C:/Users/Amin/Desktop/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/FreeRTOS_4809373609813369194.dir/heap_1.pbi	a5f61ab99d55e94d
+2	966	7612612504526506	C:/Users/Amin/Desktop/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/load control.pbw	11d32aba825191dc
+2	217	7612613216406929	C:/Users/Amin/Desktop/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/Core_13247989168731456611.dir/main.pbi	b8d380b46b196d92
+218	406	7612613218341074	C:/Users/Amin/Desktop/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/load control_part0.pbi	cfa260f77354cc0a
+408	604	7612613220323648	C:/Users/Amin/Desktop/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/load control.pbd	9696ff1ae9de394d
+606	1616	7612613230108962	C:/Users/Amin/Desktop/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/load control.pbw	11d32aba825191dc
+1	217	7612614491005333	C:/Users/Amin/Desktop/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/Core_13247989168731456611.dir/main.pbi	b8d380b46b196d92
+218	416	7612614493045704	C:/Users/Amin/Desktop/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/load control_part0.pbi	cfa260f77354cc0a
+1	166	7612614545220860	C:/Users/Amin/Desktop/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/load control.pbd	9696ff1ae9de394d
+169	1136	7612614554612443	C:/Users/Amin/Desktop/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/load control.pbw	11d32aba825191dc
+1	199	7612615664417659	C:/Users/Amin/Desktop/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/Core_13247989168731456611.dir/main.pbi	b8d380b46b196d92
+201	402	7612615666502198	C:/Users/Amin/Desktop/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/load control_part0.pbi	cfa260f77354cc0a
+403	607	7612615668552769	C:/Users/Amin/Desktop/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/load control.pbd	9696ff1ae9de394d
+3	1002	7612615729877252	C:/Users/Amin/Desktop/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/load control.pbw	11d32aba825191dc
+2	217	7612615933775625	C:/Users/Amin/Desktop/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/Core_13247989168731456611.dir/main.pbi	b8d380b46b196d92
+218	414	7612615935808995	C:/Users/Amin/Desktop/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/load control_part0.pbi	cfa260f77354cc0a
+415	610	7612615937759412	C:/Users/Amin/Desktop/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/load control.pbd	9696ff1ae9de394d
+611	1661	7612615947910545	C:/Users/Amin/Desktop/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/load control.pbw	11d32aba825191dc
+2	198	7612617208889467	C:/Users/Amin/Desktop/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/Core_13247989168731456611.dir/main.pbi	b8d380b46b196d92
+199	399	7612617210948162	C:/Users/Amin/Desktop/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/load control_part0.pbi	cfa260f77354cc0a
+400	606	7612617213024414	C:/Users/Amin/Desktop/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/load control.pbd	9696ff1ae9de394d
+1	965	7612617274174253	C:/Users/Amin/Desktop/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/load control.pbw	11d32aba825191dc
+1	217	7612629304230794	C:/Users/Amin/Desktop/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/Core_13247989168731456611.dir/main.pbi	b8d380b46b196d92
+218	422	7612629306321412	C:/Users/Amin/Desktop/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/load control_part0.pbi	cfa260f77354cc0a
+423	624	7612629308348332	C:/Users/Amin/Desktop/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/load control.pbd	9696ff1ae9de394d
+625	1720	7612629318907310	C:/Users/Amin/Desktop/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/load control.pbw	11d32aba825191dc
+1	197	7612630378231667	C:/Users/Amin/Desktop/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/Core_13247989168731456611.dir/main.pbi	b8d380b46b196d92
+199	400	7612630380282869	C:/Users/Amin/Desktop/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/load control_part0.pbi	cfa260f77354cc0a
+402	598	7612630382268714	C:/Users/Amin/Desktop/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/load control.pbd	9696ff1ae9de394d
+1	994	7612630443497378	C:/Users/Amin/Desktop/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/load control.pbw	11d32aba825191dc
+2	214	7612630948986042	C:/Users/Amin/Desktop/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/Core_13247989168731456611.dir/main.pbi	b8d380b46b196d92
+215	413	7612630951037911	C:/Users/Amin/Desktop/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/load control_part0.pbi	cfa260f77354cc0a
+415	607	7612630952973182	C:/Users/Amin/Desktop/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/load control.pbd	9696ff1ae9de394d
+608	1661	7612630963105480	C:/Users/Amin/Desktop/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/load control.pbw	11d32aba825191dc
+2	218	7612631670569386	C:/Users/Amin/Desktop/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/Core_13247989168731456611.dir/main.pbi	b8d380b46b196d92
+1	175	7612631723436187	C:/Users/Amin/Desktop/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/load control_part0.pbi	cfa260f77354cc0a
+177	371	7612631725406472	C:/Users/Amin/Desktop/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/load control.pbd	9696ff1ae9de394d
+373	1346	7612631734808426	C:/Users/Amin/Desktop/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/load control.pbw	11d32aba825191dc
+1	209	7612633800427839	C:/Users/Amin/Desktop/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/Core_13247989168731456611.dir/main.pbi	b8d380b46b196d92
+210	407	7612633802432122	C:/Users/Amin/Desktop/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/load control_part0.pbi	cfa260f77354cc0a
+408	594	7612633804234252	C:/Users/Amin/Desktop/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/load control.pbd	9696ff1ae9de394d
+597	1672	7612633814672679	C:/Users/Amin/Desktop/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/load control.pbw	11d32aba825191dc
+1	206	7612634370969768	C:/Users/Amin/Desktop/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/Core_13247989168731456611.dir/main.pbi	b8d380b46b196d92
+207	407	7612634373030880	C:/Users/Amin/Desktop/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/load control_part0.pbi	cfa260f77354cc0a
+409	616	7612634375229610	C:/Users/Amin/Desktop/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/load control.pbd	9696ff1ae9de394d
+617	1728	7612634385957014	C:/Users/Amin/Desktop/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/load control.pbw	11d32aba825191dc
+1	206	7612634993014472	C:/Users/Amin/Desktop/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/Core_13247989168731456611.dir/main.pbi	b8d380b46b196d92
+207	403	7612634995053638	C:/Users/Amin/Desktop/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/load control_part0.pbi	cfa260f77354cc0a
+404	601	7612634997022750	C:/Users/Amin/Desktop/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/load control.pbd	9696ff1ae9de394d
+603	1661	7612635007206280	C:/Users/Amin/Desktop/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/load control.pbw	11d32aba825191dc
+2	212	7612635513419125	C:/Users/Amin/Desktop/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/Core_13247989168731456611.dir/main.pbi	b8d380b46b196d92
+216	397	7612635515344845	C:/Users/Amin/Desktop/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/load control_part0.pbi	cfa260f77354cc0a
+399	577	7612635517081933	C:/Users/Amin/Desktop/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/load control.pbd	9696ff1ae9de394d
+1	945	7612635586965354	C:/Users/Amin/Desktop/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/load control.pbw	11d32aba825191dc
+2	321	7612636043845888	C:/Users/Amin/Desktop/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/Core_13247989168731456611.dir/main.pbi	b8d380b46b196d92
+1	176	7612636096710806	C:/Users/Amin/Desktop/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/load control_part0.pbi	cfa260f77354cc0a
+176	347	7612636098454976	C:/Users/Amin/Desktop/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/load control.pbd	9696ff1ae9de394d
+349	1306	7612636107831771	C:/Users/Amin/Desktop/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/load control.pbw	11d32aba825191dc
+1	217	7612636613808172	C:/Users/Amin/Desktop/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/Core_13247989168731456611.dir/main.pbi	b8d380b46b196d92
+219	394	7612636615604881	C:/Users/Amin/Desktop/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/load control_part0.pbi	cfa260f77354cc0a
+396	569	7612636617388220	C:/Users/Amin/Desktop/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/load control.pbd	9696ff1ae9de394d
+1	935	7612636686066659	C:/Users/Amin/Desktop/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/load control.pbw	11d32aba825191dc
+2	207	7612637040568737	C:/Users/Amin/Desktop/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/Core_13247989168731456611.dir/main.pbi	b8d380b46b196d92
+208	410	7612637042752132	C:/Users/Amin/Desktop/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/load control_part0.pbi	cfa260f77354cc0a
+411	606	7612637044705065	C:/Users/Amin/Desktop/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/load control.pbd	9696ff1ae9de394d
+606	1661	7612637054937586	C:/Users/Amin/Desktop/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/load control.pbw	11d32aba825191dc
+2	194	7612637410036780	C:/Users/Amin/Desktop/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/Core_13247989168731456611.dir/main.pbi	b8d380b46b196d92
+196	381	7612637411944043	C:/Users/Amin/Desktop/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/load control_part0.pbi	cfa260f77354cc0a
+382	559	7612637413692579	C:/Users/Amin/Desktop/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/load control.pbd	9696ff1ae9de394d
+1	961	7612637480687280	C:/Users/Amin/Desktop/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/load control.pbw	11d32aba825191dc
+2	211	7612637996812006	C:/Users/Amin/Desktop/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/Core_13247989168731456611.dir/main.pbi	b8d380b46b196d92
+214	405	7612637998815082	C:/Users/Amin/Desktop/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/load control_part0.pbi	cfa260f77354cc0a
+406	578	7612638000515074	C:/Users/Amin/Desktop/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/load control.pbd	9696ff1ae9de394d
+580	1559	7612638010015026	C:/Users/Amin/Desktop/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/load control.pbw	11d32aba825191dc
+1	189	7612647877086827	C:/Users/Amin/Desktop/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/Core_13247989168731456611.dir/main.pbi	b8d380b46b196d92
+191	371	7612647878935778	C:/Users/Amin/Desktop/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/load control_part0.pbi	cfa260f77354cc0a
+373	552	7612647880759283	C:/Users/Amin/Desktop/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/load control.pbd	9696ff1ae9de394d
+2	1061	7612647943971021	C:/Users/Amin/Desktop/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/load control.pbw	11d32aba825191dc
+2	234	7612654392813423	C:/Users/Amin/Desktop/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/Core_13247989168731456611.dir/main.pbi	b8d380b46b196d92
+236	469	7612654395130836	C:/Users/Amin/Desktop/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/load control_part0.pbi	cfa260f77354cc0a
+472	680	7612654397202701	C:/Users/Amin/Desktop/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/load control.pbd	9696ff1ae9de394d
+682	2471	7612654414825390	C:/Users/Amin/Desktop/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/load control.pbw	11d32aba825191dc
+2	185	7612654669215495	C:/Users/Amin/Desktop/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/Core_13247989168731456611.dir/main.pbi	b8d380b46b196d92
+187	376	7612654671113850	C:/Users/Amin/Desktop/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/load control_part0.pbi	cfa260f77354cc0a
+378	552	7612654672959272	C:/Users/Amin/Desktop/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/load control.pbd	9696ff1ae9de394d
+2	1101	7612654742916289	C:/Users/Amin/Desktop/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/load control.pbw	11d32aba825191dc
+2	336	7612655051810768	C:/Users/Amin/Desktop/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/Core_13247989168731456611.dir/main.pbi	b8d380b46b196d92
+337	535	7612655053898515	C:/Users/Amin/Desktop/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/load control_part0.pbi	cfa260f77354cc0a
+536	724	7612655055735815	C:/Users/Amin/Desktop/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/load control.pbd	9696ff1ae9de394d
+726	1742	7612655065515953	C:/Users/Amin/Desktop/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/load control.pbw	11d32aba825191dc
+2	231	7612659044559006	C:/Users/Amin/Desktop/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/Core_13247989168731456611.dir/main.pbi	b8d380b46b196d92
+232	465	7612659047014322	C:/Users/Amin/Desktop/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/load control_part0.pbi	cfa260f77354cc0a
+467	696	7612659049317775	C:/Users/Amin/Desktop/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/load control.pbd	9696ff1ae9de394d
+697	1985	7612659061714382	C:/Users/Amin/Desktop/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/load control.pbw	11d32aba825191dc
+1	199	7612660474305137	C:/Users/Amin/Desktop/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/Core_13247989168731456611.dir/main.pbi	b8d380b46b196d92
+201	395	7612660476326572	C:/Users/Amin/Desktop/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/load control_part0.pbi	cfa260f77354cc0a
+396	614	7612660478524010	C:/Users/Amin/Desktop/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/load control.pbd	9696ff1ae9de394d
+1	954	7612660541105460	C:/Users/Amin/Desktop/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/load control.pbw	11d32aba825191dc
+1	300	7612660795992977	C:/Users/Amin/Desktop/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/Core_13247989168731456611.dir/main.pbi	b8d380b46b196d92
+302	485	7612660797895790	C:/Users/Amin/Desktop/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/load control_part0.pbi	cfa260f77354cc0a
+485	659	7612660799647509	C:/Users/Amin/Desktop/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/load control.pbd	9696ff1ae9de394d
+2	1008	7612660865446934	C:/Users/Amin/Desktop/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/load control.pbw	11d32aba825191dc
+1	205	7612661421707240	C:/Users/Amin/Desktop/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/Core_13247989168731456611.dir/main.pbi	b8d380b46b196d92
+207	386	7612661423553588	C:/Users/Amin/Desktop/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/load control_part0.pbi	cfa260f77354cc0a
+388	574	7612661425438848	C:/Users/Amin/Desktop/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/load control.pbd	9696ff1ae9de394d
+578	1597	7612661435330528	C:/Users/Amin/Desktop/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/load control.pbw	11d32aba825191dc
+1	192	7612662344257187	C:/Users/Amin/Desktop/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/Core_13247989168731456611.dir/main.pbi	b8d380b46b196d92
+195	379	7612662346174274	C:/Users/Amin/Desktop/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/load control_part0.pbi	cfa260f77354cc0a
+381	572	7612662348111443	C:/Users/Amin/Desktop/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/load control.pbd	9696ff1ae9de394d
+573	1605	7612662358052539	C:/Users/Amin/Desktop/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/load control.pbw	11d32aba825191dc
+2	221	7612668002041968	C:/Users/Amin/Desktop/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/Core_13247989168731456611.dir/main.pbi	b8d380b46b196d92
+222	412	7612668004000137	C:/Users/Amin/Desktop/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/load control_part0.pbi	cfa260f77354cc0a
+413	600	7612668005894610	C:/Users/Amin/Desktop/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/load control.pbd	9696ff1ae9de394d
+601	1600	7612668015568369	C:/Users/Amin/Desktop/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/load control.pbw	11d32aba825191dc
+2	211	7612668224370448	C:/Users/Amin/Desktop/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/Core_13247989168731456611.dir/main.pbi	b8d380b46b196d92
+213	404	7612668226352949	C:/Users/Amin/Desktop/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/load control_part0.pbi	cfa260f77354cc0a
+405	605	7612668228375562	C:/Users/Amin/Desktop/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/load control.pbd	9696ff1ae9de394d
+606	1591	7612668237889972	C:/Users/Amin/Desktop/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/load control.pbw	11d32aba825191dc
+2	319	7612668805016587	C:/Users/Amin/Desktop/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/Core_13247989168731456611.dir/main.pbi	b8d380b46b196d92
+320	521	7612668807054850	C:/Users/Amin/Desktop/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/load control_part0.pbi	cfa260f77354cc0a
+522	708	7612668808941750	C:/Users/Amin/Desktop/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/load control.pbd	9696ff1ae9de394d
+710	1712	7612668818666166	C:/Users/Amin/Desktop/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/load control.pbw	11d32aba825191dc
+2	126	7731742800000000	F:/ELECTRONIC/cod/KAMALI/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/CMSIS_6603591812247902717.dir/system_stm32f0xx.xcl	90fcc3cdda16be26
+7	131	7731742800000000	F:/ELECTRONIC/cod/KAMALI/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/Core_13247989168731456611.dir/stm32f0xx_it.xcl	a318094f8b4fab4e
+14	138	7731742800000000	F:/ELECTRONIC/cod/KAMALI/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/STM32F0xx_HAL_Driver_12736992878974344111.dir/stm32f0xx_hal.xcl	15adeee2b61a13b5
+11	145	7731742800000000	F:/ELECTRONIC/cod/KAMALI/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/STM32F0xx_HAL_Driver_12736992878974344111.dir/stm32f0xx_hal_adc.xcl	f35c45dcd41f0dc0
+128	220	7731742800000000	F:/ELECTRONIC/cod/KAMALI/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/STM32F0xx_HAL_Driver_12736992878974344111.dir/stm32f0xx_hal_adc_ex.xcl	7f03612938e2870d
+134	229	7731742800000000	F:/ELECTRONIC/cod/KAMALI/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/STM32F0xx_HAL_Driver_12736992878974344111.dir/stm32f0xx_hal_cortex.xcl	db50e2a49337aa78
+140	236	7731742800000000	F:/ELECTRONIC/cod/KAMALI/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/STM32F0xx_HAL_Driver_12736992878974344111.dir/stm32f0xx_hal_flash_ex.xcl	afd88758d52a5830
+149	244	7731742800000000	F:/ELECTRONIC/cod/KAMALI/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/STM32F0xx_HAL_Driver_12736992878974344111.dir/stm32f0xx_hal_gpio.xcl	39aa435383112fcc
+223	309	7731742800000000	F:/ELECTRONIC/cod/KAMALI/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/STM32F0xx_HAL_Driver_12736992878974344111.dir/stm32f0xx_hal_flash.xcl	aa6d353f6b7380f6
+232	316	7731742800000000	F:/ELECTRONIC/cod/KAMALI/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/STM32F0xx_HAL_Driver_12736992878974344111.dir/stm32f0xx_hal_dma.xcl	9c93ca50d38081a6
+239	324	7731742800000000	F:/ELECTRONIC/cod/KAMALI/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/STM32F0xx_HAL_Driver_12736992878974344111.dir/stm32f0xx_hal_exti.xcl	ef1a830979e64197
+247	335	7731742800000000	F:/ELECTRONIC/cod/KAMALI/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/STM32F0xx_HAL_Driver_12736992878974344111.dir/stm32f0xx_hal_i2c_ex.xcl	67cba41343280304
+312	400	7731742810000000	F:/ELECTRONIC/cod/KAMALI/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/STM32F0xx_HAL_Driver_12736992878974344111.dir/stm32f0xx_hal_pwr.xcl	fa23da74f3ec17aa
+320	408	7731742810000000	F:/ELECTRONIC/cod/KAMALI/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/STM32F0xx_HAL_Driver_12736992878974344111.dir/stm32f0xx_hal_pwr_ex.xcl	465b8e70ea09137a
+328	416	7731742810000000	F:/ELECTRONIC/cod/KAMALI/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/STM32F0xx_HAL_Driver_12736992878974344111.dir/stm32f0xx_hal_rcc.xcl	3154dc2dbba1ce5c
+338	424	7731742810000000	F:/ELECTRONIC/cod/KAMALI/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/STM32F0xx_HAL_Driver_12736992878974344111.dir/stm32f0xx_hal_rcc_ex.xcl	9e019da198486e3f
+403	487	7731742810000000	F:/ELECTRONIC/cod/KAMALI/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/STM32F0xx_HAL_Driver_12736992878974344111.dir/stm32f0xx_hal_i2c.xcl	2a17c16a7d1a0aaf
+411	497	7731742810000000	F:/ELECTRONIC/cod/KAMALI/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/Core_13247989168731456611.dir/freertos.xcl	55ec98b1d8022c98
+419	517	7731742810000000	F:/ELECTRONIC/cod/KAMALI/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/Core_13247989168731456611.dir/stm32f0xx_hal_msp.xcl	8b6109db20fc643c
+427	525	7731742810000000	F:/ELECTRONIC/cod/KAMALI/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/Core_13247989168731456611.dir/stm32f0xx_hal_timebase_tim.xcl	5fe7dbcd8d8a6424
+491	580	7731742810000000	F:/ELECTRONIC/cod/KAMALI/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/Core_13247989168731456611.dir/main.xcl	113166a20b6fc93d
+501	597	7731742810000000	F:/ELECTRONIC/cod/KAMALI/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/FreeRTOS_4809373609813369194.dir/heap_1.xcl	956fe03ae3c57ed4
+520	614	7731742810000000	F:/ELECTRONIC/cod/KAMALI/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/FreeRTOS_4809373609813369194.dir/croutine.xcl	b82bbc665545e743
+528	624	7731742810000000	F:/ELECTRONIC/cod/KAMALI/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/STM32F0xx_HAL_Driver_12736992878974344111.dir/stm32f0xx_hal_tim.xcl	3e63b9493ecb3dc4
+582	673	7731742810000000	F:/ELECTRONIC/cod/KAMALI/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/FreeRTOS_4809373609813369194.dir/cmsis_os.xcl	f183a8fa7c12e5fe
+600	693	7731742810000000	F:/ELECTRONIC/cod/KAMALI/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/STM32F0xx_HAL_Driver_12736992878974344111.dir/stm32f0xx_hal_tim_ex.xcl	489b66b6c3bac374
+617	710	7731742810000000	F:/ELECTRONIC/cod/KAMALI/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/FreeRTOS_4809373609813369194.dir/event_groups.xcl	62fd05085153cab9
+627	724	7731742810000000	F:/ELECTRONIC/cod/KAMALI/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/FreeRTOS_4809373609813369194.dir/stream_buffer.xcl	553e5c7314ff616b
+676	777	7731742810000000	F:/ELECTRONIC/cod/KAMALI/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/FreeRTOS_4809373609813369194.dir/tasks.xcl	7c084fc59a7bd714
+696	793	7731742810000000	F:/ELECTRONIC/cod/KAMALI/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/FreeRTOS_4809373609813369194.dir/timers.xcl	778af25afd0849d0
+713	805	7731742810000000	F:/ELECTRONIC/cod/KAMALI/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/FreeRTOS_4809373609813369194.dir/list.xcl	2fde6c5a678911a1
+727	815	7731742810000000	F:/ELECTRONIC/cod/KAMALI/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/FreeRTOS_4809373609813369194.dir/queue.xcl	a92ad30ad2e00907
+780	863	7731742810000000	F:/ELECTRONIC/cod/KAMALI/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/FreeRTOS_4809373609813369194.dir/port.xcl	8bb0226a7569a2b3
+807	1070	7731742817391688	F:/ELECTRONIC/cod/KAMALI/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/CMSIS_6603591812247902717.dir/system_stm32f0xx.pbi	878bd82a7df7e59f
+818	1093	7731742817611667	F:/ELECTRONIC/cod/KAMALI/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/Core_13247989168731456611.dir/stm32f0xx_hal_timebase_tim.pbi	502afb0d8384e279
+865	1169	7731742818371685	F:/ELECTRONIC/cod/KAMALI/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/Core_13247989168731456611.dir/freertos.pbi	20508b5439445a99
+1073	1359	7731742820289556	F:/ELECTRONIC/cod/KAMALI/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/Core_13247989168731456611.dir/stm32f0xx_hal_msp.pbi	d451769b754e6dd
+1096	1404	7731742820729568	F:/ELECTRONIC/cod/KAMALI/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/Core_13247989168731456611.dir/stm32f0xx_it.pbi	a15669e629b293f5
+796	1440	7731742821099535	F:/ELECTRONIC/cod/KAMALI/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/Core_13247989168731456611.dir/main.pbi	3de6906ccd03ad4a
+1172	1471	7731742821409546	F:/ELECTRONIC/cod/KAMALI/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/STM32F0xx_HAL_Driver_12736992878974344111.dir/stm32f0xx_hal_flash.pbi	245883c213348a9
+1362	1661	7731742823269534	F:/ELECTRONIC/cod/KAMALI/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/STM32F0xx_HAL_Driver_12736992878974344111.dir/stm32f0xx_hal.pbi	c5f12d2fc0e32a2b
+1443	1752	7731742824219532	F:/ELECTRONIC/cod/KAMALI/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/STM32F0xx_HAL_Driver_12736992878974344111.dir/stm32f0xx_hal_adc_ex.pbi	2cc2bed3f7224d06
+1407	1832	7731742825011133	F:/ELECTRONIC/cod/KAMALI/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/STM32F0xx_HAL_Driver_12736992878974344111.dir/stm32f0xx_hal_dma.pbi	e59b5c310950a46c
+1474	1926	7731742825941151	F:/ELECTRONIC/cod/KAMALI/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/STM32F0xx_HAL_Driver_12736992878974344111.dir/stm32f0xx_hal_adc.pbi	a25afb5009c6ef24
+1664	1938	7731742826071155	F:/ELECTRONIC/cod/KAMALI/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/STM32F0xx_HAL_Driver_12736992878974344111.dir/stm32f0xx_hal_cortex.pbi	9261651ac9a61a52
+1755	2039	7731742827091134	F:/ELECTRONIC/cod/KAMALI/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/STM32F0xx_HAL_Driver_12736992878974344111.dir/stm32f0xx_hal_exti.pbi	9a12419a6cd0bbeb
+1835	2124	7731742827921145	F:/ELECTRONIC/cod/KAMALI/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/STM32F0xx_HAL_Driver_12736992878974344111.dir/stm32f0xx_hal_rcc.pbi	c92afa626e3cc1f2
+1929	2187	7731742828561166	F:/ELECTRONIC/cod/KAMALI/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/STM32F0xx_HAL_Driver_12736992878974344111.dir/stm32f0xx_hal_pwr.pbi	e7a444ba595e6a57
+2042	2326	7731742829958820	F:/ELECTRONIC/cod/KAMALI/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/STM32F0xx_HAL_Driver_12736992878974344111.dir/stm32f0xx_hal_flash_ex.pbi	b482db015dd5841e
+2190	2501	7731742831688797	F:/ELECTRONIC/cod/KAMALI/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/STM32F0xx_HAL_Driver_12736992878974344111.dir/stm32f0xx_hal_gpio.pbi	ed1cb12e17479e97
+1942	2539	7731742832068806	F:/ELECTRONIC/cod/KAMALI/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/STM32F0xx_HAL_Driver_12736992878974344111.dir/stm32f0xx_hal_i2c.pbi	ba7a89d02dd5e00d
+2128	2551	7731742832188817	F:/ELECTRONIC/cod/KAMALI/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/STM32F0xx_HAL_Driver_12736992878974344111.dir/stm32f0xx_hal_i2c_ex.pbi	57c1458015bc1543
+2329	2640	7731742833088802	F:/ELECTRONIC/cod/KAMALI/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/STM32F0xx_HAL_Driver_12736992878974344111.dir/stm32f0xx_hal_pwr_ex.pbi	9e7ec7a20df7afcf
+2542	2646	7731742833098821	F:/ELECTRONIC/cod/KAMALI/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/FreeRTOS_4809373609813369194.dir/port.pbi	9d9cf2164f0695ad
+2554	2693	7731742833608804	F:/ELECTRONIC/cod/KAMALI/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/FreeRTOS_4809373609813369194.dir/tasks.pbi	f9b5b243bc9b3458
+2504	2928	7731742835088155	F:/ELECTRONIC/cod/KAMALI/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/STM32F0xx_HAL_Driver_12736992878974344111.dir/stm32f0xx_hal_tim_ex.pbi	b7a1b014de4952f0
+2642	2958	7731742836255725	F:/ELECTRONIC/cod/KAMALI/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/FreeRTOS_4809373609813369194.dir/heap_1.pbi	9df99763d736265d
+2649	2966	7731742836345658	F:/ELECTRONIC/cod/KAMALI/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/FreeRTOS_4809373609813369194.dir/event_groups.pbi	84358328beb88fd0
+2962	3093	7731742837625694	F:/ELECTRONIC/cod/KAMALI/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/FreeRTOS_4809373609813369194.dir/cmsis_os.pbi	230f7bd3d7068525
+2923	3155	7731742838235663	F:/ELECTRONIC/cod/KAMALI/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/FreeRTOS_4809373609813369194.dir/croutine.pbi	3f728b0a43f9033a
+2970	3162	7731742838245679	F:/ELECTRONIC/cod/KAMALI/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/FreeRTOS_4809373609813369194.dir/list.pbi	78a346e863f6954a
+2932	3170	7731742838325680	F:/ELECTRONIC/cod/KAMALI/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/FreeRTOS_4809373609813369194.dir/timers.pbi	ade09c59d10b4465
+3158	3284	7731742839525685	F:/ELECTRONIC/cod/KAMALI/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/FreeRTOS_4809373609813369194.dir/queue.pbi	2cbe12ac5049dc27
+3166	3404	7731742840721227	F:/ELECTRONIC/cod/KAMALI/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/FreeRTOS_4809373609813369194.dir/stream_buffer.pbi	2d283369f5619c44
+3407	3470	7731742841401170	F:/ELECTRONIC/cod/KAMALI/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/load control_part4.pbi	f2d2a4912c5cb162
+3173	3479	7731742841491202	F:/ELECTRONIC/cod/KAMALI/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/STM32F0xx_HAL_Driver_12736992878974344111.dir/stm32f0xx_hal_rcc_ex.pbi	c9f0ae4c681d80d0
+3096	3598	7731742842671204	F:/ELECTRONIC/cod/KAMALI/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/STM32F0xx_HAL_Driver_12736992878974344111.dir/stm32f0xx_hal_tim.pbi	76b5fba652115446
+3601	3649	7731742843181198	F:/ELECTRONIC/cod/KAMALI/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/load control_part5.pbi	b4f133504dcc53c5
+3287	3748	7731742844181179	F:/ELECTRONIC/cod/KAMALI/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/load control_part0.pbi	3a8493354b0ae608
+3472	3883	7731742845533486	F:/ELECTRONIC/cod/KAMALI/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/load control_part1.pbi	e814988ff8acb579
+3483	3927	7731742845973496	F:/ELECTRONIC/cod/KAMALI/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/load control_part2.pbi	291853c0743d9259
+3652	4012	7731742846823476	F:/ELECTRONIC/cod/KAMALI/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/load control_part3.pbi	3680121f6c4943f0
+4059	4385	7731742850554040	F:/ELECTRONIC/cod/KAMALI/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/load control.pbd	936e30974a6a2dc8
+4387	6617	7731742872357219	F:/ELECTRONIC/cod/KAMALI/LOAD CONTROL/PROGRAM/v3/load control/EWARM/load control/BrowseInfo/load control.pbw	ee24f1a456a3f76

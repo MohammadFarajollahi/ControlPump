@@ -1,0 +1,6 @@
+Change Component Comment : Designator=C5 Old Comment=25V - 1500uF New Comment=400V
+Change component parameters: Designator = "C5" ("C5"); Footprint = "RADIAL 12MM"; UniqueID = "\SAFCJTTK" ("\SAFCJTTK")
+Change component parameters (AddParameter): Name = "Value"; Value = "10uF"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=VCC-310V Pin=C5-1
+Added Pin To Net: NetName=GND-e Pin=C5-2
+Added Member To Class: ClassName=LOAD CONTROL_Final2 Member=Component C5 400V

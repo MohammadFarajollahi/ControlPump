@@ -1,0 +1,15 @@
+Removed Pin From Net: NetName=GND Pin=C11-1
+Removed Pin From Net: NetName=POWER VOLTAGE Pin=C11-2
+Removed Pin From Net: NetName=POWER VOLTAGE Pin=D12-1
+Removed Pin From Net: NetName=L Pin=R15-2
+Removed Pin From Net: NetName=POWER VOLTAGE Pin=R17-1
+Removed Pin From Net: NetName=GND Pin=R17-2
+Removed Pin From Net: NetName=n Pin=R19-2
+Removed Pin From Net: NetName=GND Pin=R20-1
+Removed Member From Class: ClassName=LOAD CONTROL_Final2 Member=C11
+Removed Member From Class: ClassName=LOAD CONTROL_Final2 Member=D12
+Removed Member From Class: ClassName=LOAD CONTROL_Final2 Member=R15
+Removed Member From Class: ClassName=LOAD CONTROL_Final2 Member=R16
+Removed Member From Class: ClassName=LOAD CONTROL_Final2 Member=R17
+Removed Member From Class: ClassName=LOAD CONTROL_Final2 Member=R19
+Removed Member From Class: ClassName=LOAD CONTROL_Final2 Member=R20

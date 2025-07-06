@@ -1,0 +1,8 @@
+Removed Pin From Net: NetName=OD Pin=T10-1
+Removed Pin From Net: NetName=VCC-310V Pin=T10-3
+Removed Pin From Net: NetName=OUT TRANS Pin=T10-4
+Removed Pin From Net: NetName=GND Pin=T10-5
+Removed Pin From Net: NetName=GND Pin=T10-6
+Removed Member From Class: ClassName=LOAD CONTROL_Final2 Member=T10
+Add Component: Footprint Not Found EE20
+Add Class Member: Failed to add class member : Component TR2 Trans 15 D 16

@@ -1,0 +1,14 @@
+Removed Pin From Net: NetName=VCC_5V Pin=C13-2
+Removed Pin From Net: NetName=VCC_5V Pin=D5-1
+Add Component: Footprint Not Found RADIAL 5MM
+Add Component: Footprint Not Found SOT229P700X180-4N
+Add Pin To Net: Unknown Pin: Pin C14-1
+Add Pin To Net: Unknown Pin: Pin C14-2
+Add Pin To Net: Unknown Pin: Pin IC6-1
+Add Pin To Net: Unknown Pin: Pin IC6-2
+Add Pin To Net: Unknown Pin: Pin IC6-4
+Added Pin To Net: NetName=NetC13_2 Pin=C13-2
+Added Pin To Net: NetName=NetC13_2 Pin=D5-1
+Added Net: Name=NetC13_2
+Add Class Member: Failed to add class member : Component C14 35v - 100uf
+Add Class Member: Failed to add class member : Component IC6 AMS1117-5V

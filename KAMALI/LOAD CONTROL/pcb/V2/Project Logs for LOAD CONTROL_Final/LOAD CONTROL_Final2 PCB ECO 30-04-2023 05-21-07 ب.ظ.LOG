@@ -1,0 +1,33 @@
+Removed Pin From Net: NetName=CO Pin=k1-1
+Removed Pin From Net: NetName=NC Pin=k1-2
+Removed Pin From Net: NetName=L Pin=k1-3
+Removed Pin From Net: NetName=NetD3_2 Pin=k1-4
+Removed Pin From Net: NetName=VDD Pin=k1-5
+Removed Pin From Net: NetName=NetD9_2 Pin=L5-1
+Removed Pin From Net: NetName=NetD7_2 Pin=L5-2
+Removed Pin From Net: NetName=OD Pin=TR-1
+Removed Pin From Net: NetName=VCC-310V Pin=TR-4
+Removed Pin From Net: NetName=GND Pin=TR-5
+Removed Pin From Net: NetName=GND Pin=TR-6
+Removed Pin From Net: NetName=OUT TRANS Pin=TR-7
+Removed Member From Class: ClassName=LOAD CONTROL_Final2 Member=k1
+Removed Member From Class: ClassName=LOAD CONTROL_Final2 Member=L5
+Removed Member From Class: ClassName=LOAD CONTROL_Final2 Member=TR
+Change Component Comment : Designator=L6 Old Comment=Comment New Comment=0
+Change Component Comment : Designator=TR1 Old Comment=Comment New Comment=Trans 15 D 16
+Add Component: Footprint Not Found EE20
+Added Pin To Net: NetName=CO Pin=K2-1
+Added Pin To Net: NetName=NC Pin=K2-2
+Added Pin To Net: NetName=L Pin=K2-3
+Added Pin To Net: NetName=NetD3_2 Pin=K2-4
+Added Pin To Net: NetName=VDD Pin=K2-5
+Added Pin To Net: NetName=NetD9_2 Pin=L6-1
+Added Pin To Net: NetName=NetD7_2 Pin=L6-2
+Added Pin To Net: NetName=OD Pin=TR1-1
+Added Pin To Net: NetName=VCC-310V Pin=TR1-4
+Added Pin To Net: NetName=GND Pin=TR1-5
+Added Pin To Net: NetName=GND Pin=TR1-6
+Added Pin To Net: NetName=OUT TRANS Pin=TR1-7
+Added Member To Class: ClassName=LOAD CONTROL_Final2 Member=Component K2 RELAY-SPDT
+Added Member To Class: ClassName=LOAD CONTROL_Final2 Member=Component TR1 Trans 15 D 16
+Add Class Member: Failed to add class member : Component TR2 Trans 15 D 16

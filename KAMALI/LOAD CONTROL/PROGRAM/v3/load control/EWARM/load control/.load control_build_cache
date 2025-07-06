@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BuildDb>
+    <Tool>
+        <Name>linker</Name>
+        <Parent>
+            <Path>C:\Users\Amin\Desktop\LOAD CONTROL\PROGRAM\v3\load control\EWARM\load control\Exe\load control.out</Path>
+            <Output>
+                <Path>C:\Users\Amin\Desktop\LOAD CONTROL\PROGRAM\v3\load control\EWARM\load control\List\load control.map</Path>
+            </Output>
+        </Parent>
+        <Parent>
+            <Path>F:\ELECTRONIC\cod\KAMALI\LOAD CONTROL\PROGRAM\v3\load control\EWARM\load control\Exe\load control.out</Path>
+            <Output>
+                <Path>F:\ELECTRONIC\cod\KAMALI\LOAD CONTROL\PROGRAM\v3\load control\EWARM\load control\List\load control.map</Path>
+            </Output>
+        </Parent>
+    </Tool>
+</BuildDb>

@@ -1,0 +1,15 @@
+Change component parameters: Designator = "TR1" ("TR1"); Footprint = "EE20"; UniqueID = "\EDLTJYZW" ("\EDLTJYZW")
+Added Component: Designator=C16(c1206)
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "29-May-2009"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "IPC-7351 Footprint Added."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "Chip Capacitor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "C1206"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10PF"; VariantName = "[No Variations]"
+Add Component: Footprint Not Found phoenix terminal 2
+Added Pin To Net: NetName=GND Pin=C16-1
+Added Pin To Net: NetName=VCC-3.3v Pin=C16-2
+Add Pin To Net: Unknown Pin: Pin T1-2
+Added Member To Class: ClassName=LOAD CONTROL_Final2 Member=Component C16 100NF
+Add Class Member: Failed to add class member : Component T1 Phoenix terminal
