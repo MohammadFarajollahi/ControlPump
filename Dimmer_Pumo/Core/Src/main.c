@@ -63,6 +63,10 @@ int lcdLightTimer;
 
 //seting
 int setting;
+
+uint16_t StartVoltage_eeprom;
+uint16_t StartTime_eeprom;
+uint16_t SoftTime_eeprom;
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -94,6 +98,7 @@ static void MX_TIM1_Init(void);
 #include "Pictures/Settinglogo.c"
 #include "Pictures/StartVoltage.c"
 #include "Pictures/Starttime.c"
+#include "Pictures/kadr.c"
 void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim) // 100ms
 {
   
@@ -156,7 +161,16 @@ int main(void)
   HAL_TIM_Base_Start_IT(&htim1); 
   HAL_GPIO_WritePin(triak_GPIO_Port, triak_Pin, GPIO_PIN_RESET);
   HAL_GPIO_WritePin(LcdLight_GPIO_Port, LcdLight_Pin, GPIO_PIN_SET);
+  //eeprom config
+  I2C_init();
+  //  eeprom_write_int16(156,0);
   
+  StartVoltage_eeprom = eeprom_read_int16(0);
+  HAL_Delay(10);
+  StartTime_eeprom = eeprom_read_int16(10);
+  HAL_Delay(10);
+  SoftTime_eeprom = eeprom_read_int16(20);
+  HAL_Delay(10);
   //LCD
   lcdinit();
   HAL_Delay(200);
@@ -168,8 +182,8 @@ int main(void)
   lcd_putsf_point(0,0,ss,TAHOMA_8x10);
   lcd_putsf_point(0,10,"Soft Start",TAHOMA_8x10);
   Lcd_Refresh();
-  //   
-  //  Lcd_Refresh();
+
+
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -426,13 +440,20 @@ static void MX_GPIO_Init(void)
   __HAL_RCC_GPIOB_CLK_ENABLE();
 
   /*Configure GPIO pin Output Level */
+  HAL_GPIO_WritePin(GPIOB, GPIO_PIN_0|GPIO_PIN_1|triak_Pin, GPIO_PIN_RESET);
+
+  /*Configure GPIO pin Output Level */
   HAL_GPIO_WritePin(GPIOA, GPIO_PIN_8|GPIO_PIN_9|GPIO_PIN_10|GPIO_PIN_11, GPIO_PIN_RESET);
 
   /*Configure GPIO pin Output Level */
   HAL_GPIO_WritePin(LcdLight_GPIO_Port, LcdLight_Pin, GPIO_PIN_SET);
 
-  /*Configure GPIO pin Output Level */
-  HAL_GPIO_WritePin(triak_GPIO_Port, triak_Pin, GPIO_PIN_RESET);
+  /*Configure GPIO pins : PB0 PB1 */
+  GPIO_InitStruct.Pin = GPIO_PIN_0|GPIO_PIN_1;
+  GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_OD;
+  GPIO_InitStruct.Pull = GPIO_PULLUP;
+  GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
+  HAL_GPIO_Init(GPIOB, &GPIO_InitStruct);
 
   /*Configure GPIO pins : PA8 PA9 PA10 PA11
                            LcdLight_Pin */

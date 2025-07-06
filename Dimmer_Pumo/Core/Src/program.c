@@ -21,13 +21,15 @@ void SoftSTART(){
       char ss[20];
       sprintf(ss , "Voltage:%dV " , Voltage);
       lcd_putsf_point(0,0,ss,TAHOMA_8x10);
-       lcd_putsf_point(0,10,"Reset Pump",TAHOMA_8x10);
+      lcd_putsf_point(0,10,"Reset Pump",TAHOMA_8x10);
       Lcd_Refresh();
       break;
     }
     
     if (HAL_GPIO_ReadPin(k_up_GPIO_Port, k_up_Pin) == 0 || HAL_GPIO_ReadPin(k_down_GPIO_Port, k_down_Pin) == 0 || HAL_GPIO_ReadPin(k_ok_GPIO_Port, k_ok_Pin) == 0 || HAL_GPIO_ReadPin(k_back_GPIO_Port, k_back_Pin) == 0){
       HAL_GPIO_WritePin(triak_GPIO_Port, triak_Pin, GPIO_PIN_RESET);
+      softStart_State = 1;
+      softTimer1=0;
       break;
     }
   }
@@ -49,7 +51,7 @@ void readCurrent(){
   }
   adc1 = 0;
   adc_val_ch0 =0;
-  for(int i = 0 ; i < 200 ; i++) {
+  for(int i = 0 ; i < 50 ; i++) {
     HAL_ADC_Start(&hadc); // start the adc
     HAL_ADC_PollForConversion(&hadc, 100);
     adc_val_ch0 += HAL_ADC_GetValue(&hadc);
@@ -57,7 +59,7 @@ void readCurrent(){
     //adc1 += adc_val_ch0;
     HAL_Delay(1);
   }
-  adc_val_ch0 /=200;
+  adc_val_ch0 /=50;
   float current;
   current =adc_val_ch0 / 70.934256055363;
   char ss[20];

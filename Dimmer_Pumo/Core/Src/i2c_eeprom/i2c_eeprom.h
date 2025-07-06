@@ -11,12 +11,12 @@
 //##################################################################################
 //##################################################################################
 #define I2C_SCL_RCC_ENABLE       __HAL_RCC_GPIOA_CLK_ENABLE()
-#define I2C_SCL_PORT GPIOA
-#define I2C_SCL_BIT  GPIO_PIN_9
+#define I2C_SCL_PORT GPIOB
+#define I2C_SCL_BIT  GPIO_PIN_1
 
 #define I2C_SDA_RCC_ENABLE       __HAL_RCC_GPIOA_CLK_ENABLE()
-#define I2C_SDA_PORT GPIOA
-#define I2C_SDA_BIT  GPIO_PIN_10
+#define I2C_SDA_PORT GPIOB
+#define I2C_SDA_BIT  GPIO_PIN_0
 
 #define SET_SCL      I2C_SCL_PORT->ODR |= I2C_SCL_BIT
 #define RESET_SCL      I2C_SCL_PORT->ODR &=~I2C_SCL_BIT

@@ -14,4 +14,4 @@ const uint8_t timestart[]=
 };
 
 
-Picture2InfoTypeDef StartTime={82,13,11,timestart};
+Picture2InfoTypeDef StartTime={82,11,11,timestart};

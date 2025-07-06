@@ -1,5 +1,4 @@
 F:\ELECTRONIC\sherkat\Dimmer_Pump\KAMALI\LOAD\ CONTROL\PROGRAM\V1\EWARM\Load_Control_K6T6\BrowseInfo\Core_13247989168731456611.dir\main.pbi: \
-  F:\ELECTRONIC\sherkat\Dimmer_Pump\KAMALI\LOAD\ CONTROL\PROGRAM\V1\Core\Src\main.c \
   F:\ELECTRONIC\sherkat\Dimmer_Pump\KAMALI\LOAD\ CONTROL\PROGRAM\V1\EWARM\..\Core\Inc\main.h \
   F:\ELECTRONIC\sherkat\Dimmer_Pump\KAMALI\LOAD\ CONTROL\PROGRAM\V1\EWARM\..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal.h \
   F:\ELECTRONIC\sherkat\Dimmer_Pump\KAMALI\LOAD\ CONTROL\PROGRAM\V1\EWARM\..\Core\Inc\stm32f0xx_hal_conf.h \
@@ -40,6 +39,7 @@ F:\ELECTRONIC\sherkat\Dimmer_Pump\KAMALI\LOAD\ CONTROL\PROGRAM\V1\EWARM\Load_Con
   F:\ELECTRONIC\sherkat\Dimmer_Pump\KAMALI\LOAD\ CONTROL\PROGRAM\V1\EWARM\..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_pwr_ex.h \
   F:\ELECTRONIC\sherkat\Dimmer_Pump\KAMALI\LOAD\ CONTROL\PROGRAM\V1\EWARM\..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_tim.h \
   F:\ELECTRONIC\sherkat\Dimmer_Pump\KAMALI\LOAD\ CONTROL\PROGRAM\V1\EWARM\..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_tim_ex.h \
+  F:\ELECTRONIC\sherkat\Dimmer_Pump\KAMALI\LOAD\ CONTROL\PROGRAM\V1\Core\Src\main.c \
   F:\ELECTRONIC\sherkat\Dimmer_Pump\KAMALI\LOAD\ CONTROL\PROGRAM\V1\Core\Src\slave.c \
   F:\ELECTRONIC\sherkat\Dimmer_Pump\KAMALI\LOAD\ CONTROL\PROGRAM\V1\Core\Src\Pictures\Caution.c \
   F:\ELECTRONIC\sherkat\Dimmer_Pump\KAMALI\LOAD\ CONTROL\PROGRAM\V1\Core\Src\Pictures\open.c \
