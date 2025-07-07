@@ -57,7 +57,7 @@ void readCurrent(){
   }
   adc1 = 0;
   adc_val_ch0 =0;
-  for(int i = 0 ; i < 50 ; i++) {
+  for(int i = 0 ; i < 100 ; i++) {
     HAL_ADC_Start(&hadc); // start the adc
     HAL_ADC_PollForConversion(&hadc, 100);
     adc_val_ch0 += HAL_ADC_GetValue(&hadc);
@@ -65,7 +65,7 @@ void readCurrent(){
     //adc1 += adc_val_ch0;
     HAL_Delay(1);
   }
-  adc_val_ch0 /=50;
+  adc_val_ch0 /=100;
   float current;
   current =adc_val_ch0 / 70.934256055363;
   char ss[20];
