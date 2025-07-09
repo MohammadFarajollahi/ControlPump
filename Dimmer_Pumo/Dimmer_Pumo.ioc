@@ -1,7 +1,11 @@
 #MicroXplorer Configuration settings - do not modify
-ADC.ContinuousConvMode=ENABLE
-ADC.IPParameters=SamplingTime,ContinuousConvMode
+ADC.ContinuousConvMode=DISABLE
+ADC.DiscontinuousConvMode=DISABLE
+ADC.EOCSelection=ADC_EOC_SINGLE_CONV
+ADC.IPParameters=SamplingTime,ContinuousConvMode,EOCSelection,Overrun,ScanConvMode,DiscontinuousConvMode
+ADC.Overrun=ADC_OVR_DATA_PRESERVED
 ADC.SamplingTime=ADC_SAMPLETIME_7CYCLES_5
+ADC.ScanConvMode=ADC_SCAN_DIRECTION_FORWARD
 CAD.formats=
 CAD.pinconfig=
 CAD.provider=
@@ -79,7 +83,7 @@ PA2.Mode=Asynchronous
 PA2.Signal=USART1_TX
 PA3.Mode=Asynchronous
 PA3.Signal=USART1_RX
-PA4.Locked=true
+PA4.Mode=IN4
 PA4.Signal=ADC_IN4
 PA8.Locked=true
 PA8.Signal=GPIO_Output

@@ -20,12 +20,12 @@ char lcdShow[20];
 void menuExit(){
   Voltage = StartVoltage_eeprom;
   Lcd_Clear();
-  Lcd_Put_Icon2_Invert(0,0,logo); // YplusOnXbyte = (LedHeight + 7) / 8;
+  Lcd_Put_Icon2_Invert(17,50,logo); // YplusOnXbyte = (LedHeight + 7) / 8;
   Lcd_Refresh();
   char ss[20];
   sprintf(ss , "Voltage:%dV " , Voltage);
   lcd_putsf_point(0,0,ss,TAHOMA_8x10);
-  lcd_putsf_point(0,10,"Soft Start",TAHOMA_8x10);
+  lcd_putsf_point(0,40,"Press button",TAHOMA_8x10);
   Lcd_Refresh();
   HAL_Delay(500);
 }

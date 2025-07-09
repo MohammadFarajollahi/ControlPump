@@ -25,7 +25,7 @@ if not "%~1" == "" goto debugFile
 
 @echo on 
 
-"C:\iar\ewarm-9.60.3\common\bin\cspybat" -f "F:\ELECTRONIC\cod\KAMALI\LOAD CONTROL\PROGRAM\v3\load control\EWARM\settings\load control.load_control.general.xcl" --backend -f "F:\ELECTRONIC\cod\KAMALI\LOAD CONTROL\PROGRAM\v3\load control\EWARM\settings\load control.load_control.driver.xcl" 
+"C:\iar\ewarm-9.60.3\common\bin\cspybat" -f "F:\ELECTRONIC\sherkat\Dimmer_Pump\KAMALI\LOAD CONTROL\PROGRAM\v3\load control\EWARM\settings\load control.load_control.general.xcl" --backend -f "F:\ELECTRONIC\sherkat\Dimmer_Pump\KAMALI\LOAD CONTROL\PROGRAM\v3\load control\EWARM\settings\load control.load_control.driver.xcl" 
 
 @echo off 
 goto end 
@@ -34,7 +34,7 @@ goto end
 
 @echo on 
 
-"C:\iar\ewarm-9.60.3\common\bin\cspybat" -f "F:\ELECTRONIC\cod\KAMALI\LOAD CONTROL\PROGRAM\v3\load control\EWARM\settings\load control.load_control.general.xcl" "--debug_file=%~1" --backend -f "F:\ELECTRONIC\cod\KAMALI\LOAD CONTROL\PROGRAM\v3\load control\EWARM\settings\load control.load_control.driver.xcl" 
+"C:\iar\ewarm-9.60.3\common\bin\cspybat" -f "F:\ELECTRONIC\sherkat\Dimmer_Pump\KAMALI\LOAD CONTROL\PROGRAM\v3\load control\EWARM\settings\load control.load_control.general.xcl" "--debug_file=%~1" --backend -f "F:\ELECTRONIC\sherkat\Dimmer_Pump\KAMALI\LOAD CONTROL\PROGRAM\v3\load control\EWARM\settings\load control.load_control.driver.xcl" 
 
 @echo off 
 :end

@@ -1,6 +1,40 @@
 
 int volt2;
 int timeSoft2;
+char ss[20];
+int taqsim;
+
+float Read_AD(uint32_t channel)
+{
+  ADC_ChannelConfTypeDef sConfig;		
+  float ad_out;
+  
+  
+  HAL_ADC_DeInit(&hadc);
+  HAL_ADC_Init(&hadc);
+  sConfig.Channel = channel ;
+  sConfig.Rank = 1;	
+  HAL_ADC_ConfigChannel(&hadc, &sConfig);
+  for(int i = 0 ; i<100 ; i++){
+  HAL_ADCEx_Calibration_Start(&hadc);	
+  HAL_ADC_Start(&hadc);
+  
+  if (HAL_ADC_PollForConversion(&hadc, 100) == HAL_OK) 
+    
+    ad_out+=HAL_ADC_GetValue(&hadc); 
+  HAL_Delay(1);
+  }
+  
+  ad_out /=100;
+  
+  if(taqsim ==1){
+  ad_out*=3.3;
+  ad_out/=4095;
+  }
+  
+  return ad_out;				
+}
+
 
 void SoftSTART(){
   softTimer1 = 0;
@@ -42,38 +76,32 @@ void SoftSTART(){
   
   
 }
-ADC_HandleTypeDef hadc;
-uint32_t adc_val_ch0 = 0;
-uint32_t adc_val_ch1 = 0;
-float adc1;
+
 void readCurrent(){
-  ADC_ChannelConfTypeDef sConfig = {0};
-  sConfig.Channel = ADC_CHANNEL_0;
-  sConfig.Rank = 1;
-  sConfig.SamplingTime = ADC_SAMPLETIME_7CYCLES_5;
-  if (HAL_ADC_ConfigChannel(&hadc, &sConfig) != HAL_OK)
-  {
-    Error_Handler();
-  }
-  adc1 = 0;
-  adc_val_ch0 =0;
-  for(int i = 0 ; i < 100 ; i++) {
-    HAL_ADC_Start(&hadc); // start the adc
-    HAL_ADC_PollForConversion(&hadc, 100);
-    adc_val_ch0 += HAL_ADC_GetValue(&hadc);
-    HAL_ADC_Stop(&hadc); // stop adc
-    //adc1 += adc_val_ch0;
-    HAL_Delay(1);
-  }
-  adc_val_ch0 /=100;
-  float current;
-  current =adc_val_ch0 / 70.934256055363;
-  char ss[20];
-  sprintf(ss , "CU:%.2f    " , current);
-  lcd_putsf_point(0,20,ss,TAHOMA_8x10);
-  Lcd_Refresh();
+   taqsim = 0;
+   current=Read_AD(ADC_CHANNEL_0);
   
+   current /= 70.934256055363;
+   
+  sprintf(ss , "CURRENT:%.2f    " , current);
+  lcd_putsf_point(0,10,ss,TAHOMA_8x10);
 }
+
+
+void Readpressure(){
+  taqsim = 1;
+  Pressure=Read_AD(ADC_CHANNEL_1);
+  float adc = Pressure;
+  Pressure *=100;
+  if(adc < .3)Pressure -=50;
+  if(adc >= .3)Pressure -=30;
+  sprintf(ss , "PSI:%.2f    " , Pressure);
+  lcd_putsf_point(0,20,ss,TAHOMA_8x10);
+  sprintf(ss , "ADC:%.2f    " , adc);
+  lcd_putsf_point(0,30,ss,TAHOMA_8x10);
+  Lcd_Refresh();
+}
+
 
 void lcdBackLightControl(){
   if (HAL_GPIO_ReadPin(k_up_GPIO_Port, k_up_Pin) == 0 || HAL_GPIO_ReadPin(k_down_GPIO_Port, k_down_Pin) == 0 || HAL_GPIO_ReadPin(k_ok_GPIO_Port, k_ok_Pin) == 0 || HAL_GPIO_ReadPin(k_back_GPIO_Port, k_back_Pin) == 0){
@@ -84,9 +112,12 @@ void lcdBackLightControl(){
 }
 
 void MainCod(){
-  
-  if(softStart_State == 0) SoftSTART();
+   //HAL_GPIO_WritePin(triak_GPIO_Port, triak_Pin, GPIO_PIN_SET);
+  //if(softStart_State == 0) SoftSTART();
   readCurrent();
+  Readpressure();
+
+   
   lcdBackLightControl();
   
 }

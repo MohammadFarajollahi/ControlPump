@@ -14,5 +14,11 @@
                 <Path>F:\ELECTRONIC\cod\KAMALI\LOAD CONTROL\PROGRAM\v3\load control\EWARM\load control\List\load control.map</Path>
             </Output>
         </Parent>
+        <Parent>
+            <Path>F:\ELECTRONIC\sherkat\Dimmer_Pump\KAMALI\LOAD CONTROL\PROGRAM\v3\load control\EWARM\load control\Exe\load control.out</Path>
+            <Output>
+                <Path>F:\ELECTRONIC\sherkat\Dimmer_Pump\KAMALI\LOAD CONTROL\PROGRAM\v3\load control\EWARM\load control\List\load control.map</Path>
+            </Output>
+        </Parent>
     </Tool>
 </BuildDb>

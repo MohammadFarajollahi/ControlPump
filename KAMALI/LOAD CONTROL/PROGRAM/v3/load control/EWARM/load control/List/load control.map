@@ -1,131 +1,132 @@
 ###############################################################################
 #
-# IAR ELF Linker V9.60.3.422/W64 for ARM                  03/Jul/2025  18:16:14
+# IAR ELF Linker V9.60.3.422/W64 for ARM                  08/Jul/2025  23:41:49
 # Copyright 2007-2024 IAR Systems AB.
 #
 #    Output file  =
-#        F:\ELECTRONIC\cod\KAMALI\LOAD CONTROL\PROGRAM\v3\load
+#        F:\ELECTRONIC\sherkat\Dimmer_Pump\KAMALI\LOAD CONTROL\PROGRAM\v3\load
 #        control\EWARM\load control\Exe\load control.out
 #    Map file     =
-#        F:\ELECTRONIC\cod\KAMALI\LOAD CONTROL\PROGRAM\v3\load
+#        F:\ELECTRONIC\sherkat\Dimmer_Pump\KAMALI\LOAD CONTROL\PROGRAM\v3\load
 #        control\EWARM\load control\List\load control.map
 #    Command line =
-#        -f "F:\ELECTRONIC\cod\KAMALI\LOAD CONTROL\PROGRAM\v3\load
-#        control\EWARM\load control\Exe\load control.out.rsp"
-#        ("F:\ELECTRONIC\cod\KAMALI\LOAD CONTROL\PROGRAM\v3\load
-#        control\EWARM\load
+#        -f "F:\ELECTRONIC\sherkat\Dimmer_Pump\KAMALI\LOAD
+#        CONTROL\PROGRAM\v3\load control\EWARM\load control\Exe\load
+#        control.out.rsp" ("F:\ELECTRONIC\sherkat\Dimmer_Pump\KAMALI\LOAD
+#        CONTROL\PROGRAM\v3\load control\EWARM\load
 #        control\Obj\FreeRTOS_4809373609813369194.dir\cmsis_os.o"
-#        "F:\ELECTRONIC\cod\KAMALI\LOAD CONTROL\PROGRAM\v3\load
+#        "F:\ELECTRONIC\sherkat\Dimmer_Pump\KAMALI\LOAD CONTROL\PROGRAM\v3\load
 #        control\EWARM\load
 #        control\Obj\FreeRTOS_4809373609813369194.dir\croutine.o"
-#        "F:\ELECTRONIC\cod\KAMALI\LOAD CONTROL\PROGRAM\v3\load
+#        "F:\ELECTRONIC\sherkat\Dimmer_Pump\KAMALI\LOAD CONTROL\PROGRAM\v3\load
 #        control\EWARM\load
 #        control\Obj\FreeRTOS_4809373609813369194.dir\event_groups.o"
-#        "F:\ELECTRONIC\cod\KAMALI\LOAD CONTROL\PROGRAM\v3\load
+#        "F:\ELECTRONIC\sherkat\Dimmer_Pump\KAMALI\LOAD CONTROL\PROGRAM\v3\load
 #        control\EWARM\load
 #        control\Obj\Core_13247989168731456611.dir\freertos.o"
-#        "F:\ELECTRONIC\cod\KAMALI\LOAD CONTROL\PROGRAM\v3\load
+#        "F:\ELECTRONIC\sherkat\Dimmer_Pump\KAMALI\LOAD CONTROL\PROGRAM\v3\load
 #        control\EWARM\load
 #        control\Obj\FreeRTOS_4809373609813369194.dir\heap_1.o"
-#        "F:\ELECTRONIC\cod\KAMALI\LOAD CONTROL\PROGRAM\v3\load
+#        "F:\ELECTRONIC\sherkat\Dimmer_Pump\KAMALI\LOAD CONTROL\PROGRAM\v3\load
 #        control\EWARM\load
 #        control\Obj\FreeRTOS_4809373609813369194.dir\list.o"
-#        "F:\ELECTRONIC\cod\KAMALI\LOAD CONTROL\PROGRAM\v3\load
+#        "F:\ELECTRONIC\sherkat\Dimmer_Pump\KAMALI\LOAD CONTROL\PROGRAM\v3\load
 #        control\EWARM\load control\Obj\Core_13247989168731456611.dir\main.o"
-#        "F:\ELECTRONIC\cod\KAMALI\LOAD CONTROL\PROGRAM\v3\load
+#        "F:\ELECTRONIC\sherkat\Dimmer_Pump\KAMALI\LOAD CONTROL\PROGRAM\v3\load
 #        control\EWARM\load
 #        control\Obj\FreeRTOS_4809373609813369194.dir\port.o"
-#        "F:\ELECTRONIC\cod\KAMALI\LOAD CONTROL\PROGRAM\v3\load
+#        "F:\ELECTRONIC\sherkat\Dimmer_Pump\KAMALI\LOAD CONTROL\PROGRAM\v3\load
 #        control\EWARM\load
 #        control\Obj\FreeRTOS_4809373609813369194.dir\portasm.o"
-#        "F:\ELECTRONIC\cod\KAMALI\LOAD CONTROL\PROGRAM\v3\load
+#        "F:\ELECTRONIC\sherkat\Dimmer_Pump\KAMALI\LOAD CONTROL\PROGRAM\v3\load
 #        control\EWARM\load
 #        control\Obj\FreeRTOS_4809373609813369194.dir\queue.o"
-#        "F:\ELECTRONIC\cod\KAMALI\LOAD CONTROL\PROGRAM\v3\load
+#        "F:\ELECTRONIC\sherkat\Dimmer_Pump\KAMALI\LOAD CONTROL\PROGRAM\v3\load
 #        control\EWARM\load
 #        control\Obj\EWARM_18443280873093131863.dir\startup_stm32f030x6.o"
-#        "F:\ELECTRONIC\cod\KAMALI\LOAD CONTROL\PROGRAM\v3\load
+#        "F:\ELECTRONIC\sherkat\Dimmer_Pump\KAMALI\LOAD CONTROL\PROGRAM\v3\load
 #        control\EWARM\load
 #        control\Obj\STM32F0xx_HAL_Driver_12736992878974344111.dir\stm32f0xx_hal.o"
-#        "F:\ELECTRONIC\cod\KAMALI\LOAD CONTROL\PROGRAM\v3\load
+#        "F:\ELECTRONIC\sherkat\Dimmer_Pump\KAMALI\LOAD CONTROL\PROGRAM\v3\load
 #        control\EWARM\load
 #        control\Obj\STM32F0xx_HAL_Driver_12736992878974344111.dir\stm32f0xx_hal_adc.o"
-#        "F:\ELECTRONIC\cod\KAMALI\LOAD CONTROL\PROGRAM\v3\load
+#        "F:\ELECTRONIC\sherkat\Dimmer_Pump\KAMALI\LOAD CONTROL\PROGRAM\v3\load
 #        control\EWARM\load
 #        control\Obj\STM32F0xx_HAL_Driver_12736992878974344111.dir\stm32f0xx_hal_adc_ex.o"
-#        "F:\ELECTRONIC\cod\KAMALI\LOAD CONTROL\PROGRAM\v3\load
+#        "F:\ELECTRONIC\sherkat\Dimmer_Pump\KAMALI\LOAD CONTROL\PROGRAM\v3\load
 #        control\EWARM\load
 #        control\Obj\STM32F0xx_HAL_Driver_12736992878974344111.dir\stm32f0xx_hal_cortex.o"
-#        "F:\ELECTRONIC\cod\KAMALI\LOAD CONTROL\PROGRAM\v3\load
+#        "F:\ELECTRONIC\sherkat\Dimmer_Pump\KAMALI\LOAD CONTROL\PROGRAM\v3\load
 #        control\EWARM\load
 #        control\Obj\STM32F0xx_HAL_Driver_12736992878974344111.dir\stm32f0xx_hal_dma.o"
-#        "F:\ELECTRONIC\cod\KAMALI\LOAD CONTROL\PROGRAM\v3\load
+#        "F:\ELECTRONIC\sherkat\Dimmer_Pump\KAMALI\LOAD CONTROL\PROGRAM\v3\load
 #        control\EWARM\load
 #        control\Obj\STM32F0xx_HAL_Driver_12736992878974344111.dir\stm32f0xx_hal_exti.o"
-#        "F:\ELECTRONIC\cod\KAMALI\LOAD CONTROL\PROGRAM\v3\load
+#        "F:\ELECTRONIC\sherkat\Dimmer_Pump\KAMALI\LOAD CONTROL\PROGRAM\v3\load
 #        control\EWARM\load
 #        control\Obj\STM32F0xx_HAL_Driver_12736992878974344111.dir\stm32f0xx_hal_flash.o"
-#        "F:\ELECTRONIC\cod\KAMALI\LOAD CONTROL\PROGRAM\v3\load
+#        "F:\ELECTRONIC\sherkat\Dimmer_Pump\KAMALI\LOAD CONTROL\PROGRAM\v3\load
 #        control\EWARM\load
 #        control\Obj\STM32F0xx_HAL_Driver_12736992878974344111.dir\stm32f0xx_hal_flash_ex.o"
-#        "F:\ELECTRONIC\cod\KAMALI\LOAD CONTROL\PROGRAM\v3\load
+#        "F:\ELECTRONIC\sherkat\Dimmer_Pump\KAMALI\LOAD CONTROL\PROGRAM\v3\load
 #        control\EWARM\load
 #        control\Obj\STM32F0xx_HAL_Driver_12736992878974344111.dir\stm32f0xx_hal_gpio.o"
-#        "F:\ELECTRONIC\cod\KAMALI\LOAD CONTROL\PROGRAM\v3\load
+#        "F:\ELECTRONIC\sherkat\Dimmer_Pump\KAMALI\LOAD CONTROL\PROGRAM\v3\load
 #        control\EWARM\load
 #        control\Obj\STM32F0xx_HAL_Driver_12736992878974344111.dir\stm32f0xx_hal_i2c.o"
-#        "F:\ELECTRONIC\cod\KAMALI\LOAD CONTROL\PROGRAM\v3\load
+#        "F:\ELECTRONIC\sherkat\Dimmer_Pump\KAMALI\LOAD CONTROL\PROGRAM\v3\load
 #        control\EWARM\load
 #        control\Obj\STM32F0xx_HAL_Driver_12736992878974344111.dir\stm32f0xx_hal_i2c_ex.o"
-#        "F:\ELECTRONIC\cod\KAMALI\LOAD CONTROL\PROGRAM\v3\load
+#        "F:\ELECTRONIC\sherkat\Dimmer_Pump\KAMALI\LOAD CONTROL\PROGRAM\v3\load
 #        control\EWARM\load
 #        control\Obj\Core_13247989168731456611.dir\stm32f0xx_hal_msp.o"
-#        "F:\ELECTRONIC\cod\KAMALI\LOAD CONTROL\PROGRAM\v3\load
+#        "F:\ELECTRONIC\sherkat\Dimmer_Pump\KAMALI\LOAD CONTROL\PROGRAM\v3\load
 #        control\EWARM\load
 #        control\Obj\STM32F0xx_HAL_Driver_12736992878974344111.dir\stm32f0xx_hal_pwr.o"
-#        "F:\ELECTRONIC\cod\KAMALI\LOAD CONTROL\PROGRAM\v3\load
+#        "F:\ELECTRONIC\sherkat\Dimmer_Pump\KAMALI\LOAD CONTROL\PROGRAM\v3\load
 #        control\EWARM\load
 #        control\Obj\STM32F0xx_HAL_Driver_12736992878974344111.dir\stm32f0xx_hal_pwr_ex.o"
-#        "F:\ELECTRONIC\cod\KAMALI\LOAD CONTROL\PROGRAM\v3\load
+#        "F:\ELECTRONIC\sherkat\Dimmer_Pump\KAMALI\LOAD CONTROL\PROGRAM\v3\load
 #        control\EWARM\load
 #        control\Obj\STM32F0xx_HAL_Driver_12736992878974344111.dir\stm32f0xx_hal_rcc.o"
-#        "F:\ELECTRONIC\cod\KAMALI\LOAD CONTROL\PROGRAM\v3\load
+#        "F:\ELECTRONIC\sherkat\Dimmer_Pump\KAMALI\LOAD CONTROL\PROGRAM\v3\load
 #        control\EWARM\load
 #        control\Obj\STM32F0xx_HAL_Driver_12736992878974344111.dir\stm32f0xx_hal_rcc_ex.o"
-#        "F:\ELECTRONIC\cod\KAMALI\LOAD CONTROL\PROGRAM\v3\load
+#        "F:\ELECTRONIC\sherkat\Dimmer_Pump\KAMALI\LOAD CONTROL\PROGRAM\v3\load
 #        control\EWARM\load
 #        control\Obj\STM32F0xx_HAL_Driver_12736992878974344111.dir\stm32f0xx_hal_tim.o"
-#        "F:\ELECTRONIC\cod\KAMALI\LOAD CONTROL\PROGRAM\v3\load
+#        "F:\ELECTRONIC\sherkat\Dimmer_Pump\KAMALI\LOAD CONTROL\PROGRAM\v3\load
 #        control\EWARM\load
 #        control\Obj\STM32F0xx_HAL_Driver_12736992878974344111.dir\stm32f0xx_hal_tim_ex.o"
-#        "F:\ELECTRONIC\cod\KAMALI\LOAD CONTROL\PROGRAM\v3\load
+#        "F:\ELECTRONIC\sherkat\Dimmer_Pump\KAMALI\LOAD CONTROL\PROGRAM\v3\load
 #        control\EWARM\load
 #        control\Obj\Core_13247989168731456611.dir\stm32f0xx_hal_timebase_tim.o"
-#        "F:\ELECTRONIC\cod\KAMALI\LOAD CONTROL\PROGRAM\v3\load
+#        "F:\ELECTRONIC\sherkat\Dimmer_Pump\KAMALI\LOAD CONTROL\PROGRAM\v3\load
 #        control\EWARM\load
 #        control\Obj\Core_13247989168731456611.dir\stm32f0xx_it.o"
-#        "F:\ELECTRONIC\cod\KAMALI\LOAD CONTROL\PROGRAM\v3\load
+#        "F:\ELECTRONIC\sherkat\Dimmer_Pump\KAMALI\LOAD CONTROL\PROGRAM\v3\load
 #        control\EWARM\load
 #        control\Obj\FreeRTOS_4809373609813369194.dir\stream_buffer.o"
-#        "F:\ELECTRONIC\cod\KAMALI\LOAD CONTROL\PROGRAM\v3\load
+#        "F:\ELECTRONIC\sherkat\Dimmer_Pump\KAMALI\LOAD CONTROL\PROGRAM\v3\load
 #        control\EWARM\load
 #        control\Obj\CMSIS_6603591812247902717.dir\system_stm32f0xx.o"
-#        "F:\ELECTRONIC\cod\KAMALI\LOAD CONTROL\PROGRAM\v3\load
+#        "F:\ELECTRONIC\sherkat\Dimmer_Pump\KAMALI\LOAD CONTROL\PROGRAM\v3\load
 #        control\EWARM\load
 #        control\Obj\FreeRTOS_4809373609813369194.dir\tasks.o"
-#        "F:\ELECTRONIC\cod\KAMALI\LOAD CONTROL\PROGRAM\v3\load
+#        "F:\ELECTRONIC\sherkat\Dimmer_Pump\KAMALI\LOAD CONTROL\PROGRAM\v3\load
 #        control\EWARM\load
 #        control\Obj\FreeRTOS_4809373609813369194.dir\timers.o"
-#        --no_out_extension -o "F:\ELECTRONIC\cod\KAMALI\LOAD
+#        --no_out_extension -o "F:\ELECTRONIC\sherkat\Dimmer_Pump\KAMALI\LOAD
 #        CONTROL\PROGRAM\v3\load control\EWARM\load control\Exe\load
 #        control.out" --redirect _Printf=_PrintfFullNoMb --redirect
-#        _Scanf=_ScanfFullNoMb --map "F:\ELECTRONIC\cod\KAMALI\LOAD
-#        CONTROL\PROGRAM\v3\load control\EWARM\load control\List\load
-#        control.map" --config "F:\ELECTRONIC\cod\KAMALI\LOAD
-#        CONTROL\PROGRAM\v3\load control\EWARM/stm32f030x6_flash.icf"
-#        --semihosting --entry __iar_program_start --vfe --text_out locale
-#        --cpu=Cortex-M0 --fpu=None) --dependencies=n
-#        "F:\ELECTRONIC\cod\KAMALI\LOAD CONTROL\PROGRAM\v3\load
+#        _Scanf=_ScanfFullNoMb --map
+#        "F:\ELECTRONIC\sherkat\Dimmer_Pump\KAMALI\LOAD CONTROL\PROGRAM\v3\load
+#        control\EWARM\load control\List\load control.map" --config
+#        "F:\ELECTRONIC\sherkat\Dimmer_Pump\KAMALI\LOAD CONTROL\PROGRAM\v3\load
+#        control\EWARM/stm32f030x6_flash.icf" --semihosting --entry
+#        __iar_program_start --vfe --text_out locale --cpu=Cortex-M0
+#        --fpu=None) --dependencies=n
+#        "F:\ELECTRONIC\sherkat\Dimmer_Pump\KAMALI\LOAD CONTROL\PROGRAM\v3\load
 #        control\EWARM\load control\Exe\load control.out.iar_deps"
 #
 ###############################################################################
@@ -331,12 +332,12 @@ command line/config:
     -------------------------------------------------------
     Total:
 
-F:\ELECTRONIC\cod\KAMALI\LOAD CONTROL\PROGRAM\v3\load control\EWARM\load control\Obj\CMSIS_6603591812247902717.dir: [1]
+F:\ELECTRONIC\sherkat\Dimmer_Pump\KAMALI\LOAD CONTROL\PROGRAM\v3\load control\EWARM\load control\Obj\CMSIS_6603591812247902717.dir: [1]
     system_stm32f0xx.o                 20       12        4
     -------------------------------------------------------
     Total:                             20       12        4
 
-F:\ELECTRONIC\cod\KAMALI\LOAD CONTROL\PROGRAM\v3\load control\EWARM\load control\Obj\Core_13247989168731456611.dir: [2]
+F:\ELECTRONIC\sherkat\Dimmer_Pump\KAMALI\LOAD CONTROL\PROGRAM\v3\load control\EWARM\load control\Obj\Core_13247989168731456611.dir: [2]
     freertos.o                         20               340
     main.o                          2'068    1'384    1'090
     stm32f0xx_hal_msp.o               264
@@ -345,12 +346,12 @@ F:\ELECTRONIC\cod\KAMALI\LOAD CONTROL\PROGRAM\v3\load control\EWARM\load control
     -------------------------------------------------------
     Total:                          2'532    1'384    1'502
 
-F:\ELECTRONIC\cod\KAMALI\LOAD CONTROL\PROGRAM\v3\load control\EWARM\load control\Obj\EWARM_18443280873093131863.dir: [3]
+F:\ELECTRONIC\sherkat\Dimmer_Pump\KAMALI\LOAD CONTROL\PROGRAM\v3\load control\EWARM\load control\Obj\EWARM_18443280873093131863.dir: [3]
     startup_stm32f030x6.o             230
     -------------------------------------------------------
     Total:                            230
 
-F:\ELECTRONIC\cod\KAMALI\LOAD CONTROL\PROGRAM\v3\load control\EWARM\load control\Obj\FreeRTOS_4809373609813369194.dir: [4]
+F:\ELECTRONIC\sherkat\Dimmer_Pump\KAMALI\LOAD CONTROL\PROGRAM\v3\load control\EWARM\load control\Obj\FreeRTOS_4809373609813369194.dir: [4]
     cmsis_os.o                        132
     heap_1.o                           88               748
     list.o                            150
@@ -360,7 +361,7 @@ F:\ELECTRONIC\cod\KAMALI\LOAD CONTROL\PROGRAM\v3\load control\EWARM\load control
     -------------------------------------------------------
     Total:                          1'994        4    1'048
 
-F:\ELECTRONIC\cod\KAMALI\LOAD CONTROL\PROGRAM\v3\load control\EWARM\load control\Obj\STM32F0xx_HAL_Driver_12736992878974344111.dir: [5]
+F:\ELECTRONIC\sherkat\Dimmer_Pump\KAMALI\LOAD CONTROL\PROGRAM\v3\load control\EWARM\load control\Obj\STM32F0xx_HAL_Driver_12736992878974344111.dir: [5]
     stm32f0xx_hal.o                   100       12       12
     stm32f0xx_hal_adc.o               640
     stm32f0xx_hal_cortex.o             96
@@ -719,11 +720,11 @@ xTickCount              0x2000'088c    0x4  Data  Lc  tasks.o [4]
 xYieldPending           0x2000'089c    0x4  Data  Lc  tasks.o [4]
 
 
-[1] = F:\ELECTRONIC\cod\KAMALI\LOAD CONTROL\PROGRAM\v3\load control\EWARM\load control\Obj\CMSIS_6603591812247902717.dir
-[2] = F:\ELECTRONIC\cod\KAMALI\LOAD CONTROL\PROGRAM\v3\load control\EWARM\load control\Obj\Core_13247989168731456611.dir
-[3] = F:\ELECTRONIC\cod\KAMALI\LOAD CONTROL\PROGRAM\v3\load control\EWARM\load control\Obj\EWARM_18443280873093131863.dir
-[4] = F:\ELECTRONIC\cod\KAMALI\LOAD CONTROL\PROGRAM\v3\load control\EWARM\load control\Obj\FreeRTOS_4809373609813369194.dir
-[5] = F:\ELECTRONIC\cod\KAMALI\LOAD CONTROL\PROGRAM\v3\load control\EWARM\load control\Obj\STM32F0xx_HAL_Driver_12736992878974344111.dir
+[1] = F:\ELECTRONIC\sherkat\Dimmer_Pump\KAMALI\LOAD CONTROL\PROGRAM\v3\load control\EWARM\load control\Obj\CMSIS_6603591812247902717.dir
+[2] = F:\ELECTRONIC\sherkat\Dimmer_Pump\KAMALI\LOAD CONTROL\PROGRAM\v3\load control\EWARM\load control\Obj\Core_13247989168731456611.dir
+[3] = F:\ELECTRONIC\sherkat\Dimmer_Pump\KAMALI\LOAD CONTROL\PROGRAM\v3\load control\EWARM\load control\Obj\EWARM_18443280873093131863.dir
+[4] = F:\ELECTRONIC\sherkat\Dimmer_Pump\KAMALI\LOAD CONTROL\PROGRAM\v3\load control\EWARM\load control\Obj\FreeRTOS_4809373609813369194.dir
+[5] = F:\ELECTRONIC\sherkat\Dimmer_Pump\KAMALI\LOAD CONTROL\PROGRAM\v3\load control\EWARM\load control\Obj\STM32F0xx_HAL_Driver_12736992878974344111.dir
 [6] = dl6M_tlf.a
 [7] = m6M_tl.a
 [8] = rt6M_tl.a

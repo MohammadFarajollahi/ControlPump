@@ -68,6 +68,15 @@ int setting;
 uint16_t StartVoltage_eeprom;
 uint16_t StartTime_eeprom;
 uint16_t SoftTime_eeprom;
+
+float Pressure;
+ float current;
+//ADC_HandleTypeDef hadc;
+//ADC_ChannelConfTypeDef sConfig = {0};
+
+uint32_t adc_val_ch0 = 0;
+uint32_t adc_val_ch1 = 0;
+float adc1;
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -118,7 +127,7 @@ void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim) // 100ms
    if(SecMain >=1000){
      SecMain = 0;
      if(lcdLight == 1 && setting ==0) ++lcdLightTimer;
-     if(lcdLightTimer >= 120 && lcdLight == 1){
+     if(lcdLightTimer >= 60 && lcdLight == 1){
        lcdLight = 0;
        lcdLightTimer =0;
        HAL_GPIO_WritePin(LcdLight_GPIO_Port, LcdLight_Pin, GPIO_PIN_RESET);
@@ -185,12 +194,12 @@ int main(void)
   lcdinit();
   HAL_Delay(200);
   Lcd_Clear();
-  Lcd_Put_Icon2_Invert(0,0,logo); // YplusOnXbyte = (LedHeight + 7) / 8;
+  Lcd_Put_Icon2_Invert(17,50,logo); // YplusOnXbyte = (LedHeight + 7) / 8;
   Lcd_Refresh();
   char ss[20];
   sprintf(ss , "Voltage:%dV " , StartVoltage_eeprom);
   lcd_putsf_point(0,0,ss,TAHOMA_8x10);
-  lcd_putsf_point(0,10,"Soft Start",TAHOMA_8x10);
+  lcd_putsf_point(0,40,"Soft Start",TAHOMA_8x10);
   Lcd_Refresh();
   
 //  while(1){
@@ -208,50 +217,18 @@ int main(void)
   while (1)
   {
     
-  MainCod();
-  menu();
-   
-   if (HAL_GPIO_ReadPin(k_up_GPIO_Port, k_up_Pin) == 0){
-     ++Voltage;
-     if(Voltage>220)Voltage=220;
-     HAL_Delay(10);
-     char ss[20];
-     sprintf(ss , "Voltage:%dV " , Voltage);
-     lcd_putsf_point(0,0,ss,TAHOMA_8x10);
-     Lcd_Refresh();
-   }
-   
-   if (HAL_GPIO_ReadPin(k_down_GPIO_Port, k_down_Pin) == 0){
-     --Voltage;
-     if(Voltage<30)Voltage=30;
-     HAL_Delay(10);
-     char ss[20];
-     sprintf(ss , "Voltage:%dV " , Voltage);
-     lcd_putsf_point(0,0,ss,TAHOMA_8x10);
-     Lcd_Refresh();
-   }
-   
-   
-
-   
-   if (HAL_GPIO_ReadPin(k_back_GPIO_Port, k_back_Pin) == 0){
-     
-     lcd_putsf_point(0,10,"Reset Pump",TAHOMA_8x10);
-     HAL_GPIO_WritePin(triak_GPIO_Port, triak_Pin, GPIO_PIN_RESET);
-     Lcd_Refresh();
-     softStart_State = 0;
-     Voltage=80;
-     HAL_Delay(2000);
-   }
-   
-//   char ss[20];
-//   sprintf(ss , "Lcd Time:%d  " , lcdLightTimer);
-//   lcd_putsf_point(0,50,ss,TAHOMA_8x10);
-//   Lcd_Refresh();
-//   HAL_Delay(100);
+    MainCod();
+    menu();
+    
+    if (HAL_GPIO_ReadPin(k_back_GPIO_Port, k_back_Pin) == 0 && softStart_State == 1){  
+      softStart_State = 0;
+      HAL_GPIO_WritePin(triak_GPIO_Port, triak_Pin, GPIO_PIN_RESET);
+      HAL_Delay(2000);
+      
+    }
     
     /* USER CODE END WHILE */
-
+    
     /* USER CODE BEGIN 3 */
   }
   /* USER CODE END 3 */
@@ -332,7 +309,7 @@ static void MX_ADC_Init(void)
   hadc.Init.EOCSelection = ADC_EOC_SINGLE_CONV;
   hadc.Init.LowPowerAutoWait = DISABLE;
   hadc.Init.LowPowerAutoPowerOff = DISABLE;
-  hadc.Init.ContinuousConvMode = ENABLE;
+  hadc.Init.ContinuousConvMode = DISABLE;
   hadc.Init.DiscontinuousConvMode = DISABLE;
   hadc.Init.ExternalTrigConv = ADC_SOFTWARE_START;
   hadc.Init.ExternalTrigConvEdge = ADC_EXTERNALTRIGCONVEDGE_NONE;
@@ -348,6 +325,14 @@ static void MX_ADC_Init(void)
   sConfig.Channel = ADC_CHANNEL_0;
   sConfig.Rank = ADC_RANK_CHANNEL_NUMBER;
   sConfig.SamplingTime = ADC_SAMPLETIME_7CYCLES_5;
+  if (HAL_ADC_ConfigChannel(&hadc, &sConfig) != HAL_OK)
+  {
+    Error_Handler();
+  }
+
+  /** Configure for the selected ADC regular channel to be converted.
+  */
+  sConfig.Channel = ADC_CHANNEL_4;
   if (HAL_ADC_ConfigChannel(&hadc, &sConfig) != HAL_OK)
   {
     Error_Handler();
