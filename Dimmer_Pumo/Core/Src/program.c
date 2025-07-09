@@ -1,8 +1,18 @@
 
 int volt2;
 int timeSoft2;
-char ss[20];
+char ss[50];
 int taqsim;
+
+void show_uart( char *ss)
+{
+  char test[50];
+  int len;
+    strcpy(test, ss);
+    strcat(test, "\r\n");
+    len = strlen (test);
+    HAL_UART_Transmit(&huart1, (uint8_t *) test, len, 200);
+}
 
 float Read_AD(uint32_t channel)
 {
@@ -61,7 +71,7 @@ void SoftSTART(){
       char ss[20];
       sprintf(ss , "Voltage:%dV " , Voltage);
       lcd_putsf_point(0,0,ss,TAHOMA_8x10);
-      lcd_putsf_point(0,10,"Reset Pump",TAHOMA_8x10);
+      //lcd_putsf_point(0,10,"Reset Pump",TAHOMA_8x10);
       Lcd_Refresh();
       break;
     }
@@ -111,11 +121,20 @@ void lcdBackLightControl(){
   
 }
 
+void bluetooth(){
+  sprintf(ss , "CURRENT:%.2f / Pressure:%.2f    " , current, Pressure);
+  show_uart(ss);
+  
+}
+
 void MainCod(){
    //HAL_GPIO_WritePin(triak_GPIO_Port, triak_Pin, GPIO_PIN_SET);
-  //if(softStart_State == 0) SoftSTART();
+  if(softStart_State == 0) SoftSTART();
   readCurrent();
   Readpressure();
+  
+  
+  bluetooth();
 
    
   lcdBackLightControl();

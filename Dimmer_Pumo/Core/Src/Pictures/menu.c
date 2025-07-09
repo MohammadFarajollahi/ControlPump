@@ -20,12 +20,12 @@ char lcdShow[20];
 void menuExit(){
   Voltage = StartVoltage_eeprom;
   Lcd_Clear();
-  Lcd_Put_Icon2_Invert(17,50,logo); // YplusOnXbyte = (LedHeight + 7) / 8;
+   Lcd_Put_Icon2_Invert(0,45,logo); // YplusOnXbyte = (LedHeight + 7) / 8; // YplusOnXbyte = (LedHeight + 7) / 8;
   Lcd_Refresh();
   char ss[20];
   sprintf(ss , "Voltage:%dV " , Voltage);
   lcd_putsf_point(0,0,ss,TAHOMA_8x10);
-  lcd_putsf_point(0,40,"Press button",TAHOMA_8x10);
+  //lcd_putsf_point(0,40,"Press button",TAHOMA_8x10);
   Lcd_Refresh();
   HAL_Delay(500);
 }
@@ -281,7 +281,7 @@ void menu(){
     Lcd_Clear();
     Lcd_Put_Icon2_Invert(40,0,Setting_up);
     Lcd_Put_Icon2_Invert(40,50,Setting_down);
-    Lcd_Put_Icon2_Invert(18,28,tanzim_manual);
+    Lcd_Put_Icon2_Invert(2,25,tanzim_manual);
     Lcd_Refresh();
     HAL_Delay(500);
     menuSelect =1;
@@ -316,10 +316,10 @@ void menu(){
         Lcd_Put_Icon2_Invert(40,0,Setting_up);
         Lcd_Put_Icon2_Invert(40,50,Setting_down);
         if(menuSelect == 1){
-          Lcd_Put_Icon2_Invert(18,28,tanzim_manual);            
+          Lcd_Put_Icon2_Invert(2,25,tanzim_manual);            
         }         
         if(menuSelect == 2){
-          Lcd_Put_Icon2_Invert(14,28,tanzim_Auto);            
+          Lcd_Put_Icon2_Invert(2,25,tanzim_Auto);            
         }
         Lcd_Refresh();
       }
