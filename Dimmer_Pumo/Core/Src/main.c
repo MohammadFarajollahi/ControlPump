@@ -21,7 +21,8 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-
+#include <stdio.h>
+#include <string.h>
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -68,15 +69,27 @@ int setting;
 uint16_t StartVoltage_eeprom;
 uint16_t StartTime_eeprom;
 uint16_t SoftTime_eeprom;
+uint16_t pressure_eeprom;
+uint16_t mode_eeprom;
+float Current_eeprom;
 
 float Pressure;
- float current;
+float current;
 //ADC_HandleTypeDef hadc;
 //ADC_ChannelConfTypeDef sConfig = {0};
 
 uint32_t adc_val_ch0 = 0;
 uint32_t adc_val_ch1 = 0;
 float adc1;
+float bar;
+int mode;
+int modeControlCount;
+int menuSelect;
+int changeMenu;
+char lcdShow[20];
+
+int oftimerCount;
+int ofTimer;
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -91,6 +104,7 @@ static void MX_TIM1_Init(void);
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
+
 #include "delay.c"
 #include "nokia1202/nokia1202.c" // YplusOnXbyte = (LedHeight + 7) / 8;
 #include "lcd1202.c"
@@ -111,7 +125,12 @@ static void MX_TIM1_Init(void);
 #include "Pictures/kadr.c"
 #include "Pictures/saveEEprom.c"
 #include "Pictures/softstarttime.c"
-
+#include "Pictures/tanzimFeshar.c"
+#include "Pictures/devicemode.c"
+#include "Pictures/softset.c"
+#include "Pictures/setcontrol.c"
+#include "Pictures/dimermode.c"
+#include "Pictures/currensetting.c"
 
 void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim) // 100ms
 {
@@ -119,21 +138,21 @@ void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim) // 100ms
   if (htim->Instance == TIM1) // 1000 --->1s
   {
     if(softStart_State == 0)softTimer1++;
-
     
-   
-   
-   ++SecMain;
-   if(SecMain >=1000){
-     SecMain = 0;
-     if(lcdLight == 1 && setting ==0) ++lcdLightTimer;
-     if(lcdLightTimer >= 60 && lcdLight == 1){
-       lcdLight = 0;
-       lcdLightTimer =0;
-       HAL_GPIO_WritePin(LcdLight_GPIO_Port, LcdLight_Pin, GPIO_PIN_RESET);
-     }
-   }
-   
+    ++SecMain;
+    if(SecMain >=1000){
+      SecMain = 0;
+      
+      if(oftimerCount == 1)++ofTimer;
+      
+      if(lcdLight == 1 && setting ==0) ++lcdLightTimer;
+      if(lcdLightTimer >= 60 && lcdLight == 1){
+        lcdLight = 0;
+        lcdLightTimer =0;
+        HAL_GPIO_WritePin(LcdLight_GPIO_Port, LcdLight_Pin, GPIO_PIN_RESET);
+      }
+    }
+    
   }
 }
 
@@ -182,7 +201,9 @@ int main(void)
   I2C_init();
 //    eeprom_write_int16(2000,10);
 //     HAL_Delay(10);
-//      eeprom_write_int16(2000,20);
+    // eeprom_write_int16(100,30);
+  //eeprom_write_int16(0,40);
+
   
   StartVoltage_eeprom = eeprom_read_int16(0);
   HAL_Delay(10);
@@ -190,26 +211,19 @@ int main(void)
   HAL_Delay(10);
   SoftTime_eeprom = eeprom_read_int16(20);
   HAL_Delay(10);
+  pressure_eeprom = eeprom_read_int16(30);
+  HAL_Delay(10);
+  mode_eeprom = eeprom_read_int16(40);
+  HAL_Delay(10);
+  Current_eeprom = eeprom_read_int16(50);
+  Current_eeprom /= 10;
+  HAL_Delay(10);
+  
   //LCD
   lcdinit();
   HAL_Delay(200);
   Lcd_Clear();
-  Lcd_Put_Icon2_Invert(0,45,logo); // YplusOnXbyte = (LedHeight + 7) / 8;
   Lcd_Refresh();
-  char ss[20];
-  sprintf(ss , "Voltage:%dV " , StartVoltage_eeprom);
-  lcd_putsf_point(0,0,ss,TAHOMA_8x10);
- // lcd_putsf_point(0,40,"Soft Start",TAHOMA_8x10);
-  Lcd_Refresh();
-  
-//  while(1){
-//    sprintf(ss , "Time:%dS  " , softTimer1);
-//    lcd_putsf_point(0,0,ss,TAHOMA_8x10);
-//    Lcd_Refresh();
-//    
-//  }
-  
-
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -219,14 +233,7 @@ int main(void)
     
     MainCod();
     menu();
-    
-    if (HAL_GPIO_ReadPin(k_back_GPIO_Port, k_back_Pin) == 0 && softStart_State == 1){  
-      softStart_State = 0;
-      HAL_GPIO_WritePin(triak_GPIO_Port, triak_Pin, GPIO_PIN_RESET);
-      HAL_Delay(2000);
-      
-    }
-    
+        
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */

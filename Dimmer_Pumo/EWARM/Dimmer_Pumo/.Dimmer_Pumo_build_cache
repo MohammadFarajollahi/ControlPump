@@ -8,5 +8,11 @@
                 <Path>F:\ELECTRONIC\sherkat\Dimmer_Pump\Dimmer_Pumo\EWARM\Dimmer_Pumo\List\Dimmer_Pumo.map</Path>
             </Output>
         </Parent>
+        <Parent>
+            <Path>F:\ELECTRONIC\COD\Dimmer_Pumo\EWARM\Dimmer_Pumo\Exe\Dimmer_Pumo.out</Path>
+            <Output>
+                <Path>F:\ELECTRONIC\COD\Dimmer_Pumo\EWARM\Dimmer_Pumo\List\Dimmer_Pumo.map</Path>
+            </Output>
+        </Parent>
     </Tool>
 </BuildDb>

@@ -66,7 +66,7 @@ void lcdreset(void)
 void lcdsend(unsigned char bits8, unsigned char cord)	/*fungsi ini digunakan untuk mengirim data*/
 {						/*atau fungsi ke lcd*/
   int loop_send; 
-  uint16_t i;	
+  //uint16_t i;	
   
   LCD_CS_LOW();
   if(cord)            
@@ -466,9 +466,9 @@ void lcdclr(void)	/*fungsi ini untuk menghapus tampilan*/
 //mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm
 void Lcd_Putchar_Point(uint16_t x,uint16_t y,uint8_t c,FontStructTypeDef FONT)
 {
-  const uint16_t  FONT_WIDTH=6;
-  const uint16_t  FONT_HEIGHT=8;
-  const uint32_t  FONT_MASK=0x80;
+//  const uint16_t  FONT_WIDTH=6;
+//  const uint16_t  FONT_HEIGHT=8;
+//  const uint32_t  FONT_MASK=0x80;
   uint16_t i=0;
   uint16_t j=0;
   uint32_t tmp_char=0;
@@ -509,9 +509,9 @@ void Lcd_putsf(uint16_t x,uint16_t y,const unsigned char * text,FontStructTypeDe
   }
 } 
 //mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm
-void lcd_putsf_point(uint16_t x,uint16_t y,const unsigned char * text,FontStructTypeDef FONT)
+void lcd_putsf_point(uint16_t x,uint16_t y,const  char * text,FontStructTypeDef FONT)
 {
-  const uint16_t  FONT_WIDTH=6;
+  //const uint16_t  FONT_WIDTH=6;
   uint8_t i=0;
   
   while(text[i])

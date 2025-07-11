@@ -333,75 +333,75 @@ void xputc(char r)
 //-----------------------
 
 //-------------------------------------------------- 
-void LCD_PCD8544(uint8_t Row,uint8_t Column,char * text)
-{
-uint8_t i,position;	
-unsigned int i1;
-	
-	
-i1=strlen(text);		
-	
-for(position=0;position<i1;position++)
-{	
-
-lcdRow(Row);	
-lcdCol((Column+(position*7)));	
-
-
-for(i=0;i<=6;i++)lcdSpi(LCD_DATA |(courier7x14[(i+(text[position]*14)+4)-(32*14)]));	
-//for(i=0;i<=6;i++)lcdSpi(LCD_DATA | 0xFF);	
-	
-lcdRow((Row+1));	
-lcdCol((Column)+(position*7));	
-
-for(i=7;i<=13;i++)lcdSpi(LCD_DATA |(courier7x14[(i+(text[position]*14)+4)-(32*14)]));	
-}
-
-}
+//void LCD_PCD8544(uint8_t Row,uint8_t Column,char * text)
+//{
+//uint8_t i,position;	
+//unsigned int i1;
+//	
+//	
+//i1=strlen(text);		
+//	
+//for(position=0;position<i1;position++)
+//{	
+//
+//lcdRow(Row);	
+//lcdCol((Column+(position*7)));	
+//
+//
+//for(i=0;i<=6;i++)lcdSpi(LCD_DATA |(courier7x14[(i+(text[position]*14)+4)-(32*14)]));	
+////for(i=0;i<=6;i++)lcdSpi(LCD_DATA | 0xFF);	
+//	
+//lcdRow((Row+1));	
+//lcdCol((Column)+(position*7));	
+//
+//for(i=7;i<=13;i++)lcdSpi(LCD_DATA |(courier7x14[(i+(text[position]*14)+4)-(32*14)]));	
+//}
+//
+//}
 //---------------------------------------------------------------
-
-void putchar14x16_xy(uint8_t Row,uint8_t Column,char * text)
-{
-uint8_t i=0,j=0,k=0,position=0;	
-unsigned int i1;
-uint16_t lcd[16];	
-	
-	
-i1=strlen(text);
-	
-for(position=0;position<i1;position++){
-	
-for(k=0;k<15;k++){
-lcd[k]=0;	
-for(i=0,j=0;i<15;i++,j++)	  if((Font14x16[(i+(text[position]*16))-(32*16)]) & (0x0001<<k))(lcd[k] |=(0x0001<<j));
-}
-	
-lcd[0]=0;lcd[15]=0;	
-	
-lcdRow(Row);	
-lcdCol((Column+(position*12)));	
-	
-		for(i=15;i>0;i--)	lcdSpi(LCD_DATA |((uint8_t)lcd[i]));	
-	
-lcdRow(Row+1);	
-lcdCol((Column+(position*12)));
-	
-		for(i=15;i>0;i--)	lcdSpi(LCD_DATA |((uint8_t)(lcd[i]>>=8)));	
-	
-}	
-	
-	
-	
-	
-//		for(i=14;i>0;i--)	lcdSpi(LCD_DATA |((uint8_t)Font14x16[(i+(text[position]*16))-(32*16)]));	
+//
+//void putchar14x16_xy(uint8_t Row,uint8_t Column,char * text)
+//{
+//uint8_t i=0,j=0,k=0,position=0;	
+//unsigned int i1;
+//uint16_t lcd[16];	
+//	
+//	
+//i1=strlen(text);
+//	
+//for(position=0;position<i1;position++){
+//	
+//for(k=0;k<15;k++){
+//lcd[k]=0;	
+//for(i=0,j=0;i<15;i++,j++)	  if((Font14x16[(i+(text[position]*16))-(32*16)]) & (0x0001<<k))(lcd[k] |=(0x0001<<j));
+//}
+//	
+//lcd[0]=0;lcd[15]=0;	
+//	
+//lcdRow(Row);	
+//lcdCol((Column+(position*12)));	
+//	
+//		for(i=15;i>0;i--)	lcdSpi(LCD_DATA |((uint8_t)lcd[i]));	
 //	
 //lcdRow(Row+1);	
-//lcdCol((Column+(position*7)));
+//lcdCol((Column+(position*12)));
 //	
-//		for(i=14;i>0;i--)	lcdSpi(LCD_DATA |((uint8_t)((Font14x16[(i+(text[position]*16))-(32*16)])>>8)));	
-
-}
-
+//		for(i=15;i>0;i--)	lcdSpi(LCD_DATA |((uint8_t)(lcd[i]>>=8)));	
+//	
+//}	
+//	
+//	
+//	
+//	
+////		for(i=14;i>0;i--)	lcdSpi(LCD_DATA |((uint8_t)Font14x16[(i+(text[position]*16))-(32*16)]));	
+////	
+////lcdRow(Row+1);	
+////lcdCol((Column+(position*7)));
+////	
+////		for(i=14;i>0;i--)	lcdSpi(LCD_DATA |((uint8_t)((Font14x16[(i+(text[position]*16))-(32*16)])>>8)));	
+//
+//}
+//
 
 
 
