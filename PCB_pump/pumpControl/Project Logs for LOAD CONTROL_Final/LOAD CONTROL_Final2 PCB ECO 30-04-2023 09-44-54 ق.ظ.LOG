@@ -1,0 +1,14 @@
+Change Component Comment : Designator=L6 Old Comment=Comment New Comment=0
+Change component parameters: Designator = "L6" ("L6"); Footprint = "ZMC"; UniqueID = "\EUHOROKB" ("\EUHOROKB")
+Change component parameters (AddParameter): Name = "Code_IEC"; Value = "1005"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Code_JEITA"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LatestRevisionDate"; Value = "29-May-2009"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LatestRevisionNote"; Value = "IPC-7351 Footprint Added."; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageDescription"; Value = "Chip Inductor"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageReference"; Value = "0402-A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "300uH"; VariantName = "[No Variations]"
+Add Component: Footprint Not Found EE20
+Added Member To Class: ClassName=LOAD CONTROL_Final2 Member=Component L6 0
+Add Class Member: Failed to add class member : Component TR2 Trans 15 D 16

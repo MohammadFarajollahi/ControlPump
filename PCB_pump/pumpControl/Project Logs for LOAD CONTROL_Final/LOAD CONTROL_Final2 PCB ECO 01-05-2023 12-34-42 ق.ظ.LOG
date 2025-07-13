@@ -1,0 +1,5 @@
+Removed Pin From Net: NetName=VCC-3.3v Pin=IC4-2
+Removed Pin From Net: NetName=backlight Pin=R12-1
+Removed Member From Class: ClassName=LOAD CONTROL_Final2 Member=IC4
+Removed Member From Class: ClassName=LOAD CONTROL_Final2 Member=R12
+Added Pin To Net: NetName=backlight Pin=R5-2

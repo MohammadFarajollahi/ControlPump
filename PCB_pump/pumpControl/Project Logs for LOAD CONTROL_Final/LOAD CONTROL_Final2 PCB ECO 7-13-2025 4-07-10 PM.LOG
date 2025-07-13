@@ -1,0 +1,31 @@
+Removed Pin From Net: NetName=VCC_5V Pin=C18-1
+Removed Pin From Net: NetName=GND Pin=C18-2
+Removed Pin From Net: NetName=GND Pin=IC3-1
+Removed Pin From Net: NetName=VCC-3.3v Pin=IC3-2
+Removed Pin From Net: NetName=VCC_5V Pin=IC3-3
+Removed Pin From Net: NetName=VCC-3.3v Pin=IC3-4
+Removed Member From Class: ClassName=LOAD CONTROL_Final2 Member=C18
+Removed Member From Class: ClassName=LOAD CONTROL_Final2 Member=IC3
+Added Component: Designator=VR?(SOT-223)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=GND Pin=VR?-1
+Added Pin To Net: NetName=GND Pin=VR?-1
+Added Pin To Net: NetName=VCC-3.3v Pin=VR?-2
+Added Pin To Net: NetName=VCC_5V Pin=VR?-2
+Added Pin To Net: NetName=NetC20_1 Pin=VR?-3
+Added Pin To Net: NetName=VCC_5V Pin=VR?-3
+Added Pin To Net: NetName=VCC-3.3v Pin=VR?-4
+Added Pin To Net: NetName=VCC_5V Pin=VR?-4
+Added Member To Class: ClassName=LOAD CONTROL_Final2 Member=Component C? 100nF
+Added Member To Class: ClassName=LOAD CONTROL_Final2 Member=Component D? 1n4007
+Added Member To Class: ClassName=LOAD CONTROL_Final2 Member=Component D? 1n4007
+Added Member To Class: ClassName=LOAD CONTROL_Final2 Member=Component D? 1n4007
+Added Member To Class: ClassName=LOAD CONTROL_Final2 Member=Component R? 1K
+Added Member To Class: ClassName=LOAD CONTROL_Final2 Member=Component R? 1K
+Added Member To Class: ClassName=LOAD CONTROL_Final2 Member=Component R? 1K
+Added Member To Class: ClassName=LOAD CONTROL_Final2 Member=Component R? 1K
+Added Member To Class: ClassName=LOAD CONTROL_Final2 Member=Component R? 10r
+Added Member To Class: ClassName=LOAD CONTROL_Final2 Member=Component R? 10r
+Added Member To Class: ClassName=LOAD CONTROL_Final2 Member=Component R? 100K
+Added Member To Class: ClassName=LOAD CONTROL_Final2 Member=Component VR? AMS1117-xx
+Added Room: Name=LOAD CONTROL_Final2

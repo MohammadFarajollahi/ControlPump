@@ -25,7 +25,7 @@ if not "%~1" == "" goto debugFile
 
 @echo on 
 
-"C:\iar\ewarm-9.60.3\common\bin\cspybat" -f "F:\ELECTRONIC\sherkat\Dimmer_Pump\Dimmer_Pumo\EWARM\settings\Dimmer_Pumo.Dimmer_Pumo.general.xcl" --backend -f "F:\ELECTRONIC\sherkat\Dimmer_Pump\Dimmer_Pumo\EWARM\settings\Dimmer_Pumo.Dimmer_Pumo.driver.xcl" 
+"C:\iar\ewarm-9.60.3\common\bin\cspybat" -f "F:\ELECTRONIC\COD\PumpControl\Cod\EWARM\settings\Dimmer_Pumo.Dimmer_Pumo.general.xcl" --backend -f "F:\ELECTRONIC\COD\PumpControl\Cod\EWARM\settings\Dimmer_Pumo.Dimmer_Pumo.driver.xcl" 
 
 @echo off 
 goto end 
@@ -34,7 +34,7 @@ goto end
 
 @echo on 
 
-"C:\iar\ewarm-9.60.3\common\bin\cspybat" -f "F:\ELECTRONIC\sherkat\Dimmer_Pump\Dimmer_Pumo\EWARM\settings\Dimmer_Pumo.Dimmer_Pumo.general.xcl" "--debug_file=%~1" --backend -f "F:\ELECTRONIC\sherkat\Dimmer_Pump\Dimmer_Pumo\EWARM\settings\Dimmer_Pumo.Dimmer_Pumo.driver.xcl" 
+"C:\iar\ewarm-9.60.3\common\bin\cspybat" -f "F:\ELECTRONIC\COD\PumpControl\Cod\EWARM\settings\Dimmer_Pumo.Dimmer_Pumo.general.xcl" "--debug_file=%~1" --backend -f "F:\ELECTRONIC\COD\PumpControl\Cod\EWARM\settings\Dimmer_Pumo.Dimmer_Pumo.driver.xcl" 
 
 @echo off 
 :end

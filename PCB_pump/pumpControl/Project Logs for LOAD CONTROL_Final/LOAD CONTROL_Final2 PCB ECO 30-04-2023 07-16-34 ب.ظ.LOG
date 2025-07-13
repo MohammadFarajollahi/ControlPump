@@ -1,0 +1,16 @@
+Removed Pin From Net: NetName=VCC-310V Pin=C71-1
+Removed Pin From Net: NetName=VCC-310V Pin=D5-2
+Removed Member From Class: ClassName=LOAD CONTROL_Final2 Member=C71
+Removed Member From Class: ClassName=LOAD CONTROL_Final2 Member=D5
+Removed Member From Class: ClassName=LOAD CONTROL_Final2 Member=R9
+Change Footprint: Footprint Not Found RES 2W H
+Change Component Comment : Designator=R1 Old Comment=1K New Comment=0.22 oh _ 5%
+Change component parameters: Designator = "R1" ("R1"); Footprint = "1206"; UniqueID = "\NPLWYGND" ("\NPLWYGND")
+Change component parameters (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageDescription"; Value = "Axial Device, Thru-Hole; 2 Leads; 0.3 in Pin Spacing"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageReference"; Value = "AXIAL-0.3"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "0.22oh"; VariantName = "[No Variations]"
+Added Member To Class: ClassName=LOAD CONTROL_Final2 Member=Component C10 2.3nf

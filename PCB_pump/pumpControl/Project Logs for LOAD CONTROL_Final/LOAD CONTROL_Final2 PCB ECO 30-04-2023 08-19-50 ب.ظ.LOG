@@ -1,0 +1,22 @@
+Change Component Comment : Designator=IC2 Old Comment=Comment New Comment=TNY176PN
+Change component parameters: Designator = "IC2" ("IC2"); Footprint = "DIP8"; UniqueID = "\DUBWSDSW" ("\DUBWSDSW")
+Change component parameters (AddParameter): Name = "Datasheet Link"; Value = "https://www.power.com/sites/default/files/product-docs/tny274-280.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Height"; Value = "4.06mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Name"; Value = "Power Integrations"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "TNY278PN"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Part Number"; Value = "869-TNY278PN"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.com/Search/Refine.aspx?Keyword=869-TNY278PN"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RS Part Number"; Value = "0533721"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RS Price/Stock"; Value = "http://uk.rs-online.com/web/p/products/0533721"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetC52_1 Pin=IC2-1
+Added Pin To Net: NetName=NetC6_1 Pin=IC2-2
+Added Pin To Net: NetName=OD Pin=IC2-4
+Added Pin To Net: NetName=GND-e Pin=IC2-5
+Added Pin To Net: NetName=GND-e Pin=IC2-6
+Added Pin To Net: NetName=GND-e Pin=IC2-7
+Add Pin To Net: Unknown Pin: Pin IC2-8
+Added Pin To Net: NetName=GND Pin=ST1-1
+Added Pin To Net: NetName=GND Pin=ST1-1
+Added Pin To Net: NetName=sw3 Pin=ST1-2
+Added Pin To Net: NetName=sw3 Pin=ST1-2
+Added Member To Class: ClassName=LOAD CONTROL_Final2 Member=Component IC2 TNY176PN

@@ -1,0 +1,24 @@
+Change Component Comment : Designator=R61 Old Comment=270k - 5% New Comment=330k
+Change Component Comment : Designator=R43 Old Comment=270k - 5% New Comment=Res Semi
+Change component parameters: Designator = "R43" ("R43"); Footprint = "R1206"; UniqueID = "\WQJCYPDJ" ("\WQJCYPDJ")
+Change component parameters (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageReference"; Value = "AXIAL-0.5"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "2.2K"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R61" ("R61"); Footprint = "R1206"; UniqueID = "\GINTINPB" ("\GINTINPB")
+Change component parameters (AddParameter): Name = "LatestRevisionDate"; Value = "29-May-2009"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LatestRevisionNote"; Value = "IPC-7351 Footprint Added."; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageDescription"; Value = "Chip Resistor"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageReference"; Value = "J1-0603"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "10K"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=sw1 Pin=R43-1
+Added Pin To Net: NetName=VCC-3.3v Pin=R43-2
+Added Pin To Net: NetName=GND-e Pin=R61-1
+Added Pin To Net: NetName=NetC52_1 Pin=R61-2
+Added Member To Class: ClassName=LOAD CONTROL_Final2 Member=Component R1 0.22 oh _ 5%
+Added Member To Class: ClassName=LOAD CONTROL_Final2 Member=Component R43 Res Semi
+Added Member To Class: ClassName=LOAD CONTROL_Final2 Member=Component R61 330k

@@ -1,0 +1,6 @@
+Removed Pin From Net: NetName=n Pin=C16-1
+Removed Member From Class: ClassName=LOAD CONTROL_Final2 Member=C16
+Added Pin To Net: NetName=NetR25_1 Pin=R25-1
+Added Pin To Net: NetName=NetR25_1 Pin=R26-1
+Added Net: Name=NetR25_1
+Added Room: Name=LOAD CONTROL_Final2

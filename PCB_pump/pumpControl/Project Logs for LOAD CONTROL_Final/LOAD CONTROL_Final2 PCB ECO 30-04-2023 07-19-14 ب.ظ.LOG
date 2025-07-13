@@ -1,0 +1,15 @@
+Removed Pin From Net: NetName=NetBR2_1 Pin=L1-1
+Removed Pin From Net: NetName=VCC-310V Pin=L1-2
+Removed Pin From Net: NetName=n Pin=NTC-1
+Removed Pin From Net: NetName=NetBR2_3 Pin=NTC-2
+Removed Pin From Net: NetName=NetBR2_4 Pin=RV1-1
+Removed Pin From Net: NetName=NetBR2_3 Pin=RV1-2
+Removed Member From Class: ClassName=LOAD CONTROL_Final2 Member=RV1
+Add Component: Footprint Not Found VAR 5MM
+Added Pin To Net: NetName=n Pin=L1-1
+Added Pin To Net: NetName=NetBR2_3 Pin=L1-2
+Added Pin To Net: NetName=NetBR2_1 Pin=NTC-1
+Added Pin To Net: NetName=VCC-310V Pin=NTC-2
+Add Pin To Net: Unknown Pin: Pin RV?-1
+Add Pin To Net: Unknown Pin: Pin RV?-2
+Add Class Member: Failed to add class member : Component RV? VDR - 14D561k

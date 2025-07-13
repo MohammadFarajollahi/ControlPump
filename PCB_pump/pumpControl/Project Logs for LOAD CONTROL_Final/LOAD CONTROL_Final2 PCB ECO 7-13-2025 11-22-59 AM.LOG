@@ -1,0 +1,38 @@
+Removed Pin From Net: NetName=NetC32_2 Pin=R3-1
+Removed Pin From Net: NetName=NetD?_1 Pin=R9-1
+Removed Pin From Net: NetName=NetD?_2 Pin=R10-1
+Removed Pin From Net: NetName=Netpc817_1 Pin=R10-2
+Added Component: Designator=in(HDR1X2)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=n Pin=in-1
+Added Pin To Net: NetName=L Pin=in-2
+Added Pin To Net: NetName=NetC5_2 Pin=R3-1
+Added Pin To Net: NetName=NetC32_2 Pin=R3-1
+Added Pin To Net: NetName=RESET Pin=R3-1
+Added Pin To Net: NetName=9v Pin=R3-2
+Added Pin To Net: NetName=NetC15_2 Pin=R9-1
+Added Pin To Net: NetName=NetD?_1 Pin=R9-1
+Added Pin To Net: NetName=Netpc817_2 Pin=R9-2
+Added Pin To Net: NetName=NetC1_2 Pin=R10-1
+Added Pin To Net: NetName=NetD?_2 Pin=R10-1
+Added Pin To Net: NetName=NetC3_2 Pin=R10-2
+Added Pin To Net: NetName=Netpc817_1 Pin=R10-2
+Added Member To Class: ClassName=LOAD CONTROL_Final2 Member=Component D? BTA41-600A
+Added Member To Class: ClassName=LOAD CONTROL_Final2 Member=Component D? Diode
+Added Member To Class: ClassName=LOAD CONTROL_Final2 Member=Component D? Diode
+Added Member To Class: ClassName=LOAD CONTROL_Final2 Member=Component D? Diode
+Added Member To Class: ClassName=LOAD CONTROL_Final2 Member=Component D? Diode
+Added Member To Class: ClassName=LOAD CONTROL_Final2 Member=Component D? Diode
+Added Member To Class: ClassName=LOAD CONTROL_Final2 Member=Component D? Diode
+Added Member To Class: ClassName=LOAD CONTROL_Final2 Member=Component D? Diode
+Added Member To Class: ClassName=LOAD CONTROL_Final2 Member=Component D? Diode
+Added Member To Class: ClassName=LOAD CONTROL_Final2 Member=Component in 220vIn
+Added Member To Class: ClassName=LOAD CONTROL_Final2 Member=Component R3 10r
+Added Member To Class: ClassName=LOAD CONTROL_Final2 Member=Component R3 Res Semi
+Added Member To Class: ClassName=LOAD CONTROL_Final2 Member=Component R9 Res Semi
+Added Member To Class: ClassName=LOAD CONTROL_Final2 Member=Component R10 Res Semi
+Added Member To Class: ClassName=LOAD CONTROL_Final2 Member=Component RT 330r
+Added Room: Name=LOAD CONTROL_Final2

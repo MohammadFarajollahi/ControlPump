@@ -1,0 +1,15 @@
+Change Component Comment : Designator=D1 Old Comment=D zener New Comment=4007
+Change component parameters: Designator = "D1" ("D1"); Footprint = "SMA"; UniqueID = "\GLHCSCAQ" ("\GLHCSCAQ")
+Change component parameters (AddParameter): Name = "Allied Price/Stock"; Value = "http://www.alliedelec.com/diodes-inc-1n5819hw-7-f/70437201/"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Allied_Number"; Value = "70437201"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Datasheet Link"; Value = "http://www.diodes.com/_files/datasheets/ds30217.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Height"; Value = "1.45mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Name"; Value = "Diodes Inc."; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "1N5819HW-7-F"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Part Number"; Value = "621-1N5819HW-F"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.com/Search/Refine.aspx?Keyword=621-1N5819HW-F"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RS Part Number"; Value = "7082197P"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RS Price/Stock"; Value = "http://uk.rs-online.com/web/p/products/7082197P"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetC10_2 Pin=D1-1
+Added Pin To Net: NetName=OD Pin=D1-2
+Added Member To Class: ClassName=LOAD CONTROL_Final2 Member=Component D1 4007

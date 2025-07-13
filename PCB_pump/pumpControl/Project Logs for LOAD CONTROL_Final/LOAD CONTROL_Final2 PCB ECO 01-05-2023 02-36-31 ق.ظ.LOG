@@ -1,0 +1,10 @@
+Change Component Comment : Designator=IC6 Old Comment=AMS1117-3.3V New Comment=AMS1117-5V
+Add Component: Footprint Not Found RADIAL 5MM
+Add Pin To Net: Unknown Pin: Pin C14-1
+Add Pin To Net: Unknown Pin: Pin C14-2
+Added Pin To Net: NetName=GND Pin=IC6-1
+Added Pin To Net: NetName=VCC_5V Pin=IC6-2
+Added Pin To Net: NetName=NetC13_2 Pin=IC6-3
+Added Pin To Net: NetName=VCC_5V Pin=IC6-4
+Add Class Member: Failed to add class member : Component C14 35v - 100uf
+Added Member To Class: ClassName=LOAD CONTROL_Final2 Member=Component IC6 AMS1117-5V

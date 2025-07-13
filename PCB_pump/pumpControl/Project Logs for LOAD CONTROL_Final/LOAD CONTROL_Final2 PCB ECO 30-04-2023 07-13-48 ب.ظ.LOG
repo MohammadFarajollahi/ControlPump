@@ -1,0 +1,5 @@
+Removed Pin From Net: NetName=VDD Pin=C10-1
+Removed Pin From Net: NetName=GND Pin=C10-2
+Removed Member From Class: ClassName=LOAD CONTROL_Final2 Member=C10
+Added Pin To Net: NetName=GND Pin=C24-1
+Added Pin To Net: NetName=VDD Pin=C24-2

@@ -1,0 +1,75 @@
+Removed Pin From Net: NetName=NetC17_2 Pin=R?-1
+Removed Pin From Net: NetName=NetC?_1 Pin=R?-1
+Removed Pin From Net: NetName=9v Pin=R?-2
+Removed Pin From Net: NetName=NetD?_1 Pin=R?-2
+Change Component Footprint: Designator=R? Old Footprint=Axial 3W 9_0mm New Footprint=RESC4817X04N
+Change Component Footprint: Designator=R? Old Footprint=Axial 3W 9_0mm New Footprint=RESC4817X04N
+Change Component Comment : Designator=R? Old Comment=1K New Comment=10r
+Change Component Comment : Designator=R? Old Comment=1K New Comment=100K
+Change Component Comment : Designator=R? Old Comment=10r New Comment=1K
+Change Component Comment : Designator=R? Old Comment=10r New Comment=1K
+Change component parameters: Designator = "R?"; Footprint = "RES-(1/2)-Stand"; UniqueID = "\WCCXNHKK"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Designer"; Value = "Ali Hafizi"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "10r"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R?"; Footprint = "RESC4817X04N"; UniqueID = "\MEVKVAIK"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Data"; Value = "16-12-2016"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Desc."; Value = "RES SMD 1206"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Designer"; Value = "Abbas Basereh"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "100k"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R?"; Footprint = "RESC4817X04N"; UniqueID = "\CAWYQVAT"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Data"; Value = "16-12-2016"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Desc."; Value = "RES SMD 1206"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Designer"; Value = "Abbas Basereh"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R?"; Footprint = "RESC4817X04N"; UniqueID = "\AQEXMGVF"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Data"; Value = "16-12-2016"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Desc."; Value = "RES SMD 1206"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Designer"; Value = "Abbas Basereh"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "1k"; VariantName = "[No Variations]"
+Added Component: Designator=R?(RESC4817X04N)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Data"; Value = "16-12-2016"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Desc."; Value = "RES SMD 1206"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Designer"; Value = "Abbas Basereh"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "1k"; VariantName = "[No Variations]"
+Added Component: Designator=R?(RESC4817X04N)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Data"; Value = "16-12-2016"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Desc."; Value = "RES SMD 1206"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Designer"; Value = "Abbas Basereh"; VariantName = "[No Variations]"
+Added Component: Designator=R?(RES-(1/2)-Stand)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Designer"; Value = "Ali Hafizi"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10r"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetC17_2 Pin=R?-1
+Added Pin To Net: NetName=NetC?_1 Pin=R?-1
+Added Pin To Net: NetName=NetD13_1 Pin=R?-1
+Added Pin To Net: NetName=NetD14_2 Pin=R?-1
+Added Pin To Net: NetName=VCC-3.3v Pin=R?-1
+Added Pin To Net: NetName=9v Pin=R?-2
+Added Pin To Net: NetName=NetD?_1 Pin=R?-2
+Added Pin To Net: NetName=Netpc1_1 Pin=R?-2
+Added Pin To Net: NetName=Netpc1_2 Pin=R?-2
+Added Pin To Net: NetName=VCC-3.3v Pin=R?-2
+Added Pin To Net: NetName=ZeroCross Pin=R?-2
+Added Pin To Net: NetName=Netpc1_4 Pin=pc1-4
+Added Pin To Net: NetName=Netpc1_4 Pin=R?-1
+Added Net: Name=Netpc1_4
+Added Pin To Net: NetName=NetQ1_1 Pin=Q1-1
+Added Pin To Net: NetName=NetQ1_1 Pin=R?-1
+Added Pin To Net: NetName=NetQ1_1 Pin=R?-2
+Added Net: Name=NetQ1_1
+Added Member To Class: ClassName=LOAD CONTROL_Final2 Member=Component C? 100nF
+Added Member To Class: ClassName=LOAD CONTROL_Final2 Member=Component D? 1n4007
+Added Member To Class: ClassName=LOAD CONTROL_Final2 Member=Component D? 1n4007
+Added Member To Class: ClassName=LOAD CONTROL_Final2 Member=Component D? 1n4007
+Added Member To Class: ClassName=LOAD CONTROL_Final2 Member=Component R? 1K
+Added Member To Class: ClassName=LOAD CONTROL_Final2 Member=Component R? 1K
+Added Member To Class: ClassName=LOAD CONTROL_Final2 Member=Component R? 1K
+Added Member To Class: ClassName=LOAD CONTROL_Final2 Member=Component R? 10r
+Added Member To Class: ClassName=LOAD CONTROL_Final2 Member=Component R? 10r
+Added Member To Class: ClassName=LOAD CONTROL_Final2 Member=Component R? 100K
+Added Room: Name=LOAD CONTROL_Final2

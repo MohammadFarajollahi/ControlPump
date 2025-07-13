@@ -1,0 +1,12 @@
+Added Pin To Net: NetName=GND Pin=C1-1
+Added Pin To Net: NetName=NetC1_2 Pin=C1-2
+Added Pin To Net: NetName=GND Pin=C3-1
+Added Pin To Net: NetName=NetC3_2 Pin=C3-2
+Added Pin To Net: NetName=GND Pin=C7-1
+Added Pin To Net: NetName=amper Pin=C7-2
+Added Pin To Net: NetName=GND Pin=C12-1
+Added Pin To Net: NetName=INPUT Pin=C12-2
+Added Member To Class: ClassName=LOAD CONTROL_Final2 Member=Component C1 100NF
+Added Member To Class: ClassName=LOAD CONTROL_Final2 Member=Component C3 100NF
+Added Member To Class: ClassName=LOAD CONTROL_Final2 Member=Component C7 100NF
+Added Member To Class: ClassName=LOAD CONTROL_Final2 Member=Component C12 100NF

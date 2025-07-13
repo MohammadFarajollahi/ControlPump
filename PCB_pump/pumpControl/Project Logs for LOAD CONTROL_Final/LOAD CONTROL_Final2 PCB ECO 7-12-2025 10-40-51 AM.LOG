@@ -1,0 +1,17 @@
+Removed Pin From Net: NetName=NetC5_1 Pin=R2-1
+Removed Pin From Net: NetName=NetR2_2 Pin=R2-2
+Removed Pin From Net: NetName=NetD?_2 Pin=R3-1
+Added Pin To Net: NetName=NetC5_1 Pin=R2-1
+Added Pin To Net: NetName=SW2 Pin=R2-1
+Added Pin To Net: NetName=NetR2_2 Pin=R2-2
+Added Pin To Net: NetName=VCC-3.3v Pin=R2-2
+Added Pin To Net: NetName=NetC5_2 Pin=R3-1
+Added Pin To Net: NetName=NetD?_2 Pin=R3-1
+Added Pin To Net: NetName=RESET Pin=R3-1
+Added Member To Class: ClassName=LOAD CONTROL_Final2 Member=Component D? Diode
+Added Member To Class: ClassName=LOAD CONTROL_Final2 Member=Component D? Diode
+Added Member To Class: ClassName=LOAD CONTROL_Final2 Member=Component D? Diode
+Added Member To Class: ClassName=LOAD CONTROL_Final2 Member=Component R2 20r
+Added Member To Class: ClassName=LOAD CONTROL_Final2 Member=Component R3 20r
+Added Member To Class: ClassName=LOAD CONTROL_Final2 Member=Component R3 Res Semi
+Added Room: Name=LOAD CONTROL_Final2

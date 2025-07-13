@@ -90,6 +90,8 @@ char lcdShow[20];
 
 int oftimerCount;
 int ofTimer;
+
+int DimerModeTimer;
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -111,7 +113,7 @@ static void MX_TIM1_Init(void);
 #include "ZeroCross.c"
 #include "program.c"
 #include  "Pictures/logopavan.c"
-//#include  "Pictures/setting.c"
+#include  "Pictures/setting.c"
 #include  "Pictures/settingup.c"
 #include  "Pictures/settingdown.c"
 #include  "Pictures/manualSetting.c"
@@ -131,6 +133,7 @@ static void MX_TIM1_Init(void);
 #include "Pictures/setcontrol.c"
 #include "Pictures/dimermode.c"
 #include "Pictures/currensetting.c"
+#include "Pictures/pavanlogo.c"
 
 void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim) // 100ms
 {
@@ -138,6 +141,23 @@ void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim) // 100ms
   if (htim->Instance == TIM1) // 1000 --->1s
   {
     if(softStart_State == 0)softTimer1++;
+    
+    if(mode_eeprom == 2){
+      DimerModeTimer++;
+      if(DimerModeTimer >= 200){
+        DimerModeTimer = 0;
+        if (HAL_GPIO_ReadPin(k_up_GPIO_Port, k_up_Pin) == 0 ){
+          ++StartVoltage_eeprom;
+          changeMenu = 1;
+        }
+        
+        if (HAL_GPIO_ReadPin(k_down_GPIO_Port, k_down_Pin) == 0 ){
+          --StartVoltage_eeprom;      
+          changeMenu = 1;
+        }
+      }
+      
+    }
     
     ++SecMain;
     if(SecMain >=1000){

@@ -2,6 +2,8 @@ extern Picture2InfoTypeDef SoftSet;
 extern Picture2InfoTypeDef setcontrol;
 extern Picture2InfoTypeDef logo;
 extern Picture2InfoTypeDef Digitaldimerpic;
+extern Picture2InfoTypeDef LogooPavan;
+
 int volt2;
 int timeSoft2;
 char ss[50];
@@ -144,6 +146,11 @@ void FirstConfig(){
   
   //Set Control
   if(mode_eeprom == 1){
+    Lcd_Put_Icon2_Invert(25,0,LogooPavan); // YplusOnXbyte = (LedHeight + 7) / 8;
+    Lcd_Refresh();
+    HAL_Delay(1000);
+    Lcd_Clear();
+    Lcd_Refresh();
     softStart_State = 0;
     char ss[20];
     sprintf(ss , "Voltage:%dV " , StartVoltage_eeprom);
@@ -154,6 +161,11 @@ void FirstConfig(){
   
   //Dimmer Digital
   if(mode_eeprom == 2){
+    Lcd_Put_Icon2_Invert(25,0,LogooPavan); // YplusOnXbyte = (LedHeight + 7) / 8;
+    Lcd_Refresh();
+    HAL_Delay(1000);
+    Lcd_Clear();
+    Lcd_Refresh();
     Voltage = StartVoltage_eeprom;
     char ss[20];
     sprintf(ss , "Voltage:%dV " , Voltage);
@@ -216,19 +228,9 @@ void SetControlMode(){
 }
 
 void DigitalDimmerMode(){
+  //Voltage Change in Timer1
   Voltage = StartVoltage_eeprom;
   OutPut(Voltage);
-  if (HAL_GPIO_ReadPin(k_up_GPIO_Port, k_up_Pin) == 0 ){
-    ++StartVoltage_eeprom;
-    HAL_Delay(120);
-    changeMenu = 1;
-  }
-  
-  if (HAL_GPIO_ReadPin(k_down_GPIO_Port, k_down_Pin) == 0 ){
-    --StartVoltage_eeprom;
-    HAL_Delay(120);
-    changeMenu = 1;
-  }
   
   if(changeMenu == 1){    
     changeMenu = 0;

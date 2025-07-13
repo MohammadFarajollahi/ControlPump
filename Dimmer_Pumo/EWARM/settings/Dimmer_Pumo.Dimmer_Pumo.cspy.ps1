@@ -23,9 +23,9 @@
 
 if ($debugfile -eq "")
 {
-& "C:\iar\ewarm-9.60.3\common\bin\cspybat" -f "F:\ELECTRONIC\sherkat\Dimmer_Pump\Dimmer_Pumo\EWARM\settings\Dimmer_Pumo.Dimmer_Pumo.general.xcl" --backend -f "F:\ELECTRONIC\sherkat\Dimmer_Pump\Dimmer_Pumo\EWARM\settings\Dimmer_Pumo.Dimmer_Pumo.driver.xcl" 
+& "C:\iar\ewarm-9.60.3\common\bin\cspybat" -f "F:\ELECTRONIC\COD\PumpControl\Cod\EWARM\settings\Dimmer_Pumo.Dimmer_Pumo.general.xcl" --backend -f "F:\ELECTRONIC\COD\PumpControl\Cod\EWARM\settings\Dimmer_Pumo.Dimmer_Pumo.driver.xcl" 
 }
 else
 {
-& "C:\iar\ewarm-9.60.3\common\bin\cspybat" -f "F:\ELECTRONIC\sherkat\Dimmer_Pump\Dimmer_Pumo\EWARM\settings\Dimmer_Pumo.Dimmer_Pumo.general.xcl" --debug_file=$debugfile --backend -f "F:\ELECTRONIC\sherkat\Dimmer_Pump\Dimmer_Pumo\EWARM\settings\Dimmer_Pumo.Dimmer_Pumo.driver.xcl" 
+& "C:\iar\ewarm-9.60.3\common\bin\cspybat" -f "F:\ELECTRONIC\COD\PumpControl\Cod\EWARM\settings\Dimmer_Pumo.Dimmer_Pumo.general.xcl" --debug_file=$debugfile --backend -f "F:\ELECTRONIC\COD\PumpControl\Cod\EWARM\settings\Dimmer_Pumo.Dimmer_Pumo.driver.xcl" 
 }

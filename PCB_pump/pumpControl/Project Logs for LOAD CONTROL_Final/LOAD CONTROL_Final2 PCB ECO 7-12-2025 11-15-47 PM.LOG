@@ -1,0 +1,30 @@
+Removed Pin From Net: NetName=NetD?_1 Pin=R3-2
+Added Component: Designator=pc817(SMT Gullwing Lead-Form)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer Link"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.roboeq.ir/files/id/233/name/PC817.pdf/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "DIP 4pin General Purpose"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "2017-2-27"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Note"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "SOP, 4-Leads, Body 4/65x6/75mm, Pitch 2/54mm, IPC Medium Density designer:abbas basereh"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "SMT Gullwing Lead-Form"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageVersion"; Value = "2017-2-27"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "2017-2-27"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Abbas Basereh"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetC5_1 Pin=R2-1
+Added Pin To Net: NetName=NetR2_2 Pin=R2-2
+Added Pin To Net: NetName=NetC5_2 Pin=R3-1
+Added Pin To Net: NetName=NetD?_2 Pin=R3-1
+Added Pin To Net: NetName=9v Pin=R3-2
+Added Pin To Net: NetName=NetD?_1 Pin=R3-2
+Added Pin To Net: NetName=VCC-3.3v Pin=R3-2
+Added Member To Class: ClassName=LOAD CONTROL_Final2 Member=Component D? Diode
+Added Member To Class: ClassName=LOAD CONTROL_Final2 Member=Component D? Diode
+Added Member To Class: ClassName=LOAD CONTROL_Final2 Member=Component D? Diode
+Added Member To Class: ClassName=LOAD CONTROL_Final2 Member=Component D? Diode
+Added Member To Class: ClassName=LOAD CONTROL_Final2 Member=Component pc817 PC817
+Added Member To Class: ClassName=LOAD CONTROL_Final2 Member=Component R2 20r
+Added Member To Class: ClassName=LOAD CONTROL_Final2 Member=Component R3 20r
+Added Member To Class: ClassName=LOAD CONTROL_Final2 Member=Component R3 Res Semi
+Added Room: Name=LOAD CONTROL_Final2
