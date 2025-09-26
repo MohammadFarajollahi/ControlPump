@@ -1,4 +1,4 @@
-long map(long x, long in_min, long in_max, long out_min, long out_max) {
+int map(int x, int in_min, int in_max, int out_min, int out_max) {
     return (x - in_min) * (out_max - out_min) / (in_max - in_min) + out_min;
 }
 
@@ -20,8 +20,50 @@ void delay_us_soft(uint32_t us)
   }
 }
 
+
+typedef struct {
+    int32_t time;
+    int32_t volt;
+} point_t;
+
+static const point_t lut[] = {
+    {300,  220},
+    {1100, 200},
+    {1500, 150},
+    {1800, 110},
+    {2000, 77},
+    {2400, 20}
+};
+
+#define LUT_SIZE (sizeof(lut)/sizeof(lut[0]))
+
+int32_t voltage_to_time(int32_t V) {
+    // اگر خارج از محدوده باشه، لبه‌ها رو برگردون
+    if (V >= lut[0].volt) return lut[0].time;
+    if (V <= lut[LUT_SIZE-1].volt) return lut[LUT_SIZE-1].time;
+
+    // جستجوی بازه‌ی مناسب
+    for (int i = 0; i < LUT_SIZE-1; i++) {
+        if (V <= lut[i].volt && V >= lut[i+1].volt) {
+            // اینترپولیشن خطی بین دو نقطه
+            int32_t x1 = lut[i].volt;
+            int32_t y1 = lut[i].time;
+            int32_t x2 = lut[i+1].volt;
+            int32_t y2 = lut[i+1].time;
+
+            // فرمول: t = y1 + (V - x1)*(y2 - y1)/(x2 - x1)
+            int32_t t = y1 + (V - x1) * (y2 - y1) / (x2 - x1);
+            return t;
+        }
+    }
+    return -1; // حالت غیرممکن
+}
+
 void OutPut(int VoltageInput){
-  long TimeSet = map(VoltageInput, 0, 220, 2300, 0);
+ // TimeSet = map(VoltageInput, 10, 230, 2400, 300);
+ int32_t t1 = voltage_to_time(VoltageInput); // ~300
+ TimeSet = t1;
+
   if (zero_cross_flag == 1) {   
     zero_cross_flag = 0;
     delay_us_soft(TimeSet);

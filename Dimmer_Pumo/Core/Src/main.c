@@ -43,6 +43,8 @@
 /* Private variables ---------------------------------------------------------*/
 ADC_HandleTypeDef hadc;
 
+IWDG_HandleTypeDef hiwdg;
+
 TIM_HandleTypeDef htim1;
 
 UART_HandleTypeDef huart1;
@@ -72,6 +74,9 @@ uint16_t SoftTime_eeprom;
 uint16_t pressure_eeprom;
 uint16_t mode_eeprom;
 float Current_eeprom;
+uint16_t TurnOnDelay_eeprom;
+uint16_t PressureTelurance_eeprom;
+uint16_t ofTimer_eeprom;
 
 float Pressure;
 float current;
@@ -92,6 +97,17 @@ int oftimerCount;
 int ofTimer;
 
 int DimerModeTimer;
+
+int volt2;
+int timeSoft2;
+char ss[50];
+int taqsim;
+long TimeSet;
+
+int PumpState;
+int TurnOnDelay;
+int TurnOnDelayTimer;
+
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -100,6 +116,7 @@ static void MX_GPIO_Init(void);
 static void MX_ADC_Init(void);
 static void MX_USART1_UART_Init(void);
 static void MX_TIM1_Init(void);
+static void MX_IWDG_Init(void);
 /* USER CODE BEGIN PFP */
 
 /* USER CODE END PFP */
@@ -134,37 +151,36 @@ static void MX_TIM1_Init(void);
 #include "Pictures/dimermode.c"
 #include "Pictures/currensetting.c"
 #include "Pictures/pavanlogo.c"
-
+int sec;
 void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim) // 100ms
 {
   
-  if (htim->Instance == TIM1) // 1000 --->1s
+  if (htim->Instance == TIM1) //++count=1000 ---> 1s
   {
+    
     if(softStart_State == 0)softTimer1++;
     
-    if(mode_eeprom == 2){
-      DimerModeTimer++;
-      if(DimerModeTimer >= 200){
-        DimerModeTimer = 0;
-        if (HAL_GPIO_ReadPin(k_up_GPIO_Port, k_up_Pin) == 0 ){
-          ++StartVoltage_eeprom;
-          changeMenu = 1;
-        }
-        
-        if (HAL_GPIO_ReadPin(k_down_GPIO_Port, k_down_Pin) == 0 ){
-          --StartVoltage_eeprom;      
-          changeMenu = 1;
-        }
-      }
-      
-    }
+//    if(mode_eeprom == 2 && setting == 0){
+//      DimerModeTimer++;
+//      if(DimerModeTimer >= 50){
+//        DimerModeTimer = 0;
+//        if (HAL_GPIO_ReadPin(k_up_GPIO_Port, k_up_Pin) == 0 ){
+//          ++StartVoltage_eeprom;
+//          changeMenu = 1;
+//        }
+//        
+//        if (HAL_GPIO_ReadPin(k_down_GPIO_Port, k_down_Pin) == 0 ){
+//          --StartVoltage_eeprom;               
+//          changeMenu = 1;
+//        }
+//      }    
+//    }
     
     ++SecMain;
     if(SecMain >=1000){
-      SecMain = 0;
-      
-      if(oftimerCount == 1)++ofTimer;
-      
+      SecMain = 0;     
+      if(TurnOnDelay == 1)++TurnOnDelayTimer;
+      if(oftimerCount == 1)++ofTimer;          
       if(lcdLight == 1 && setting ==0) ++lcdLightTimer;
       if(lcdLightTimer >= 60 && lcdLight == 1){
         lcdLight = 0;
@@ -213,37 +229,109 @@ int main(void)
   MX_ADC_Init();
   MX_USART1_UART_Init();
   MX_TIM1_Init();
+  MX_IWDG_Init();
   /* USER CODE BEGIN 2 */
   HAL_TIM_Base_Start_IT(&htim1); 
   HAL_GPIO_WritePin(triak_GPIO_Port, triak_Pin, GPIO_PIN_RESET);
   HAL_GPIO_WritePin(LcdLight_GPIO_Port, LcdLight_Pin, GPIO_PIN_SET);
   //eeprom config
   I2C_init();
-//    eeprom_write_int16(2000,10);
-//     HAL_Delay(10);
-    // eeprom_write_int16(100,30);
-  //eeprom_write_int16(0,40);
-
+  HAL_Delay(5);
+//  eeprom_write_int16(110,0);
+//  HAL_Delay(5);
+//  eeprom_write_int16(2500,10);
+//  HAL_Delay(5);
+//  eeprom_write_int16(4000,20);
+//  HAL_Delay(5);
+//  eeprom_write_int16(20,30);
+//  HAL_Delay(5);
+//  eeprom_write_int16(0,40);
+//  HAL_Delay(5);
+//  eeprom_write_int16(1,50);
+  //  HAL_Delay(5);
   
   StartVoltage_eeprom = eeprom_read_int16(0);
-  HAL_Delay(10);
+  HAL_Delay(5);
   StartTime_eeprom = eeprom_read_int16(10);
-  HAL_Delay(10);
+  HAL_Delay(5);
   SoftTime_eeprom = eeprom_read_int16(20);
-  HAL_Delay(10);
+  HAL_Delay(5);
   pressure_eeprom = eeprom_read_int16(30);
-  HAL_Delay(10);
+  HAL_Delay(5);
   mode_eeprom = eeprom_read_int16(40);
-  HAL_Delay(10);
+  HAL_Delay(5);
   Current_eeprom = eeprom_read_int16(50);
   Current_eeprom /= 10;
-  HAL_Delay(10);
+  HAL_Delay(5);
+  TurnOnDelay_eeprom = eeprom_read_int16(60);
+  HAL_Delay(5);
+  PressureTelurance_eeprom = eeprom_read_int16(70);
+  HAL_Delay(5);
+  ofTimer_eeprom = eeprom_read_int16(80);
+  HAL_Delay(5);
+  
+  if(StartVoltage_eeprom > 220 || HAL_GPIO_ReadPin(k_up_GPIO_Port, k_up_Pin) == 0){
+    HAL_GPIO_WritePin(buzzer_GPIO_Port, buzzer_Pin, GPIO_PIN_SET);
+    HAL_Delay(100);
+    HAL_GPIO_WritePin(buzzer_GPIO_Port, buzzer_Pin, GPIO_PIN_RESET);
+    HAL_Delay(100);
+    HAL_GPIO_WritePin(buzzer_GPIO_Port, buzzer_Pin, GPIO_PIN_SET);
+    HAL_Delay(250);
+    HAL_GPIO_WritePin(buzzer_GPIO_Port, buzzer_Pin, GPIO_PIN_RESET);
+    eeprom_write_int16(110,0);
+    HAL_Delay(5);
+    eeprom_write_int16(2500,10);
+    HAL_Delay(5);
+    eeprom_write_int16(4000,20);
+    HAL_Delay(5);
+    eeprom_write_int16(10,30);
+    HAL_Delay(5);
+    eeprom_write_int16(1,40);
+    HAL_Delay(5);
+    eeprom_write_int16(25,50);
+    HAL_Delay(5);
+    eeprom_write_int16(5,60);
+    HAL_Delay(5);
+    eeprom_write_int16(5,70);
+    HAL_Delay(5);
+    eeprom_write_int16(10,80);
+    HAL_Delay(5);
+    
+    StartVoltage_eeprom = eeprom_read_int16(0);
+    HAL_Delay(5);
+    StartTime_eeprom = eeprom_read_int16(10);
+    HAL_Delay(5);
+    SoftTime_eeprom = eeprom_read_int16(20);
+    HAL_Delay(5);
+    pressure_eeprom = eeprom_read_int16(30);
+    HAL_Delay(5);
+    mode_eeprom = eeprom_read_int16(40);
+    HAL_Delay(5);
+    Current_eeprom = eeprom_read_int16(50);
+    Current_eeprom /= 10;
+    HAL_Delay(5);
+    TurnOnDelay_eeprom = eeprom_read_int16(60);
+    HAL_Delay(5);
+    PressureTelurance_eeprom = eeprom_read_int16(70);
+    HAL_Delay(5);
+    ofTimer_eeprom = eeprom_read_int16(80);
+    HAL_Delay(5);
+    
+  }
+  
+  
   
   //LCD
   lcdinit();
-  HAL_Delay(200);
+  HAL_Delay(5);
   Lcd_Clear();
   Lcd_Refresh();
+  show_uart("start");
+  
+  HAL_GPIO_WritePin(buzzer_GPIO_Port, buzzer_Pin, GPIO_PIN_SET);
+  HAL_Delay(100);
+  HAL_GPIO_WritePin(buzzer_GPIO_Port, buzzer_Pin, GPIO_PIN_RESET);
+ 
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -253,7 +341,7 @@ int main(void)
     
     MainCod();
     menu();
-        
+    HAL_IWDG_Refresh(&hiwdg);    
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
@@ -274,11 +362,13 @@ void SystemClock_Config(void)
   /** Initializes the RCC Oscillators according to the specified parameters
   * in the RCC_OscInitTypeDef structure.
   */
-  RCC_OscInitStruct.OscillatorType = RCC_OSCILLATORTYPE_HSI|RCC_OSCILLATORTYPE_HSI14;
+  RCC_OscInitStruct.OscillatorType = RCC_OSCILLATORTYPE_HSI|RCC_OSCILLATORTYPE_HSI14
+                              |RCC_OSCILLATORTYPE_LSI;
   RCC_OscInitStruct.HSIState = RCC_HSI_ON;
   RCC_OscInitStruct.HSI14State = RCC_HSI14_ON;
   RCC_OscInitStruct.HSICalibrationValue = RCC_HSICALIBRATION_DEFAULT;
   RCC_OscInitStruct.HSI14CalibrationValue = 16;
+  RCC_OscInitStruct.LSIState = RCC_LSI_ON;
   RCC_OscInitStruct.PLL.PLLState = RCC_PLL_ON;
   RCC_OscInitStruct.PLL.PLLSource = RCC_PLLSOURCE_HSI;
   RCC_OscInitStruct.PLL.PLLMUL = RCC_PLL_MUL12;
@@ -367,6 +457,35 @@ static void MX_ADC_Init(void)
   /* USER CODE BEGIN ADC_Init 2 */
           
   /* USER CODE END ADC_Init 2 */
+
+}
+
+/**
+  * @brief IWDG Initialization Function
+  * @param None
+  * @retval None
+  */
+static void MX_IWDG_Init(void)
+{
+
+  /* USER CODE BEGIN IWDG_Init 0 */
+
+  /* USER CODE END IWDG_Init 0 */
+
+  /* USER CODE BEGIN IWDG_Init 1 */
+
+  /* USER CODE END IWDG_Init 1 */
+  hiwdg.Instance = IWDG;
+  hiwdg.Init.Prescaler = IWDG_PRESCALER_256;
+  hiwdg.Init.Window = 4095;
+  hiwdg.Init.Reload = 4095;
+  if (HAL_IWDG_Init(&hiwdg) != HAL_OK)
+  {
+    Error_Handler();
+  }
+  /* USER CODE BEGIN IWDG_Init 2 */
+
+  /* USER CODE END IWDG_Init 2 */
 
 }
 
@@ -469,38 +588,46 @@ static void MX_GPIO_Init(void)
   __HAL_RCC_GPIOB_CLK_ENABLE();
 
   /*Configure GPIO pin Output Level */
-  HAL_GPIO_WritePin(GPIOB, GPIO_PIN_0|GPIO_PIN_1|triak_Pin, GPIO_PIN_RESET);
+  HAL_GPIO_WritePin(GPIOA, GPIO_PIN_5|GPIO_PIN_6|GPIO_PIN_7|GPIO_PIN_8
+                          |GPIO_PIN_9|GPIO_PIN_10|buzzer_Pin, GPIO_PIN_RESET);
 
   /*Configure GPIO pin Output Level */
-  HAL_GPIO_WritePin(GPIOA, GPIO_PIN_8|GPIO_PIN_9|GPIO_PIN_10|GPIO_PIN_11, GPIO_PIN_RESET);
+  HAL_GPIO_WritePin(GPIOB, GPIO_PIN_0|triak_Pin, GPIO_PIN_RESET);
 
   /*Configure GPIO pin Output Level */
   HAL_GPIO_WritePin(LcdLight_GPIO_Port, LcdLight_Pin, GPIO_PIN_SET);
 
-  /*Configure GPIO pins : PB0 PB1 */
-  GPIO_InitStruct.Pin = GPIO_PIN_0|GPIO_PIN_1;
-  GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_OD;
-  GPIO_InitStruct.Pull = GPIO_PULLUP;
-  GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
-  HAL_GPIO_Init(GPIOB, &GPIO_InitStruct);
-
-  /*Configure GPIO pins : PA8 PA9 PA10 PA11
-                           LcdLight_Pin */
-  GPIO_InitStruct.Pin = GPIO_PIN_8|GPIO_PIN_9|GPIO_PIN_10|GPIO_PIN_11
-                          |LcdLight_Pin;
+  /*Configure GPIO pins : PA5 PA6 PA7 PA10
+                           buzzer_Pin */
+  GPIO_InitStruct.Pin = GPIO_PIN_5|GPIO_PIN_6|GPIO_PIN_7|GPIO_PIN_10
+                          |buzzer_Pin;
   GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
   GPIO_InitStruct.Pull = GPIO_NOPULL;
   GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
   HAL_GPIO_Init(GPIOA, &GPIO_InitStruct);
 
-  /*Configure GPIO pin : k_up_Pin */
-  GPIO_InitStruct.Pin = k_up_Pin;
+  /*Configure GPIO pins : PB0 LcdLight_Pin triak_Pin */
+  GPIO_InitStruct.Pin = GPIO_PIN_0|LcdLight_Pin|triak_Pin;
+  GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
+  GPIO_InitStruct.Pull = GPIO_NOPULL;
+  GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
+  HAL_GPIO_Init(GPIOB, &GPIO_InitStruct);
+
+  /*Configure GPIO pins : PA8 PA9 */
+  GPIO_InitStruct.Pin = GPIO_PIN_8|GPIO_PIN_9;
+  GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_OD;
+  GPIO_InitStruct.Pull = GPIO_PULLUP;
+  GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
+  HAL_GPIO_Init(GPIOA, &GPIO_InitStruct);
+
+  /*Configure GPIO pin : k_back_Pin */
+  GPIO_InitStruct.Pin = k_back_Pin;
   GPIO_InitStruct.Mode = GPIO_MODE_INPUT;
   GPIO_InitStruct.Pull = GPIO_NOPULL;
-  HAL_GPIO_Init(k_up_GPIO_Port, &GPIO_InitStruct);
+  HAL_GPIO_Init(k_back_GPIO_Port, &GPIO_InitStruct);
 
-  /*Configure GPIO pins : k_down_Pin k_ok_Pin k_back_Pin */
-  GPIO_InitStruct.Pin = k_down_Pin|k_ok_Pin|k_back_Pin;
+  /*Configure GPIO pins : k_up_Pin k_down_Pin k_ok_Pin */
+  GPIO_InitStruct.Pin = k_up_Pin|k_down_Pin|k_ok_Pin;
   GPIO_InitStruct.Mode = GPIO_MODE_INPUT;
   GPIO_InitStruct.Pull = GPIO_NOPULL;
   HAL_GPIO_Init(GPIOB, &GPIO_InitStruct);
@@ -510,13 +637,6 @@ static void MX_GPIO_Init(void)
   GPIO_InitStruct.Mode = GPIO_MODE_IT_RISING;
   GPIO_InitStruct.Pull = GPIO_NOPULL;
   HAL_GPIO_Init(cross_GPIO_Port, &GPIO_InitStruct);
-
-  /*Configure GPIO pin : triak_Pin */
-  GPIO_InitStruct.Pin = triak_Pin;
-  GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
-  GPIO_InitStruct.Pull = GPIO_NOPULL;
-  GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
-  HAL_GPIO_Init(triak_GPIO_Port, &GPIO_InitStruct);
 
   /* EXTI interrupt init*/
   HAL_NVIC_SetPriority(EXTI4_15_IRQn, 1, 0);

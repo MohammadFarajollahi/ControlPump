@@ -57,21 +57,23 @@ void Error_Handler(void);
 /* USER CODE END EFP */
 
 /* Private defines -----------------------------------------------------------*/
-#define LcdLight_Pin GPIO_PIN_12
-#define LcdLight_GPIO_Port GPIOA
-#define k_up_Pin GPIO_PIN_15
-#define k_up_GPIO_Port GPIOA
-#define k_down_Pin GPIO_PIN_3
+#define LcdLight_Pin GPIO_PIN_1
+#define LcdLight_GPIO_Port GPIOB
+#define buzzer_Pin GPIO_PIN_11
+#define buzzer_GPIO_Port GPIOA
+#define k_back_Pin GPIO_PIN_15
+#define k_back_GPIO_Port GPIOA
+#define k_up_Pin GPIO_PIN_3
+#define k_up_GPIO_Port GPIOB
+#define k_down_Pin GPIO_PIN_4
 #define k_down_GPIO_Port GPIOB
-#define k_ok_Pin GPIO_PIN_4
-#define k_ok_GPIO_Port GPIOB
-#define k_back_Pin GPIO_PIN_5
-#define k_back_GPIO_Port GPIOB
-#define cross_Pin GPIO_PIN_6
+#define cross_Pin GPIO_PIN_5
 #define cross_GPIO_Port GPIOB
 #define cross_EXTI_IRQn EXTI4_15_IRQn
-#define triak_Pin GPIO_PIN_7
+#define triak_Pin GPIO_PIN_6
 #define triak_GPIO_Port GPIOB
+#define k_ok_Pin GPIO_PIN_7
+#define k_ok_GPIO_Port GPIOB
 
 /* USER CODE BEGIN Private defines */
 

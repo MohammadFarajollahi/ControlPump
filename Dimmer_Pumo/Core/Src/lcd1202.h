@@ -23,19 +23,19 @@
 //define MOSI PIN
 #define LCD_SDA_CLOCK    __HAL_RCC_GPIOA_CLK_ENABLE();
 #define LCD_SDA_PORT     GPIOA
-#define LCD_SDA_PIN      GPIO_PIN_10
+#define LCD_SDA_PIN      GPIO_PIN_7
 //define CS PIN
 #define LCD_CS_CLOCK    __HAL_RCC_GPIOA_CLK_ENABLE();
 #define LCD_CS_PORT     GPIOA
-#define LCD_CS_PIN      GPIO_PIN_9
+#define LCD_CS_PIN      GPIO_PIN_6
 //define CLK PIN
 #define LCD_CLK_CLOCK    __HAL_RCC_GPIOA_CLK_ENABLE();
-#define LCD_CLK_PORT     GPIOA
-#define LCD_CLK_PIN      GPIO_PIN_11
+#define LCD_CLK_PORT     GPIOB
+#define LCD_CLK_PIN      GPIO_PIN_0
 //define RESET PIN
 #define LCD_RESET_CLOCK    __HAL_RCC_GPIOA_CLK_ENABLE();
 #define LCD_RESET_PORT     GPIOA
-#define LCD_RESET_PIN      GPIO_PIN_8
+#define LCD_RESET_PIN      GPIO_PIN_5
 
 
 //operation SDA

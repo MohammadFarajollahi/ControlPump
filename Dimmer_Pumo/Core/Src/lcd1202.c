@@ -3,20 +3,10 @@
 
 #include "lcd1202.h"
 
-
-
 #include "Arial6x8.c" 
 #include "Tahoma8x10.c"
 
-
-
-
-
-
-
 Lcd1202RegTypeDef Lcd1;
-
-
 
 #define __PIXEL_MODE__
 //---------------------------------------------------------------------------------------------
@@ -140,12 +130,8 @@ void lcdinit(void)
   //lcdsend(0xa1, 0); //display row 
 }
 
-
 /*fungsi lcdsend()---------------------------------------------------------------------------*/
 #endif
-
-
-
 
 //mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm
 #ifdef __PIXEL_MODE__
