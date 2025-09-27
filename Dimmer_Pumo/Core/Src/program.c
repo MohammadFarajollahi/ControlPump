@@ -78,6 +78,7 @@ void SoftSTART(){
       softTimer1 = 0;
     }    
     if(Voltage>=210){
+      Voltage = 220;
       softStart_State = 1;
       softTimer1=0;
       HAL_GPIO_WritePin(triak_GPIO_Port, triak_Pin, GPIO_PIN_SET);
@@ -223,6 +224,7 @@ void SetControlMode(){
         PumpState = 0;
         oftimerCount = 0;
         TurnOnDelay = 1;
+        softStart_State = 0;
         HAL_GPIO_WritePin(triak_GPIO_Port, triak_Pin, GPIO_PIN_RESET);
       }    
     }

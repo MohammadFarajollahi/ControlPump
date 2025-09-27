@@ -1,4 +1,5 @@
 F:\ELECTRONIC\sherkat\Dimmer_Pump\Dimmer_Pumo\EWARM\Dimmer_Pumo\BrowseInfo\Core_13247989168731456611.dir\main.pbi: \
+  F:\ELECTRONIC\sherkat\Dimmer_Pump\Dimmer_Pumo\Core\Src\main.c \
   F:\ELECTRONIC\sherkat\Dimmer_Pump\Dimmer_Pumo\EWARM\..\Core\Inc\main.h \
   F:\ELECTRONIC\sherkat\Dimmer_Pump\Dimmer_Pumo\EWARM\..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal.h \
   F:\ELECTRONIC\sherkat\Dimmer_Pump\Dimmer_Pumo\EWARM\..\Core\Inc\stm32f0xx_hal_conf.h \
@@ -44,7 +45,6 @@ F:\ELECTRONIC\sherkat\Dimmer_Pump\Dimmer_Pumo\EWARM\Dimmer_Pumo\BrowseInfo\Core_
   C:\iar\ewarm-9.60.3\arm\inc\c\stdio.h \
   C:\iar\ewarm-9.60.3\arm\inc\c\string.h \
   C:\iar\ewarm-9.60.3\arm\inc\c\DLib_Product_string.h \
-  F:\ELECTRONIC\sherkat\Dimmer_Pump\Dimmer_Pumo\Core\Src\main.c \
   F:\ELECTRONIC\sherkat\Dimmer_Pump\Dimmer_Pumo\Core\Src\delay.c \
   F:\ELECTRONIC\sherkat\Dimmer_Pump\Dimmer_Pumo\Core\Src\nokia1202\nokia1202.c \
   F:\ELECTRONIC\sherkat\Dimmer_Pump\Dimmer_Pumo\Core\Src\nokia1202\courier7x14.c \
