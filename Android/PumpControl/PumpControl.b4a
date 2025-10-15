@@ -1,0 +1,224 @@
+﻿Build1=Default,b4a.example
+File1=connected_500px.png
+File2=disconnected_512px.png
+File3=Layout.bal
+File4=main.bal
+FileGroup1=Default Group
+FileGroup2=Default Group
+FileGroup3=Default Group
+FileGroup4=Default Group
+Group=Default Group
+Library1=core
+Library2=runtimepermissions
+Library3=serial
+Library4=usbserial
+Library5=xui
+Library6=randomaccessfile
+ManifestCode='This code will be applied to the manifest file during compilation.~\n~'You do not need to modify it in most cases.~\n~'See this link for for more information: https://www.b4x.com/forum/showthread.php?p=78136~\n~AddManifestText(~\n~<uses-sdk android:minSdkVersion="28" android:targetSdkVersion="32"/>~\n~<supports-screens android:largeScreens="true" ~\n~    android:normalScreens="true" ~\n~    android:smallScreens="true" ~\n~    android:anyDensity="true"/>)~\n~SetApplicationAttribute(android:icon, "@drawable/icon")~\n~SetApplicationAttribute(android:label, "$LABEL$")~\n~CreateResourceFromFile(Macro, Themes.LightTheme)~\n~AddPermission(android.permission.BLUETOOTH)~\n~AddPermission(android.permission.BLUETOOTH_ADMIN)~\n~AddPermission(android.permission.ACCESS_FINE_LOCATION)~\n~~\n~' برای اندروید 12 به بالا:~\n~AddPermission(android.permission.BLUETOOTH_CONNECT)~\n~AddPermission(android.permission.BLUETOOTH_SCAN)~\n~CreateResource(values-v20, theme.xml,~\n~~\n~~\n~<resources>~\n~  <style~\n~  name="Custom" parent="@android:style/Theme.Material.Light.NoActionBar">~\n~    ~\n~     <item name="android:forceDarkAllowed">false</item>~\n~  </style>~\n~</resources>~\n~)~\n~'End of default text.~\n~
+Module1=Starter
+NumberOfFiles=4
+NumberOfLibraries=6
+NumberOfModules=1
+Version=13.1
+@EndOfDesignText@
+#Region  Project Attributes 
+	#ApplicationLabel: Pump Control
+	#VersionCode: 1
+	#VersionName: 
+	'SupportedOrientations possible values: unspecified, landscape or portrait.
+	#SupportedOrientations: portrait
+	#CanInstallToExternalStorage: True
+#End Region
+
+#Region  Activity Attributes 
+	#FullScreen: false
+	#IncludeTitle: false
+#End Region
+
+Sub Process_Globals
+	Dim Serial1 As Serial
+	Dim AStream As AsyncStreams
+	Dim DeviceList As List
+End Sub
+
+Sub Globals
+	Dim BufferString As String = ""   ' <-- اینجا معرفی و مقداردهی شده
+
+	Private btnSearch As Button
+	Private lstDevices As ListView
+	Private btnSend As Button
+	Private lblReceived As Label
+	Private txtData As EditText
+	Private Button1 As Button
+	Private EditText1 As EditText
+	Private EditText2 As EditText
+	Private EditText3 As EditText
+	Private EditText4 As EditText
+	Private EditText5 As EditText
+	Private EditText6 As EditText
+	Private EditText7 As EditText
+	Private EditText8 As EditText
+	Private EditText9 As EditText
+	Private EditText10 As EditText
+	Private EditText11 As EditText
+	Private EditText12 As EditText
+	Private EditText13 As EditText
+	Private EditText14 As EditText
+	Private Button2 As Button
+	Private Label16 As Label
+	Private Label17 As Label
+	Private Label20 As Label
+	Private Label34 As Label
+	Private Label35 As Label
+	Private Button3 As Button
+	Private ImageView1 As ImageView
+	Dim bmp As BitmapDrawable
+End Sub
+
+Sub Activity_Create(FirstTime As Boolean)
+	Dim rp As RuntimePermissions
+	rp.CheckAndRequest("android.permission.BLUETOOTH_CONNECT")
+	rp.CheckAndRequest(rp.PERMISSION_ACCESS_FINE_LOCATION)
+	Wait For Activity_PermissionResult (Permission As String, Result As Boolean)
+	If Result = False Then
+		ToastMessageShow("دسترسی داده نشد!", True)
+	End If
+	Activity.LoadLayout("Main")   ' توی دیزاین، دکمه‌ها و لیست رو بذار
+	Serial1.Initialize("Serial1")
+	
+	DeviceList.Initialize
+End Sub
+
+Sub Activity_Resume
+
+End Sub
+
+Sub Activity_Pause (UserClosed As Boolean)
+
+End Sub
+
+Sub Button1_Click
+	Dim ss As String
+	ss= "eeprom/" & EditText1.Text & "/" & EditText2.Text & "/" & EditText3.Text & "/" & EditText4.Text & "/" & EditText5.Text & "/" & EditText6.Text & "/" & EditText7.Text & "/" & (EditText8.Text * 10) & "/" & (EditText9.Text * 10) & "/" & (EditText10.Text * 10) & "/" & EditText11.Text & "/" & EditText12.Text & "/" & EditText13.Text  
+	Dim data() As Byte = ss.GetBytes("UTF8")'txtData.Text.GetBytes("UTF8")
+	AStream.Write(data)
+End Sub
+
+
+' جستجو دستگاه‌ها
+Sub btnSearch_Click
+	If Serial1.IsEnabled = False Then
+		ToastMessageShow("Bluetooth روشن نیست!", True)
+		Return
+	End If
+    
+	Dim PairedDevices As Map
+	PairedDevices = Serial1.GetPairedDevices
+	lstDevices.Clear
+    
+	For i = 0 To PairedDevices.Size - 1
+		Dim name As String = PairedDevices.GetKeyAt(i)
+		Dim mac As String = PairedDevices.GetValueAt(i)
+		lstDevices.AddSingleLine2(name, mac)
+	Next
+    
+	ToastMessageShow("لیست دستگاه‌ها آماده است", False)
+End Sub
+
+' وقتی روی یک دستگاه کلیک شد → اتصال
+Sub lstDevices_ItemClick (Position As Int, Value As Object)
+	Dim MacAddress As String = Value
+	Serial1.Connect(MacAddress)   ' اتصال به ماژول انتخاب شده
+	ToastMessageShow("در حال اتصال...", False)
+End Sub
+
+Sub Serial1_Connected (Success As Boolean)
+	If Success Then
+		ToastMessageShow("اتصال موفق!", False)
+		AStream.Initialize(Serial1.InputStream, Serial1.OutputStream, "AStream")
+		bmp.Initialize(LoadBitmap(File.DirAssets, "connected_500px.png"))
+		ImageView1.Background = bmp
+		Dim ss As String
+		ss= "GetEeprom"
+		Dim data() As Byte = ss.GetBytes("UTF8")'txtData.Text.GetBytes("UTF8")
+		AStream.Write(data)
+	Else
+		ToastMessageShow("اتصال ناموفق!", True)
+	End If
+End Sub
+
+' ارسال دیتا
+Sub btnSend_Click
+	Dim ss As String
+	ss= "GetEeprom"
+	Dim data() As Byte = ss.GetBytes("UTF8")'txtData.Text.GetBytes("UTF8")
+	AStream.Write(data)
+End Sub
+
+Sub AStream_NewData (Buffer() As Byte)
+	
+	Dim msg As String = BytesToString(Buffer, 0, Buffer.Length, "UTF8")
+	BufferString = BufferString & msg   ' تکه جدید رو به بافر اضافه کن
+	
+	If BufferString.Contains(Chr(10)) Then
+		EditText14.Text =BufferString
+		Dim lines() As String = Regex.Split(Chr(10), BufferString)
+		For i = 0 To lines.Length - 1
+			Dim line As String = lines(i).Trim
+			If line.Length > 0 Then ParseEEPROMData(line)
+		Next		
+		BufferString = lines(lines.Length - 1)
+		BufferString = ""
+	End If
+End Sub
+
+Sub ParseEEPROMData(Data As String)
+	'EditText14.Text = Data
+	If Data.StartsWith("eeprom/") = True Then 
+	Dim parts() As String = Regex.Split("/", Data)
+	If parts.Length == 14 Then 
+	EditText1.Text = parts(1)
+	EditText2.Text = parts(2)
+	EditText3.Text = parts(3)
+	EditText4.Text = parts(4)
+	EditText5.Text = parts(5)
+	EditText6.Text = parts(6)
+	EditText7.Text = parts(7)
+	EditText8.Text = parts(8) / 10
+	EditText9.Text = parts(9) / 10
+	EditText10.Text = parts(10) / 10
+	EditText11.Text = parts(11)
+	EditText12.Text = parts(12)
+	EditText13.Text = parts(13)
+		End If
+	End If
+	
+	If Data.StartsWith("value/") = True Then
+		Dim parts() As String = Regex.Split("/", Data)
+		If parts.Length == 6 Then
+			Label20.Text = parts(1)
+			Label16.Text = parts(2)
+			Label17.Text = parts(3) 
+			If parts(4) = 1 Then Label34.Text = "پمپ روشن"
+			If parts(4) = 0 Then Label34.Text = "پمپ خاموش"
+			
+			If parts(5) = 0 Then Label35.Text = "پمپ عادی"
+			If parts(5) >= 1 Then Label35.Text = "مشکل هوا کشی"
+			
+		End If
+	End If
+End Sub
+
+Private Sub Button2_Click
+	Dim ss As String
+	ss= "GetEeprom"
+	Dim data() As Byte = ss.GetBytes("UTF8")'txtData.Text.GetBytes("UTF8")
+	AStream.Write(data)
+End Sub
+
+Private Sub Button3_Click
+	Dim ss As String
+	ss= "ResetDevice"
+	Dim data() As Byte = ss.GetBytes("UTF8")'txtData.Text.GetBytes("UTF8")
+	AStream.Write(data)
+End Sub

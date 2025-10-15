@@ -1473,11 +1473,29 @@
             </file>
         </group>
         <group>
+            <name>Jason</name>
+            <file>
+                <name>$PROJ_DIR$\..\jason\cJSON.c</name>
+            </file>
+            <file>
+                <name>$PROJ_DIR$\..\jason\cJSON.h</name>
+            </file>
+            <file>
+                <name>$PROJ_DIR$\..\jason\cJSON_Utils.c</name>
+            </file>
+            <file>
+                <name>$PROJ_DIR$\..\jason\cJSON_Utils.h</name>
+            </file>
+        </group>
+        <group>
             <name>User</name>
             <group>
                 <name>Core</name>
                 <file>
                     <name>$PROJ_DIR$\..\Core\Src\main.c</name>
+                    <configuration>
+                        <name>Dimmer_Pumo</name>
+                    </configuration>
                 </file>
                 <file>
                     <name>$PROJ_DIR$\..\Core\Src\stm32f0xx_hal_msp.c</name>
@@ -1532,6 +1550,9 @@
                 <name>$PROJ_DIR$\..\Drivers\STM32F0xx_HAL_Driver\Src\stm32f0xx_hal_i2c_ex.c</name>
             </file>
             <file>
+                <name>$PROJ_DIR$\..\Drivers\STM32F0xx_HAL_Driver\Src\stm32f0xx_hal_iwdg.c</name>
+            </file>
+            <file>
                 <name>$PROJ_DIR$\..\Drivers\STM32F0xx_HAL_Driver\Src\stm32f0xx_hal_pwr.c</name>
             </file>
             <file>
@@ -1544,10 +1565,10 @@
                 <name>$PROJ_DIR$\..\Drivers\STM32F0xx_HAL_Driver\Src\stm32f0xx_hal_rcc_ex.c</name>
             </file>
             <file>
-                <name>$PROJ_DIR$\..\Drivers\STM32F0xx_HAL_Driver\Src\stm32f0xx_hal_spi.c</name>
+                <name>$PROJ_DIR$\..\Drivers\STM32F0xx_HAL_Driver\Src\stm32f0xx_hal_tim.c</name>
             </file>
             <file>
-                <name>$PROJ_DIR$\..\Drivers\STM32F0xx_HAL_Driver\Src\stm32f0xx_hal_spi_ex.c</name>
+                <name>$PROJ_DIR$\..\Drivers\STM32F0xx_HAL_Driver\Src\stm32f0xx_hal_tim_ex.c</name>
             </file>
             <file>
                 <name>$PROJ_DIR$\..\Drivers\STM32F0xx_HAL_Driver\Src\stm32f0xx_hal_uart.c</name>

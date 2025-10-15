@@ -1,0 +1,10 @@
+This file maps the renamed variables to the original ones.
+v5=serial1
+v6=astream
+v7=devicelist
+v0=bufferstring
+vv1=parseeepromdata
+vv2=lblreceived
+vv3=bmp
+vv4=starter
+vv5=main

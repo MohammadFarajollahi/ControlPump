@@ -21,6 +21,8 @@ F:\ELECTRONIC\sherkat\Dimmer_Pump\Dimmer_Pumo\EWARM/../Drivers/CMSIS/Device/ST/S
 -I
 F:\ELECTRONIC\sherkat\Dimmer_Pump\Dimmer_Pumo\EWARM/../Drivers/CMSIS/Include
 -I
+F:\ELECTRONIC\sherkat\Dimmer_Pump\Dimmer_Pumo\jason
+-I
 C:\iar\ewarm-9.60.3\arm\inc\c\aarch32
 -I
 C:\iar\ewarm-9.60.3\arm\inc
@@ -36,6 +38,8 @@ F:\ELECTRONIC\sherkat\Dimmer_Pump\Dimmer_Pumo\Drivers\STM32F0xx_HAL_Driver\Inc\L
 F:\ELECTRONIC\sherkat\Dimmer_Pump\Dimmer_Pumo\Drivers\CMSIS\Device\ST\STM32F0xx\Include
 -I
 F:\ELECTRONIC\sherkat\Dimmer_Pump\Dimmer_Pumo\Drivers\CMSIS\Include
+-I
+F:\ELECTRONIC\sherkat\Dimmer_Pump\Dimmer_Pumo\jason
 -D__CHAR_BITS__=8
 -D__CHAR_MAX__=0xff
 -D__CHAR_MIN__=0
