@@ -1,0 +1,5 @@
+Removed Pin From Net: NetName=backlight Pin=IC1-14
+Removed Pin From Net: NetName=blutoothName Pin=IC1-15
+Added Pin To Net: NetName=blutoothName Pin=IC1-14
+Added Pin To Net: NetName=backlight Pin=IC1-15
+Added Room: Name=LOAD CONTROL_Final2
