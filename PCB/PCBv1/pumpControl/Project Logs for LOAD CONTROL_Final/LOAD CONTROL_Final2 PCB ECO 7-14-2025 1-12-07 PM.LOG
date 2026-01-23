@@ -1,0 +1,10 @@
+Removed Pin From Net: NetName=GND Pin=BT?-1
+Removed Member From Class: ClassName=LOAD CONTROL_Final2 Member=BT?
+Added Pin To Net: NetName=NetJ?_P Pin=J?-P
+Added Pin To Net: NetName=NetJ?_P Pin=U3-3
+Added Net: Name=NetJ?_P
+Added Member To Class: ClassName=LOAD CONTROL_Final2 Member=Component R8 1K
+Added Member To Class: ClassName=LOAD CONTROL_Final2 Member=Component R8 1K
+Added Member To Class: ClassName=LOAD CONTROL_Final2 Member=Component R9 1K
+Added Member To Class: ClassName=LOAD CONTROL_Final2 Member=Component R10 1K
+Added Member To Class: ClassName=LOAD CONTROL_Final2 Member=Component R11 1K

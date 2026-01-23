@@ -1,0 +1,3 @@
+Added Pin To Net: NetName=NetC52_1 Pin=C52-1
+Added Pin To Net: NetName=GND-e Pin=C52-2
+Added Member To Class: ClassName=LOAD CONTROL_Final2 Member=Component C52 100nF

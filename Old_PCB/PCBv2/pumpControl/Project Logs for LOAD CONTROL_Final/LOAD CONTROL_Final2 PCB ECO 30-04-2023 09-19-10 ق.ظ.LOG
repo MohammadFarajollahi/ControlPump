@@ -1,0 +1,3 @@
+Change Component Comment : Designator=K2 Old Comment=Comment New Comment=RELAY-SPDT
+Change component parameters: Designator = "TR" ("TR"); Footprint = "PCBComponent_1"; UniqueID = "\FURHZFZY" ("\FURHZFZY")
+Added Member To Class: ClassName=LOAD CONTROL_Final2 Member=Component K2 RELAY-SPDT

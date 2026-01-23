@@ -1,0 +1,203 @@
+Removed Pin From Net: NetName=GND Pin=pc817-3
+Removed Member From Class: ClassName=LOAD CONTROL_Final2 Member=C28
+Removed Member From Class: ClassName=LOAD CONTROL_Final2 Member=C29
+Removed Member From Class: ClassName=LOAD CONTROL_Final2 Member=C30
+Removed Member From Class: ClassName=LOAD CONTROL_Final2 Member=L6
+Removed Member From Class: ClassName=LOAD CONTROL_Final2 Member=P3
+Removed Member From Class: ClassName=LOAD CONTROL_Final2 Member=pc817
+Removed Member From Class: ClassName=LOAD CONTROL_Final2 Member=R23
+Removed Member From Class: ClassName=LOAD CONTROL_Final2 Member=R24
+Removed Member From Class: ClassName=LOAD CONTROL_Final2 Member=R25
+Removed Member From Class: ClassName=LOAD CONTROL_Final2 Member=R26
+Removed Member From Class: ClassName=LOAD CONTROL_Final2 Member=R43
+Change Component Designator: OldDesignator=BUZZER NewDesignator=Buzzer1
+Change Component Designator: OldDesignator=C1 NewDesignator=C11
+Change Component Designator: OldDesignator=C3 NewDesignator=C9
+Change Component Designator: OldDesignator=C4 NewDesignator=C15
+Change Component Designator: OldDesignator=C5 NewDesignator=C16
+Change Component Designator: OldDesignator=C7 NewDesignator=C10
+Change Component Designator: OldDesignator=C8 NewDesignator=C5
+Change Component Designator: OldDesignator=C9 NewDesignator=C6
+Change Component Designator: OldDesignator=C11 NewDesignator=C3
+Change Component Designator: OldDesignator=C12 NewDesignator=C4
+Change Component Designator: OldDesignator=C15 NewDesignator=C2
+Change Component Designator: OldDesignator=C16 NewDesignator=C12
+Change Component Designator: OldDesignator=C28 NewDesignator=C8
+Change Component Designator: OldDesignator=C29 NewDesignator=C7
+Change Component Designator: OldDesignator=C30 NewDesignator=C1
+Change Component Designator: OldDesignator=C31 NewDesignator=C14
+Change Component Designator: OldDesignator=C53 NewDesignator=C20
+Change Component Designator: OldDesignator=C54 NewDesignator=C18
+Change Component Designator: OldDesignator=C? NewDesignator=C13
+Change Component Designator: OldDesignator=D7 NewDesignator=D3
+Change Component Designator: OldDesignator=D8 NewDesignator=D4
+Change Component Designator: OldDesignator=D9 NewDesignator=D5
+Change Component Designator: OldDesignator=D10 NewDesignator=D6
+Change Component Designator: OldDesignator=D11 NewDesignator=D2
+Change Component Designator: OldDesignator=D13 NewDesignator=D1
+Change Component Designator: OldDesignator=D? NewDesignator=D7
+Change Component Designator: OldDesignator=D? NewDesignator=D8
+Change Component Designator: OldDesignator=D? NewDesignator=D9
+Change Component Designator: OldDesignator=D? NewDesignator=D10
+Change Component Designator: OldDesignator=D? NewDesignator=D11
+Change Component Designator: OldDesignator=D? NewDesignator=D13
+Change Component Designator: OldDesignator=D? NewDesignator=D14
+Change Component Designator: OldDesignator=D? NewDesignator=D15
+Change Component Designator: OldDesignator=D? NewDesignator=D16
+Change Component Designator: OldDesignator=Fuse 3A NewDesignator=Fuse 1
+Change Component Designator: OldDesignator=IC1 NewDesignator=IC3
+Change Component Designator: OldDesignator=IC3 NewDesignator=IC1
+Change Component Designator: OldDesignator=IC5 NewDesignator=IC2
+Change Component Designator: OldDesignator=in NewDesignator=in1
+Change Component Designator: OldDesignator=l1 NewDesignator=L3
+Change Component Designator: OldDesignator=L6 NewDesignator=L1
+Change Component Designator: OldDesignator=Load NewDesignator=Load1
+Change Component Designator: OldDesignator=MOC3021 NewDesignator=MOC1
+Change Component Designator: OldDesignator=NOKIA 1202-1 NewDesignator=NOKIA 1
+Change Component Designator: OldDesignator=P1 NewDesignator=P2
+Change Component Designator: OldDesignator=P3 NewDesignator=P1
+Change Component Designator: OldDesignator=Q? NewDesignator=Q1
+Change Component Designator: OldDesignator=R2 NewDesignator=R8
+Change Component Designator: OldDesignator=R3 NewDesignator=R11
+Change Component Designator: OldDesignator=R4 NewDesignator=R10
+Change Component Designator: OldDesignator=R5 NewDesignator=R15
+Change Component Designator: OldDesignator=R7 NewDesignator=R9
+Change Component Designator: OldDesignator=R8 NewDesignator=R14
+Change Component Designator: OldDesignator=R9 NewDesignator=R1
+Change Component Designator: OldDesignator=R10 NewDesignator=R12
+Change Component Designator: OldDesignator=R11 NewDesignator=R13
+Change Component Designator: OldDesignator=R22 NewDesignator=R6
+Change Component Designator: OldDesignator=R23 NewDesignator=R3
+Change Component Designator: OldDesignator=R24 NewDesignator=R4
+Change Component Designator: OldDesignator=R25 NewDesignator=R2
+Change Component Designator: OldDesignator=R26 NewDesignator=R5
+Change Component Designator: OldDesignator=R43 NewDesignator=R7
+Change Component Designator: OldDesignator=Rrx NewDesignator=Rrx1
+Change Component Designator: OldDesignator=RT NewDesignator=RT2
+Change Component Designator: OldDesignator=RT NewDesignator=RT3
+Change Component Designator: OldDesignator=RTx NewDesignator=RTx1
+Change Component Designator: OldDesignator=ST1 NewDesignator=ST3
+Change Component Designator: OldDesignator=ST2 NewDesignator=ST4
+Change Component Designator: OldDesignator=ST3 NewDesignator=ST1
+Change Component Designator: OldDesignator=ST4 NewDesignator=ST2
+Change Component Designator: OldDesignator=U? NewDesignator=U2
+Change Component Designator: OldDesignator=VR? NewDesignator=VR1
+Change Component Designator: OldDesignator=zener NewDesignator=zener1
+Added Component: Designator=D12(LED 1206)
+Add component. Clean all parameters for all variants
+Added Component: Designator=pc1(SMT Gullwing Lead-Form)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer Link"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.roboeq.ir/files/id/233/name/PC817.pdf/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "DIP 4pin General Purpose"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "2017-2-27"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Note"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "SOP, 4-Leads, Body 4/65x6/75mm, Pitch 2/54mm, IPC Medium Density designer:abbas basereh"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "SMT Gullwing Lead-Form"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageVersion"; Value = "2017-2-27"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "2017-2-27"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Abbas Basereh"; VariantName = "[No Variations]"
+Added Component: Designator=rbut1(RESC4817X04N)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Data"; Value = "16-12-2016"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Desc."; Value = "RES SMD 1206"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Designer"; Value = "Abbas Basereh"; VariantName = "[No Variations]"
+Added Component: Designator=rledbut1(RESC4817X04N)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Data"; Value = "16-12-2016"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Desc."; Value = "RES SMD 1206"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Designer"; Value = "Abbas Basereh"; VariantName = "[No Variations]"
+Added Component: Designator=S1(SW-PB)
+Add component. Clean all parameters for all variants
+Added Component: Designator=S2(SW-PB)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=GND Pin=D12-1
+Added Pin To Net: NetName=VCC_5V Pin=R1-2
+Added Pin To Net: NetName=VCC-3.3v Pin=R11-2
+Added Pin To Net: NetName=NetC1_2 Pin=R12-1
+Added Pin To Net: NetName=GND Pin=rbut1-2
+Added Pin To Net: NetName=VCC-3.3v Pin=S2-2
+Added Pin To Net: NetName=VCC-3.3v Pin=S2-2
+Change Net Name : Old Net Name=NetBuzzer_2 New Net Name=NetBuzzer1_2
+Change Net Name : Old Net Name=NetC1_2 New Net Name=NetC11_2
+Change Net Name : Old Net Name=NetC15_2 New Net Name=NetC2_2
+Change Net Name : Old Net Name=NetC?_1 New Net Name=NetC13_1
+Change Net Name : Old Net Name=NetC?_2 New Net Name=NetC13_2
+Change Net Name : Old Net Name=NetD7_2 New Net Name=NetD3_2
+Change Net Name : Old Net Name=NetD9_2 New Net Name=NetD5_2
+Change Net Name : Old Net Name=NetIC5_1 New Net Name=NetIC2_1
+Change Net Name : Old Net Name=NetLoad_2 New Net Name=NetLoad1_2
+Change Net Name : Old Net Name=NetMOC3021_1 New Net Name=NetMOC1_1
+Change Net Name : Old Net Name=NetMOC3021_4 New Net Name=NetMOC1_4
+Change Net Name : Old Net Name=NetMOC3021_6 New Net Name=NetMOC1_6
+Change Net Name : Old Net Name=NetNOKIA 1202-1_11 New Net Name=NetNOKIA 1_11
+Change Net Name : Old Net Name=NetRrx_2 New Net Name=NetRrx1_2
+Change Net Name : Old Net Name=NetRTx_2 New Net Name=NetRTx1_2
+Added Pin To Net: NetName=Net1_2 Pin=Q1-1
+Added Net: Name=Net1_2
+Added Pin To Net: NetName=NetC9_2 Pin=C9-2
+Added Pin To Net: NetName=NetC9_2 Pin=R12-2
+Added Pin To Net: NetName=NetC9_2 Pin=R13-1
+Added Net: Name=NetC9_2
+Added Pin To Net: NetName=NetC15_1 Pin=C15-1
+Added Pin To Net: NetName=NetC15_1 Pin=Fuse 1-2
+Added Net: Name=NetC15_1
+Added Pin To Net: NetName=NetC16_1 Pin=C16-1
+Added Pin To Net: NetName=NetC16_1 Pin=RT1-2
+Added Net: Name=NetC16_1
+Added Pin To Net: NetName=NetC16_2 Pin=C16-2
+Added Pin To Net: NetName=NetC16_2 Pin=L3-2
+Added Net: Name=NetC16_2
+Added Pin To Net: NetName=NetC17_2 Pin=D7-2
+Added Pin To Net: NetName=NetC17_2 Pin=D8-2
+Added Net: Name=NetC17_2
+Added Pin To Net: NetName=NetC20_1 Pin=C20-1
+Added Pin To Net: NetName=NetC20_1 Pin=D11-2
+Added Net: Name=NetC20_1
+Added Pin To Net: NetName=NetD8_1 Pin=D8-1
+Added Pin To Net: NetName=NetD8_1 Pin=D9-2
+Added Net: Name=NetD8_1
+Added Pin To Net: NetName=NetD12_2 Pin=D12-2
+Added Pin To Net: NetName=NetD12_2 Pin=rledbut1-2
+Added Net: Name=NetD12_2
+Added Pin To Net: NetName=NetD13_1 Pin=D13-1
+Added Pin To Net: NetName=NetD13_1 Pin=D15-1
+Added Net: Name=NetD13_1
+Added Pin To Net: NetName=NetD14_2 Pin=D14-2
+Added Pin To Net: NetName=NetD14_2 Pin=D16-2
+Added Net: Name=NetD14_2
+Added Pin To Net: NetName=Netrbut1_1 Pin=rbut1-1
+Added Pin To Net: NetName=Netrbut1_1 Pin=S2-1
+Added Pin To Net: NetName=Netrbut1_1 Pin=S2-1
+Added Pin To Net: NetName=Netrbut1_1 Pin=U2-34
+Added Net: Name=Netrbut1_1
+Added Pin To Net: NetName=Netrledbut1_1 Pin=rledbut1-1
+Added Pin To Net: NetName=Netrledbut1_1 Pin=U2-31
+Added Net: Name=Netrledbut1_1
+Added Member To Class: ClassName=LOAD CONTROL_Final2 Member=Component C9 100NF
+Added Member To Class: ClassName=LOAD CONTROL_Final2 Member=Component C10 100NF
+Added Member To Class: ClassName=LOAD CONTROL_Final2 Member=Component C15 100n
+Added Member To Class: ClassName=LOAD CONTROL_Final2 Member=Component D7 Diode
+Added Member To Class: ClassName=LOAD CONTROL_Final2 Member=Component D8 Diode
+Added Member To Class: ClassName=LOAD CONTROL_Final2 Member=Component D9 Diode
+Added Member To Class: ClassName=LOAD CONTROL_Final2 Member=Component D10 Diode
+Added Member To Class: ClassName=LOAD CONTROL_Final2 Member=Component D12 SMD 1206 LED
+Added Member To Class: ClassName=LOAD CONTROL_Final2 Member=Component D13 Diode
+Added Member To Class: ClassName=LOAD CONTROL_Final2 Member=Component D14 Diode
+Added Member To Class: ClassName=LOAD CONTROL_Final2 Member=Component D15 Diode
+Added Member To Class: ClassName=LOAD CONTROL_Final2 Member=Component D16 Diode
+Added Member To Class: ClassName=LOAD CONTROL_Final2 Member=Component L3 100uh
+Added Member To Class: ClassName=LOAD CONTROL_Final2 Member=Component P2 Header 5
+Added Member To Class: ClassName=LOAD CONTROL_Final2 Member=Component pc1 PC817
+Added Member To Class: ClassName=LOAD CONTROL_Final2 Member=Component R9 Res Semi
+Added Member To Class: ClassName=LOAD CONTROL_Final2 Member=Component R12 Res Semi
+Added Member To Class: ClassName=LOAD CONTROL_Final2 Member=Component R13 Res Semi
+Added Member To Class: ClassName=LOAD CONTROL_Final2 Member=Component R14 Res Semi
+Added Member To Class: ClassName=LOAD CONTROL_Final2 Member=Component R15 40r
+Added Member To Class: ClassName=LOAD CONTROL_Final2 Member=Component rbut1 10k
+Added Member To Class: ClassName=LOAD CONTROL_Final2 Member=Component rledbut1 10k
+Added Member To Class: ClassName=LOAD CONTROL_Final2 Member=Component RT3 330r
+Added Member To Class: ClassName=LOAD CONTROL_Final2 Member=Component S1 Switch PB
+Added Member To Class: ClassName=LOAD CONTROL_Final2 Member=Component S2 Switch PB
+Added Room: Name=LOAD CONTROL_Final2

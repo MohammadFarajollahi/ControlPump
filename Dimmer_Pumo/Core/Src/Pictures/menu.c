@@ -8,11 +8,11 @@
 //extern Picture2InfoTypeDef Settinglogo;
 extern Picture2InfoTypeDef StartVoltage;
 extern Picture2InfoTypeDef StartTime;
-extern Picture2InfoTypeDef kadr;
+//extern Picture2InfoTypeDef kadr;
 extern Picture2InfoTypeDef saved;
 extern Picture2InfoTypeDef SoftStartTime;
 extern Picture2InfoTypeDef tanzimfeshar;
-//extern Picture2InfoTypeDef DeviceMode;
+extern Picture2InfoTypeDef DeviceMode;
 extern Picture2InfoTypeDef SoftSet;
 extern Picture2InfoTypeDef setcontrol;
 extern Picture2InfoTypeDef Digitaldimerpic;
@@ -58,90 +58,90 @@ void BackTOtanzimauto(){
   while(HAL_GPIO_ReadPin(k_ok_GPIO_Port, k_ok_Pin) == 0);
 }
 
-//void tanzimDasti_Device_Mode(){
-//  buzzerbig();
-//  Lcd_Clear();
-//  //Lcd_Put_Icon2_Invert(0,0,DeviceMode);
-//  // Lcd_Put_Icon2_Invert(5,30,kadr);
-//  // Lcd_Put_Icon2_Invert(70,20,Setting_up);
-//  //Lcd_Put_Icon2_Invert(70,20,Setting_down); 
-//  
-//  if(mode_eeprom == 0){
-//    Lcd_Put_Icon2_Invert(0,30,SoftSet);    
-//  }  
-//  if(mode_eeprom == 1){
-//    Lcd_Put_Icon2_Invert(0,30,setcontrol);
-//  }
-//  
-//  if(mode_eeprom == 2){
-//    Lcd_Put_Icon2_Invert(0,30,Digitaldimerpic);
-//  }
-//  
-//  Lcd_Refresh();
-//  HAL_Delay(250);
-//  changeMenu = 0;
-//  while(1){   
-//    
-//    if (HAL_GPIO_ReadPin(k_up_GPIO_Port, k_up_Pin) == 0){
-//      ++mode_eeprom;
-//      changeMenu = 1;
-//      HAL_Delay(200);
-//    }
-//    
-//    if (HAL_GPIO_ReadPin(k_down_GPIO_Port, k_down_Pin) == 0 && mode_eeprom >0){
-//      --mode_eeprom;
-//      changeMenu = 1;
-//      HAL_Delay(200);
-//    } 
-//    
-//    if(mode_eeprom > 2)mode_eeprom=2;
-//    
-//    
-//    if(changeMenu == 1){
-//      HAL_IWDG_Refresh(&hiwdg);
-//      buzzerbig();
-//      changeMenu = 0;
-//      
-//      if(mode_eeprom == 0){
-//        Lcd_Put_Icon2_Invert(0,30,SoftSet);
-//      }
-//      
-//      if(mode_eeprom == 1){
-//        Lcd_Put_Icon2_Invert(0,30,setcontrol);
-//      }           
-//      
-//      if(mode_eeprom == 2){
-//        Lcd_Put_Icon2_Invert(0,30,Digitaldimerpic);
-//      }
-//      Lcd_Refresh();     
-//    } 
-//    
-//    
-//    if (HAL_GPIO_ReadPin(k_ok_GPIO_Port, k_ok_Pin) == 0){
-//      Lcd_Clear();
-//      Lcd_Put_Icon2_Invert(7,30,saved);
-//      Lcd_Refresh();
-//      eeprom_write_int16(mode_eeprom,40);
-//      HAL_Delay(1000);
-//      BackTOtanzimauto();    
-//      while(HAL_GPIO_ReadPin(k_ok_GPIO_Port, k_ok_Pin) == 0);
-//      break;
-//    }
-//    
-//    if (HAL_GPIO_ReadPin(k_back_GPIO_Port, k_back_Pin) == 0){           
-//      BackTOtanzimauto();
-//      while(HAL_GPIO_ReadPin(k_back_GPIO_Port, k_back_Pin) == 0);
-//      break;
-//    }
-//    
-//  }
-//  
-//}
+void tanzimDasti_Device_Mode(){
+  buzzerbig();
+  Lcd_Clear();
+  //Lcd_Put_Icon2_Invert(0,0,DeviceMode);
+  // Lcd_Put_Icon2_Invert(5,30,kadr);
+  // Lcd_Put_Icon2_Invert(70,20,Setting_up);
+  //Lcd_Put_Icon2_Invert(70,20,Setting_down); 
+  
+  if(mode_eeprom == 0){
+    Lcd_Put_Icon2_Invert(0,30,SoftSet);    
+  }  
+  if(mode_eeprom == 1){
+    Lcd_Put_Icon2_Invert(0,30,setcontrol);
+  }
+  
+  if(mode_eeprom == 2){
+    Lcd_Put_Icon2_Invert(0,30,Digitaldimerpic);
+  }
+  
+  Lcd_Refresh();
+  HAL_Delay(250);
+  changeMenu = 0;
+  while(1){   
+    
+    if (HAL_GPIO_ReadPin(k_up_GPIO_Port, k_up_Pin) == 0){
+      ++mode_eeprom;
+      changeMenu = 1;
+      HAL_Delay(200);
+    }
+    
+    if (HAL_GPIO_ReadPin(k_down_GPIO_Port, k_down_Pin) == 0 && mode_eeprom >0){
+      --mode_eeprom;
+      changeMenu = 1;
+      HAL_Delay(200);
+    } 
+    
+    if(mode_eeprom > 2)mode_eeprom=2;
+    
+    
+    if(changeMenu == 1){
+      HAL_IWDG_Refresh(&hiwdg);
+      buzzerbig();
+      changeMenu = 0;
+      
+      if(mode_eeprom == 0){
+        Lcd_Put_Icon2_Invert(0,30,SoftSet);
+      }
+      
+      if(mode_eeprom == 1){
+        Lcd_Put_Icon2_Invert(0,30,setcontrol);
+      }           
+      
+      if(mode_eeprom == 2){
+        Lcd_Put_Icon2_Invert(0,30,Digitaldimerpic);
+      }
+      Lcd_Refresh();     
+    } 
+    
+    
+    if (HAL_GPIO_ReadPin(k_ok_GPIO_Port, k_ok_Pin) == 0){
+      Lcd_Clear();
+      Lcd_Put_Icon2_Invert(7,30,saved);
+      Lcd_Refresh();
+      eeprom_write_int16(mode_eeprom,40);
+      HAL_Delay(1000);
+      BackTOtanzimauto();    
+      while(HAL_GPIO_ReadPin(k_ok_GPIO_Port, k_ok_Pin) == 0);
+      break;
+    }
+    
+    if (HAL_GPIO_ReadPin(k_back_GPIO_Port, k_back_Pin) == 0){           
+      BackTOtanzimauto();
+      while(HAL_GPIO_ReadPin(k_back_GPIO_Port, k_back_Pin) == 0);
+      break;
+    }
+    
+  }
+  
+}
 
 void tanzimDasti_TimeHavaKeshi(){
   Lcd_Clear();
   Lcd_Put_Icon2_Invert(0,0,TimeHavaKeshi);
-  Lcd_Put_Icon2_Invert(5,30,kadr);
+ // Lcd_Put_Icon2_Invert(5,30,kadr);
   //Lcd_Put_Icon2_Invert(70,25,Setting_up);
   //Lcd_Put_Icon2_Invert(70,45,Setting_down); 
   sprintf(lcdShow , "%d " , TimeHavaKeshi_eeprom);
@@ -189,9 +189,10 @@ void tanzimDasti_TimeHavaKeshi(){
 void tanzimDasti_RealizeTime(){
   Lcd_Clear();
   Lcd_Put_Icon2_Invert(0,0,RealizeTime);
-  Lcd_Put_Icon2_Invert(5,30,kadr);
+  //Lcd_Put_Icon2_Invert(5,30,kadr);
  // Lcd_Put_Icon2_Invert(70,25,Setting_up);
   //Lcd_Put_Icon2_Invert(70,45,Setting_down); 
+  CurrentDownRealizeTime_eeprom /= 60;
   sprintf(lcdShow , "%d " , CurrentDownRealizeTime_eeprom);
   lcd_putsf_point(20,36,lcdShow,TAHOMA_8x10);
   Lcd_Refresh();
@@ -238,7 +239,7 @@ void tanzimDasti_RealizeTime(){
 void tanzimDasti_Current(){
   Lcd_Clear();
   Lcd_Put_Icon2_Invert(0,0,CurrentSettingpic);
-  Lcd_Put_Icon2_Invert(5,30,kadr);
+  //Lcd_Put_Icon2_Invert(5,30,kadr);
   //Lcd_Put_Icon2_Invert(70,25,Setting_up);
   //Lcd_Put_Icon2_Invert(70,45,Setting_down); 
   sprintf(lcdShow , "%.1fA " , UpCurrent_eeprom);
@@ -289,7 +290,7 @@ void tanzimDasti_Current(){
 void tanzimDasti_CurrentDown(){
   Lcd_Clear();
   Lcd_Put_Icon2_Invert(0,0,DownCurrent);
-  Lcd_Put_Icon2_Invert(5,30,kadr);
+ // Lcd_Put_Icon2_Invert(5,30,kadr);
   //Lcd_Put_Icon2_Invert(70,25,Setting_up);
   //Lcd_Put_Icon2_Invert(70,45,Setting_down); 
   sprintf(lcdShow , "%.1fA " , DownCurrent_eeprom);
@@ -340,7 +341,7 @@ void tanzimDasti_CurrentDown(){
 void tanzimDasti_OffDelay(){
   Lcd_Clear();
   Lcd_Put_Icon2_Invert(0,0,offDelay);
-  Lcd_Put_Icon2_Invert(5,30,kadr);
+ // Lcd_Put_Icon2_Invert(5,30,kadr);
   //Lcd_Put_Icon2_Invert(70,25,Setting_up);
   //Lcd_Put_Icon2_Invert(70,45,Setting_down); 
   sprintf(lcdShow , "%d " , ofTimer_eeprom);
@@ -388,7 +389,7 @@ void tanzimDasti_OffDelay(){
 void tanzimDasti_OnDelay(){
   Lcd_Clear();
   Lcd_Put_Icon2_Invert(0,0,OnDelay);
-  Lcd_Put_Icon2_Invert(5,30,kadr);
+ // Lcd_Put_Icon2_Invert(5,30,kadr);
   //Lcd_Put_Icon2_Invert(70,25,Setting_up);
   //Lcd_Put_Icon2_Invert(70,45,Setting_down); 
   sprintf(lcdShow , "%d " , TurnOnDelay_eeprom);
@@ -436,7 +437,7 @@ void tanzimDasti_OnDelay(){
 void tanzimDasti_feshar(){
   Lcd_Clear();
   Lcd_Put_Icon2_Invert(0,0,tanzimfeshar);
-  Lcd_Put_Icon2_Invert(5,30,kadr);
+  //Lcd_Put_Icon2_Invert(5,30,kadr);
   //Lcd_Put_Icon2_Invert(70,25,Setting_up);
   //Lcd_Put_Icon2_Invert(70,45,Setting_down); 
   sprintf(lcdShow , "%d " , pressure_eeprom);
@@ -484,7 +485,7 @@ void tanzimDasti_feshar(){
 void tanzimDasti_FesharDown(){
   Lcd_Clear();
   Lcd_Put_Icon2_Invert(0,0,tanzimfesharDown);
-  Lcd_Put_Icon2_Invert(5,30,kadr);
+ // Lcd_Put_Icon2_Invert(5,30,kadr);
   //Lcd_Put_Icon2_Invert(70,25,Setting_up);
   //Lcd_Put_Icon2_Invert(70,45,Setting_down); 
   sprintf(lcdShow , "%d " , PressureDown_eeprom);
@@ -532,7 +533,7 @@ void tanzimDasti_FesharDown(){
 void tanzimDasti_start_voltage(){
   Lcd_Clear();
   Lcd_Put_Icon2_Invert(0,0,StartVoltage);
-  Lcd_Put_Icon2_Invert(5,30,kadr);
+ // Lcd_Put_Icon2_Invert(5,30,kadr);
   //Lcd_Put_Icon2_Invert(70,25,Setting_up);
   //Lcd_Put_Icon2_Invert(70,45,Setting_down); 
   sprintf(lcdShow , "%dV " , StartVoltage_eeprom);
@@ -581,7 +582,7 @@ void tanzimDasti_start_voltage(){
 void tanzimDasti_start_time(){
   Lcd_Clear();
   Lcd_Put_Icon2_Invert(0,0,StartTime);
-  Lcd_Put_Icon2_Invert(5,30,kadr);
+//  Lcd_Put_Icon2_Invert(5,30,kadr);
   //Lcd_Put_Icon2_Invert(70,25,Setting_up);
   //Lcd_Put_Icon2_Invert(70,45,Setting_down); 
   sprintf(lcdShow , "%dms " , StartTime_eeprom);
@@ -635,7 +636,7 @@ void tanzimDasti_start_time(){
 void tanzimDasti_start_soft(){
   Lcd_Clear();
   Lcd_Put_Icon2_Invert(0,0,SoftStartTime);
-  Lcd_Put_Icon2_Invert(5,30,kadr);
+ // Lcd_Put_Icon2_Invert(5,30,kadr);
   //Lcd_Put_Icon2_Invert(70,25,Setting_up);
  // Lcd_Put_Icon2_Invert(70,45,Setting_down); 
   sprintf(lcdShow , "%dms " , SoftTime_eeprom);
@@ -807,7 +808,7 @@ void tanzimDasti(){
       if(menuSelect == 9)tanzimDasti_CurrentDown();
       if(menuSelect == 10)tanzimDasti_TimeHavaKeshi();
       if(menuSelect == 11)tanzimDasti_RealizeTime();
-      //if(menuSelect == 12)tanzimDasti_Device_Mode();
+     // if(menuSelect == 12)tanzimDasti_Device_Mode();
       
     }
     

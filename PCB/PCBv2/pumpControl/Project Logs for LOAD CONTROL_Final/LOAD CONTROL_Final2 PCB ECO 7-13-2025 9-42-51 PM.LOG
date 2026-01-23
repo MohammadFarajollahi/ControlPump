@@ -1,0 +1,13 @@
+Removed Pin From Net: NetName=GND Pin=zener1-1
+Removed Pin From Net: NetName=9v Pin=zener1-2
+Removed Member From Class: ClassName=LOAD CONTROL_Final2 Member=zener1
+Added Component: Designator=Zener(Diode 1W_Stand)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Company"; Value = "E.P.I.L"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Design Date"; Value = "2011/11/02"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Designer"; Value = "Saeid Jorablo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "3.3 V"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=Zener-1
+Added Pin To Net: NetName=9v Pin=Zener-2
+Added Member To Class: ClassName=LOAD CONTROL_Final2 Member=Component Zener Diode Zener
+Added Room: Name=LOAD CONTROL_Final2

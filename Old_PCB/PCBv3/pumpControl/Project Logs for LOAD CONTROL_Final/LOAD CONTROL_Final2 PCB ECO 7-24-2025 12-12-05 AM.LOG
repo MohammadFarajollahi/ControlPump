@@ -1,0 +1,10 @@
+Added Component: Designator=C?(CAPC3216X88N)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/C1206C120J5GACTU/KEMET/view-part/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "KEMET"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "C1206C120J5GACTU"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "3216 KEMET"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/C1206C120J5GACTU/KEMET/view-part/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Member To Class: ClassName=LOAD CONTROL_Final2 Member=Component C? C1206C120J5GACTU
+Added Room: Name=LOAD CONTROL_Final2

@@ -1,0 +1,4 @@
+Added Pin To Net: NetName=VCC_5V Pin=RB1-1
+Added Member To Class: ClassName=LOAD CONTROL_Final2 Member=Component C5 0.1uF
+Added Member To Class: ClassName=LOAD CONTROL_Final2 Member=Component R3 1K
+Added Room: Name=LOAD CONTROL_Final2

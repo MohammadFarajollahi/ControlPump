@@ -1,0 +1,30 @@
+Removed Pin From Net: NetName=GND Pin=BT1-1
+Removed Member From Class: ClassName=LOAD CONTROL_Final2 Member=BT1
+Added Component: Designator=BT?(CR2032)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "ComponentLinkURL"; Value = "www.picpars.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Designer"; Value = "Seyed Mohsen Ghasemian"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "E-mail"; Value = "picpars@gmail.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Make"; Value = "02/12/2011"; VariantName = "[No Variations]"
+Added Component: Designator=J?(HARWIN_S8411-45R)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/S8411-45R/Harwin+Inc./view-part/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Harwin"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "S8411-45R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/S8411-45R/Harwin+Inc./view-part/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=BT?-1
+Added Pin To Net: NetName=GND Pin=J?-N
+Added Pin To Net: NetName=NetBT?_0 Pin=BT?-0
+Added Pin To Net: NetName=NetBT?_0 Pin=J?-P
+Added Pin To Net: NetName=NetBT?_0 Pin=U3-3
+Added Net: Name=NetBT?_0
+Added Member To Class: ClassName=LOAD CONTROL_Final2 Member=Component BT? Battery
+Added Member To Class: ClassName=LOAD CONTROL_Final2 Member=Component J? S8411-45R
+Added Member To Class: ClassName=LOAD CONTROL_Final2 Member=Component R8 1K
+Added Member To Class: ClassName=LOAD CONTROL_Final2 Member=Component R8 1K
+Added Member To Class: ClassName=LOAD CONTROL_Final2 Member=Component R9 1K
+Added Member To Class: ClassName=LOAD CONTROL_Final2 Member=Component R10 1K
+Added Member To Class: ClassName=LOAD CONTROL_Final2 Member=Component R11 1K
+Added Room: Name=LOAD CONTROL_Final2

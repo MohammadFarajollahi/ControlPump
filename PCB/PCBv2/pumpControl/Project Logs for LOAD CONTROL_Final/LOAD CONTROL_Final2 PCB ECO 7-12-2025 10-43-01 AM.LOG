@@ -1,0 +1,36 @@
+Removed Pin From Net: NetName=NetD?_1 Pin=D?-1
+Removed Pin From Net: NetName=NetD?_1 Pin=D?-1
+Removed Pin From Net: NetName=NetC5_1 Pin=R2-1
+Removed Pin From Net: NetName=NetR2_2 Pin=R2-2
+Removed Pin From Net: NetName=NetD?_2 Pin=R3-1
+Added Component: Designator=zener(DIODE-0.7)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "Diode, Thru-Hole; 2 Leads; 0.7 in Pin Spacing"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "DIODE-0.7"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=D?-1
+Added Pin To Net: NetName=GND Pin=D?-1
+Added Pin To Net: NetName=NetD?_1 Pin=D?-1
+Added Pin To Net: NetName=NetD?_1 Pin=D?-2
+Added Pin To Net: NetName=NetC5_1 Pin=R2-1
+Added Pin To Net: NetName=SW2 Pin=R2-1
+Added Pin To Net: NetName=NetR2_2 Pin=R2-2
+Added Pin To Net: NetName=VCC-3.3v Pin=R2-2
+Added Pin To Net: NetName=NetC5_2 Pin=R3-1
+Added Pin To Net: NetName=NetD?_2 Pin=R3-1
+Added Pin To Net: NetName=RESET Pin=R3-1
+Added Pin To Net: NetName=NetD?_1 Pin=R3-2
+Added Pin To Net: NetName=GND Pin=zener-1
+Added Pin To Net: NetName=9v Pin=R3-2
+Added Pin To Net: NetName=9v Pin=zener-2
+Added Net: Name=9v
+Added Member To Class: ClassName=LOAD CONTROL_Final2 Member=Component D? Diode
+Added Member To Class: ClassName=LOAD CONTROL_Final2 Member=Component D? Diode
+Added Member To Class: ClassName=LOAD CONTROL_Final2 Member=Component D? Diode
+Added Member To Class: ClassName=LOAD CONTROL_Final2 Member=Component R2 20r
+Added Member To Class: ClassName=LOAD CONTROL_Final2 Member=Component R3 20r
+Added Member To Class: ClassName=LOAD CONTROL_Final2 Member=Component R3 Res Semi
+Added Member To Class: ClassName=LOAD CONTROL_Final2 Member=Component zener 12v

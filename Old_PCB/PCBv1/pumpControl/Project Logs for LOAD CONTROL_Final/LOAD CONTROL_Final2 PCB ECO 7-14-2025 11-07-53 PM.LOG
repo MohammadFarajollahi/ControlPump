@@ -1,0 +1,10 @@
+Removed Pin From Net: NetName=GND Pin=pc1-2
+Removed Pin From Net: NetName=Netpc1_4 Pin=R27-2
+Removed Pin From Net: NetName=Netpc1_1 Pin=R28-1
+Added Pin To Net: NetName=GND Pin=pc1-3
+Added Pin To Net: NetName=Netpc1_1 Pin=R27-2
+Added Pin To Net: NetName=Netpc1_4 Pin=R28-1
+Added Pin To Net: NetName=Netpc1_2 Pin=pc1-2
+Added Pin To Net: NetName=Netpc1_2 Pin=R29-2
+Added Net: Name=Netpc1_2
+Added Room: Name=LOAD CONTROL_Final2

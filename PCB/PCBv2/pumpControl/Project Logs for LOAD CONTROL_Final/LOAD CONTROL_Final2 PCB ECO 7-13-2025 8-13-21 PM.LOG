@@ -1,0 +1,11 @@
+Added Pin To Net: NetName=GND Pin=pc1-2
+Added Pin To Net: NetName=Netpc1_1 Pin=pc1-1
+Added Pin To Net: NetName=Netpc1_1 Pin=R22-1
+Added Net: Name=Netpc1_1
+Added Pin To Net: NetName=Netpc1_3 Pin=pc1-3
+Added Pin To Net: NetName=Netpc1_3 Pin=R23-2
+Added Net: Name=Netpc1_3
+Added Pin To Net: NetName=Netpc1_4 Pin=pc1-4
+Added Pin To Net: NetName=Netpc1_4 Pin=R21-2
+Added Net: Name=Netpc1_4
+Added Room: Name=LOAD CONTROL_Final2

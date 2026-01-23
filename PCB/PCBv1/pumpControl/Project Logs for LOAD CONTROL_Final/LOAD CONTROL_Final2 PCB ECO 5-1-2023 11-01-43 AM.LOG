@@ -1,0 +1,14 @@
+Removed Pin From Net: NetName=buzzer Pin=IC3-14
+Change Component Comment : Designator=C24 Old Comment=35v - 100uf New Comment=16v - 470uf
+Change Component Comment : Designator=C52 Old Comment=100nf New Comment=1nF
+Change component parameters: Designator = "TR1"; Footprint = "EE20"; UniqueID = "\EDLTJYZW"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = ""; Value = "Trans 15 D 16"; VariantName = "[No Variations]"
+Added Component: Designator=T1(phoenix terminal 2)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "ComponentLinkURL"; Value = "www.picpars.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Designer"; Value = "Seyed Mohsen Ghasemain"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "E-mail"; Value = "picpars@gmail.com"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=buzzer Pin=IC3-25
+Added Pin To Net: NetName=CO Pin=T1-2
+Added Member To Class: ClassName=LOAD CONTROL_Final2 Member=Component T1 Phoenix terminal

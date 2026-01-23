@@ -1,0 +1,3 @@
+Added Pin To Net: NetName=NetC61_1 Pin=C61-1
+Added Pin To Net: NetName=NetC61_2 Pin=C61-2
+Added Member To Class: ClassName=LOAD CONTROL_Final2 Member=Component C61 100nF

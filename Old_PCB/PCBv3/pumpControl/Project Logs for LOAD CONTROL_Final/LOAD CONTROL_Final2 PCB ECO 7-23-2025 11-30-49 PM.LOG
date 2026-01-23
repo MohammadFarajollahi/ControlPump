@@ -1,0 +1,19 @@
+Removed Pin From Net: NetName=NetD13_2 Pin=pc1-2
+Removed Pin From Net: NetName=GND Pin=pc1-3
+Removed Pin From Net: NetName=ZeroCross Pin=pc1-4
+Change Component Designator: OldDesignator=C? NewDesignator=C2
+Change Component Designator: OldDesignator=IC? NewDesignator=IC2
+Change Component Designator: OldDesignator=R? NewDesignator=R1
+Change Component Designator: OldDesignator=R? NewDesignator=R6
+Change Component Designator: OldDesignator=R? NewDesignator=R11
+Added Pin To Net: NetName=ZeroCross Pin=pc1-1
+Added Pin To Net: NetName=GND Pin=pc1-2
+Added Pin To Net: NetName=NetD13_2 Pin=pc1-3
+Change Net Name : Old Net Name=NetC?_1 New Net Name=NetC2_1
+Added Pin To Net: NetName=Netpc1_4 Pin=pc1-4
+Added Pin To Net: NetName=Netpc1_4 Pin=R27-2
+Added Net: Name=Netpc1_4
+Added Member To Class: ClassName=LOAD CONTROL_Final2 Member=Component C5 0.1uF
+Added Member To Class: ClassName=LOAD CONTROL_Final2 Member=Component R1 RC1206JR-0713RL
+Added Member To Class: ClassName=LOAD CONTROL_Final2 Member=Component R3 1K
+Added Member To Class: ClassName=LOAD CONTROL_Final2 Member=Component R6 RC1206JR-0713RL

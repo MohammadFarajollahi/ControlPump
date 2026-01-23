@@ -1,0 +1,114 @@
+G:\Electronic\sherkat\COD\Dimmer_Pump\KAMALI\LOAD\ CONTROL\PROGRAM\V1\EWARM\Load_Control_K6T6\BrowseInfo\Core_13247989168731456611.dir\main.pbi: \
+  G:\Electronic\sherkat\COD\Dimmer_Pump\KAMALI\LOAD\ CONTROL\PROGRAM\V1\Core\Src\main.c \
+  G:\Electronic\sherkat\COD\Dimmer_Pump\KAMALI\LOAD\ CONTROL\PROGRAM\V1\EWARM\..\Core\Inc\main.h \
+  G:\Electronic\sherkat\COD\Dimmer_Pump\KAMALI\LOAD\ CONTROL\PROGRAM\V1\EWARM\..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal.h \
+  G:\Electronic\sherkat\COD\Dimmer_Pump\KAMALI\LOAD\ CONTROL\PROGRAM\V1\EWARM\..\Core\Inc\stm32f0xx_hal_conf.h \
+  G:\Electronic\sherkat\COD\Dimmer_Pump\KAMALI\LOAD\ CONTROL\PROGRAM\V1\EWARM\..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_rcc.h \
+  G:\Electronic\sherkat\COD\Dimmer_Pump\KAMALI\LOAD\ CONTROL\PROGRAM\V1\EWARM\..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_def.h \
+  G:\Electronic\sherkat\COD\Dimmer_Pump\KAMALI\LOAD\ CONTROL\PROGRAM\V1\EWARM\..\Drivers\CMSIS\Device\ST\STM32F0xx\Include\stm32f0xx.h \
+  G:\Electronic\sherkat\COD\Dimmer_Pump\KAMALI\LOAD\ CONTROL\PROGRAM\V1\EWARM\..\Drivers\CMSIS\Device\ST\STM32F0xx\Include\stm32f030x6.h \
+  G:\Electronic\sherkat\COD\Dimmer_Pump\KAMALI\LOAD\ CONTROL\PROGRAM\V1\EWARM\..\Drivers\CMSIS\Include\core_cm0.h \
+  C:\iar\ewarm-9.60.3\arm\inc\c\stdint.h \
+  C:\iar\ewarm-9.60.3\arm\inc\c\ycheck.h \
+  C:\iar\ewarm-9.60.3\arm\inc\c\yvals.h \
+  C:\iar\ewarm-9.60.3\arm\inc\c\DLib_Defaults.h \
+  C:\iar\ewarm-9.60.3\arm\inc\c\DLib_Config_Full.h \
+  C:\iar\ewarm-9.60.3\arm\inc\c\DLib_Product.h \
+  G:\Electronic\sherkat\COD\Dimmer_Pump\KAMALI\LOAD\ CONTROL\PROGRAM\V1\EWARM\..\Drivers\CMSIS\Include\cmsis_version.h \
+  G:\Electronic\sherkat\COD\Dimmer_Pump\KAMALI\LOAD\ CONTROL\PROGRAM\V1\EWARM\..\Drivers\CMSIS\Include\cmsis_compiler.h \
+  G:\Electronic\sherkat\COD\Dimmer_Pump\KAMALI\LOAD\ CONTROL\PROGRAM\V1\EWARM\..\Drivers\CMSIS\Include\cmsis_iccarm.h \
+  C:\iar\ewarm-9.60.3\arm\inc\c\aarch32\iccarm_builtin.h \
+  G:\Electronic\sherkat\COD\Dimmer_Pump\KAMALI\LOAD\ CONTROL\PROGRAM\V1\EWARM\..\Drivers\CMSIS\Device\ST\STM32F0xx\Include\system_stm32f0xx.h \
+  G:\Electronic\sherkat\COD\Dimmer_Pump\KAMALI\LOAD\ CONTROL\PROGRAM\V1\EWARM\..\Drivers\STM32F0xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h \
+  C:\iar\ewarm-9.60.3\arm\inc\c\stddef.h \
+  C:\iar\ewarm-9.60.3\arm\inc\c\ysizet.h \
+  G:\Electronic\sherkat\COD\Dimmer_Pump\KAMALI\LOAD\ CONTROL\PROGRAM\V1\EWARM\..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_rcc_ex.h \
+  G:\Electronic\sherkat\COD\Dimmer_Pump\KAMALI\LOAD\ CONTROL\PROGRAM\V1\EWARM\..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_gpio.h \
+  G:\Electronic\sherkat\COD\Dimmer_Pump\KAMALI\LOAD\ CONTROL\PROGRAM\V1\EWARM\..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_gpio_ex.h \
+  G:\Electronic\sherkat\COD\Dimmer_Pump\KAMALI\LOAD\ CONTROL\PROGRAM\V1\EWARM\..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_exti.h \
+  G:\Electronic\sherkat\COD\Dimmer_Pump\KAMALI\LOAD\ CONTROL\PROGRAM\V1\EWARM\..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_dma.h \
+  G:\Electronic\sherkat\COD\Dimmer_Pump\KAMALI\LOAD\ CONTROL\PROGRAM\V1\EWARM\..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_dma_ex.h \
+  G:\Electronic\sherkat\COD\Dimmer_Pump\KAMALI\LOAD\ CONTROL\PROGRAM\V1\EWARM\..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_cortex.h \
+  G:\Electronic\sherkat\COD\Dimmer_Pump\KAMALI\LOAD\ CONTROL\PROGRAM\V1\EWARM\..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_adc.h \
+  G:\Electronic\sherkat\COD\Dimmer_Pump\KAMALI\LOAD\ CONTROL\PROGRAM\V1\EWARM\..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_adc_ex.h \
+  G:\Electronic\sherkat\COD\Dimmer_Pump\KAMALI\LOAD\ CONTROL\PROGRAM\V1\EWARM\..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_flash.h \
+  G:\Electronic\sherkat\COD\Dimmer_Pump\KAMALI\LOAD\ CONTROL\PROGRAM\V1\EWARM\..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_flash_ex.h \
+  G:\Electronic\sherkat\COD\Dimmer_Pump\KAMALI\LOAD\ CONTROL\PROGRAM\V1\EWARM\..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_i2c.h \
+  G:\Electronic\sherkat\COD\Dimmer_Pump\KAMALI\LOAD\ CONTROL\PROGRAM\V1\EWARM\..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_i2c_ex.h \
+  G:\Electronic\sherkat\COD\Dimmer_Pump\KAMALI\LOAD\ CONTROL\PROGRAM\V1\EWARM\..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_iwdg.h \
+  G:\Electronic\sherkat\COD\Dimmer_Pump\KAMALI\LOAD\ CONTROL\PROGRAM\V1\EWARM\..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_pwr.h \
+  G:\Electronic\sherkat\COD\Dimmer_Pump\KAMALI\LOAD\ CONTROL\PROGRAM\V1\EWARM\..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_pwr_ex.h \
+  G:\Electronic\sherkat\COD\Dimmer_Pump\KAMALI\LOAD\ CONTROL\PROGRAM\V1\EWARM\..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_tim.h \
+  G:\Electronic\sherkat\COD\Dimmer_Pump\KAMALI\LOAD\ CONTROL\PROGRAM\V1\EWARM\..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_tim_ex.h \
+  G:\Electronic\sherkat\COD\Dimmer_Pump\KAMALI\LOAD\ CONTROL\PROGRAM\V1\Core\Src\slave.c \
+  G:\Electronic\sherkat\COD\Dimmer_Pump\KAMALI\LOAD\ CONTROL\PROGRAM\V1\Core\Src\Pictures\Caution.c \
+  G:\Electronic\sherkat\COD\Dimmer_Pump\KAMALI\LOAD\ CONTROL\PROGRAM\V1\Core\Src\Pictures\open.c \
+  G:\Electronic\sherkat\COD\Dimmer_Pump\KAMALI\LOAD\ CONTROL\PROGRAM\V1\Core\Src\Pictures\lock.c \
+  G:\Electronic\sherkat\COD\Dimmer_Pump\KAMALI\LOAD\ CONTROL\PROGRAM\V1\Core\Src\Pictures\auto.c \
+  G:\Electronic\sherkat\COD\Dimmer_Pump\KAMALI\LOAD\ CONTROL\PROGRAM\V1\Core\Src\Pictures\input.c \
+  G:\Electronic\sherkat\COD\Dimmer_Pump\KAMALI\LOAD\ CONTROL\PROGRAM\V1\Core\Src\Pictures\output.c \
+  G:\Electronic\sherkat\COD\Dimmer_Pump\KAMALI\LOAD\ CONTROL\PROGRAM\V1\Core\Src\Pictures\adj_close.c \
+  G:\Electronic\sherkat\COD\Dimmer_Pump\KAMALI\LOAD\ CONTROL\PROGRAM\V1\Core\Src\Pictures\adj_open.c \
+  G:\Electronic\sherkat\COD\Dimmer_Pump\KAMALI\LOAD\ CONTROL\PROGRAM\V1\Core\Src\Pictures\ok.c \
+  G:\Electronic\sherkat\COD\Dimmer_Pump\KAMALI\LOAD\ CONTROL\PROGRAM\V1\Core\Src\Pictures\remote.c \
+  G:\Electronic\sherkat\COD\Dimmer_Pump\KAMALI\LOAD\ CONTROL\PROGRAM\V1\Core\Src\Pictures\remote1.c \
+  G:\Electronic\sherkat\COD\Dimmer_Pump\KAMALI\LOAD\ CONTROL\PROGRAM\V1\Core\Src\Pictures\snow.c \
+  G:\Electronic\sherkat\COD\Dimmer_Pump\KAMALI\LOAD\ CONTROL\PROGRAM\V1\Core\Src\Pictures\timer.c \
+  G:\Electronic\sherkat\COD\Dimmer_Pump\KAMALI\LOAD\ CONTROL\PROGRAM\V1\Core\Src\Pictures\bin.c \
+  G:\Electronic\sherkat\COD\Dimmer_Pump\KAMALI\LOAD\ CONTROL\PROGRAM\V1\Core\Src\Pictures\save.c \
+  G:\Electronic\sherkat\COD\Dimmer_Pump\KAMALI\LOAD\ CONTROL\PROGRAM\V1\Core\Src\Pictures\cancel.c \
+  G:\Electronic\sherkat\COD\Dimmer_Pump\KAMALI\LOAD\ CONTROL\PROGRAM\V1\Core\Src\Pictures\reset_factory_icon.c \
+  G:\Electronic\sherkat\COD\Dimmer_Pump\KAMALI\LOAD\ CONTROL\PROGRAM\V1\Core\Src\Pictures\back.c \
+  G:\Electronic\sherkat\COD\Dimmer_Pump\KAMALI\LOAD\ CONTROL\PROGRAM\V1\Core\Src\Pictures\bat.c \
+  G:\Electronic\sherkat\COD\Dimmer_Pump\KAMALI\LOAD\ CONTROL\PROGRAM\V1\Core\Src\Pictures\adler.c \
+  G:\Electronic\sherkat\COD\Dimmer_Pump\KAMALI\LOAD\ CONTROL\PROGRAM\V1\Core\Src\Pictures\test.c \
+  G:\Electronic\sherkat\COD\Dimmer_Pump\KAMALI\LOAD\ CONTROL\PROGRAM\V1\Core\Src\Pictures\caution2.c \
+  G:\Electronic\sherkat\COD\Dimmer_Pump\KAMALI\LOAD\ CONTROL\PROGRAM\V1\Core\Src\Pictures\wait.c \
+  G:\Electronic\sherkat\COD\Dimmer_Pump\KAMALI\LOAD\ CONTROL\PROGRAM\V1\Core\Src\Pictures\current_set.c \
+  G:\Electronic\sherkat\COD\Dimmer_Pump\KAMALI\LOAD\ CONTROL\PROGRAM\V1\Core\Src\Pictures\high_current1.c \
+  G:\Electronic\sherkat\COD\Dimmer_Pump\KAMALI\LOAD\ CONTROL\PROGRAM\V1\Core\Src\Pictures\low_current.c \
+  G:\Electronic\sherkat\COD\Dimmer_Pump\KAMALI\LOAD\ CONTROL\PROGRAM\V1\Core\Src\Pictures\reaction_time.c \
+  G:\Electronic\sherkat\COD\Dimmer_Pump\KAMALI\LOAD\ CONTROL\PROGRAM\V1\Core\Src\Pictures\retry_time.c \
+  G:\Electronic\sherkat\COD\Dimmer_Pump\KAMALI\LOAD\ CONTROL\PROGRAM\V1\Core\Src\Pictures\ok_button.c \
+  G:\Electronic\sherkat\COD\Dimmer_Pump\KAMALI\LOAD\ CONTROL\PROGRAM\V1\Core\Src\Pictures\exit1.c \
+  G:\Electronic\sherkat\COD\Dimmer_Pump\KAMALI\LOAD\ CONTROL\PROGRAM\V1\Core\Src\Pictures\return.c \
+  G:\Electronic\sherkat\COD\Dimmer_Pump\KAMALI\LOAD\ CONTROL\PROGRAM\V1\Core\Src\Pictures\up.c \
+  G:\Electronic\sherkat\COD\Dimmer_Pump\KAMALI\LOAD\ CONTROL\PROGRAM\V1\Core\Src\Pictures\down.c \
+  G:\Electronic\sherkat\COD\Dimmer_Pump\KAMALI\LOAD\ CONTROL\PROGRAM\V1\Core\Src\Pictures\amper.c \
+  G:\Electronic\sherkat\COD\Dimmer_Pump\KAMALI\LOAD\ CONTROL\PROGRAM\V1\Core\Src\Pictures\second.c \
+  G:\Electronic\sherkat\COD\Dimmer_Pump\KAMALI\LOAD\ CONTROL\PROGRAM\V1\Core\Src\Pictures\error.c \
+  G:\Electronic\sherkat\COD\Dimmer_Pump\KAMALI\LOAD\ CONTROL\PROGRAM\V1\Core\Src\Pictures\current.c \
+  G:\Electronic\sherkat\COD\Dimmer_Pump\KAMALI\LOAD\ CONTROL\PROGRAM\V1\Core\Src\Pictures\relay_off.c \
+  G:\Electronic\sherkat\COD\Dimmer_Pump\KAMALI\LOAD\ CONTROL\PROGRAM\V1\Core\Src\Pictures\relay_on.c \
+  G:\Electronic\sherkat\COD\Dimmer_Pump\KAMALI\LOAD\ CONTROL\PROGRAM\V1\Core\Src\Pictures\retry_number.c \
+  G:\Electronic\sherkat\COD\Dimmer_Pump\KAMALI\LOAD\ CONTROL\PROGRAM\V1\Core\Src\Pictures\number.c \
+  G:\Electronic\sherkat\COD\Dimmer_Pump\KAMALI\LOAD\ CONTROL\PROGRAM\V1\Core\Src\Pictures\loading.c \
+  G:\Electronic\sherkat\COD\Dimmer_Pump\KAMALI\LOAD\ CONTROL\PROGRAM\V1\Core\Src\Pictures\line.c \
+  G:\Electronic\sherkat\COD\Dimmer_Pump\KAMALI\LOAD\ CONTROL\PROGRAM\V1\Core\Src\Pictures\liney.c \
+  G:\Electronic\sherkat\COD\Dimmer_Pump\KAMALI\LOAD\ CONTROL\PROGRAM\V1\Core\Src\Pictures\input_open.c \
+  G:\Electronic\sherkat\COD\Dimmer_Pump\KAMALI\LOAD\ CONTROL\PROGRAM\V1\Core\Src\Pictures\input_close.c \
+  G:\Electronic\sherkat\COD\Dimmer_Pump\KAMALI\LOAD\ CONTROL\PROGRAM\V1\Core\Src\Pictures\output_open.c \
+  G:\Electronic\sherkat\COD\Dimmer_Pump\KAMALI\LOAD\ CONTROL\PROGRAM\V1\Core\Src\Pictures\press_enter.c \
+  G:\Electronic\sherkat\COD\Dimmer_Pump\KAMALI\LOAD\ CONTROL\PROGRAM\V1\Core\Src\Pictures\illegal_current.c \
+  G:\Electronic\sherkat\COD\Dimmer_Pump\KAMALI\LOAD\ CONTROL\PROGRAM\V1\Core\Src\Pictures\pressure.c \
+  G:\Electronic\sherkat\COD\Dimmer_Pump\KAMALI\LOAD\ CONTROL\PROGRAM\V1\Core\Src\Pictures\current_A.c \
+  G:\Electronic\sherkat\COD\Dimmer_Pump\KAMALI\LOAD\ CONTROL\PROGRAM\V1\Core\Src\Pictures\pressure_A.c \
+  G:\Electronic\sherkat\COD\Dimmer_Pump\KAMALI\LOAD\ CONTROL\PROGRAM\V1\Core\Src\Pictures\hc.c \
+  G:\Electronic\sherkat\COD\Dimmer_Pump\KAMALI\LOAD\ CONTROL\PROGRAM\V1\Core\Src\Pictures\lc.c \
+  G:\Electronic\sherkat\COD\Dimmer_Pump\KAMALI\LOAD\ CONTROL\PROGRAM\V1\Core\Src\Pictures\hc_manual.c \
+  G:\Electronic\sherkat\COD\Dimmer_Pump\KAMALI\LOAD\ CONTROL\PROGRAM\V1\Core\Src\Pictures\lc_manual.c \
+  G:\Electronic\sherkat\COD\Dimmer_Pump\KAMALI\LOAD\ CONTROL\PROGRAM\V1\Core\Src\Pictures\reset.c \
+  G:\Electronic\sherkat\COD\Dimmer_Pump\KAMALI\LOAD\ CONTROL\PROGRAM\V1\Core\Src\delay.c \
+  G:\Electronic\sherkat\COD\Dimmer_Pump\KAMALI\LOAD\ CONTROL\PROGRAM\V1\Core\Src\nokia1202\nokia1202.c \
+  G:\Electronic\sherkat\COD\Dimmer_Pump\KAMALI\LOAD\ CONTROL\PROGRAM\V1\Core\Src\nokia1202\courier7x14.c \
+  G:\Electronic\sherkat\COD\Dimmer_Pump\KAMALI\LOAD\ CONTROL\PROGRAM\V1\Core\Src\nokia1202\Font14x16.c \
+  G:\Electronic\sherkat\COD\Dimmer_Pump\KAMALI\LOAD\ CONTROL\PROGRAM\V1\Core\Src\lcd1202.c \
+  G:\Electronic\sherkat\COD\Dimmer_Pump\KAMALI\LOAD\ CONTROL\PROGRAM\V1\Core\Src\lcd1202.h \
+  G:\Electronic\sherkat\COD\Dimmer_Pump\KAMALI\LOAD\ CONTROL\PROGRAM\V1\Core\Src\Arial6x8.c \
+  G:\Electronic\sherkat\COD\Dimmer_Pump\KAMALI\LOAD\ CONTROL\PROGRAM\V1\Core\Src\Tahoma8x10.c \
+  G:\Electronic\sherkat\COD\Dimmer_Pump\KAMALI\LOAD\ CONTROL\PROGRAM\V1\Core\Src\slave.h \
+  G:\Electronic\sherkat\COD\Dimmer_Pump\KAMALI\LOAD\ CONTROL\PROGRAM\V1\Core\Src\i2c_eeprom\i2c_eeprom.c \
+  G:\Electronic\sherkat\COD\Dimmer_Pump\KAMALI\LOAD\ CONTROL\PROGRAM\V1\Core\Src\i2c_eeprom\i2c_eeprom.h \
+  G:\Electronic\sherkat\COD\Dimmer_Pump\KAMALI\LOAD\ CONTROL\PROGRAM\V1\Core\Src\i2c_eeprom\eeprom_define.h \
+  G:\Electronic\sherkat\COD\Dimmer_Pump\KAMALI\LOAD\ CONTROL\PROGRAM\V1\Core\Src\i2c_eeprom\delay.c \
+  G:\Electronic\sherkat\COD\Dimmer_Pump\KAMALI\LOAD\ CONTROL\PROGRAM\V1\Core\Src\menu.c

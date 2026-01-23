@@ -1,0 +1,6 @@
+Removed Pin From Net: NetName=n Pin=Fuse 1-1
+Removed Pin From Net: NetName=n Pin=in1-2
+Added Pin To Net: NetName=NetFuse 1_1 Pin=Fuse 1-1
+Added Pin To Net: NetName=NetFuse 1_1 Pin=in1-2
+Added Net: Name=NetFuse 1_1
+Added Room: Name=LOAD CONTROL_Final2

@@ -1,0 +1,4 @@
+Change Component Footprint: Designator=IC? Old Footprint=TO-263 New Footprint=TO-252
+Added Member To Class: ClassName=LOAD CONTROL_Final2 Member=Component C5 0.1uF
+Added Member To Class: ClassName=LOAD CONTROL_Final2 Member=Component R3 1K
+Added Room: Name=LOAD CONTROL_Final2

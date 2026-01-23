@@ -6,19 +6,12 @@
 
 
 void show_uart( char *ss){
-  char test[100];
-  int len;
-  strcpy(test, ss);
-  strcat(test, "\r\n");
-  len = strlen (test);
-  HAL_UART_Transmit(&huart1, (uint8_t *) test, len, 1000);
+  strcat(ss, "\r\n");
+  HAL_UART_Transmit(&huart1, (uint8_t *) ss, strlen (ss), 1000);
 }
 
 void bluetooth(){
-  strcpy(ss , "value/");
-  char ch[100];
-  sprintf(ch, "%d/%.1f/%.1f/%d/%d",Voltage,current,Pressure,PumpState,CurrentAlarm);
-  strcat(ss,ch);
+  sprintf(ss, "value/%d/%.1f/%.1f/%d/%d",Voltage,current,Pressure,PumpState,CurrentAlarm);
   show_uart(ss); 
 }
 
@@ -52,11 +45,10 @@ float Read_AD(uint32_t channel){
 void SoftSTART(){
   Voltage = StartVoltage_eeprom;
   char ss[20];
-  sprintf(ss , "Voltage:%dV " , Voltage);
+  sprintf(ss , "Volt:%dV " , Voltage);
   lcd_putsf_point(0,0,ss,TAHOMA_8x10);
   softTimer1 = 0;
   SecCount = 0;  
-  //show_uart("Starting...");
   while(softTimer1 <= StartTime_eeprom){
     HAL_IWDG_Refresh(&hiwdg);
     OutPut(Voltage);
@@ -78,11 +70,10 @@ void SoftSTART(){
       softTimer1=0;
       HAL_GPIO_WritePin(triak_GPIO_Port, triak_Pin, GPIO_PIN_SET);
       char ss[20];
-      sprintf(ss , "Voltage:%dV " , Voltage);
+      sprintf(ss , "Volt:%dV " , Voltage);
       lcd_putsf_point(0,0,ss,TAHOMA_8x10);
       lcd_putsf_point(0,40,"          ",TAHOMA_8x10);
       Lcd_Refresh();
-      //show_uart("soft start done");
       break;
     }
     
@@ -128,8 +119,8 @@ void readCurrent(){
       currentAlarmTimer = 0;
       PumpState = 0;
       CurrentFulat = 1;
-      sprintf(ss , "High Cur Fualt");
-      lcd_putsf_point(0,30,ss,TAHOMA_8x10);
+//      sprintf(ss , "High Cur Fualt");
+//      lcd_putsf_point(0,30,ss,TAHOMA_8x10);
     }
     
     if(CurrentAlarm == 1){
@@ -170,8 +161,8 @@ void readCurrent(){
       currentAlarmTimer = 0;
       CurrentFulat = 2;
       PumpState = 0;
-      sprintf(ss , "Low Cur Fualt");
-      lcd_putsf_point(0,30,ss,TAHOMA_8x10);
+//      sprintf(ss , "Low Cur Fualt");
+//      lcd_putsf_point(0,30,ss,TAHOMA_8x10);
     }
     
     if(CurrentAlarm == 2){
@@ -312,8 +303,8 @@ void SetControlMode(){
     CurrentAlarm = 0;
     PumpState = 0;
     CurrentFulat = 0;
-    lcd_putsf_point(0,30,"Reset Pump  ",TAHOMA_8x10);
-    Lcd_Refresh();
+//    lcd_putsf_point(0,30,"Reset Pump  ",TAHOMA_8x10);
+//    Lcd_Refresh();
     HAL_GPIO_WritePin(triak_GPIO_Port, triak_Pin, GPIO_PIN_RESET);
     HAL_Delay(1000);   
   }
@@ -341,11 +332,8 @@ void DigitalDimmerMode(){
   
   if(changeMenu == 1){    
     changeMenu = 0;
-    char ss[20];
-    sprintf(ss , "Voltage:%dV " , Voltage);
+    sprintf(ss , "Volt:%dV " , Voltage);
     lcd_putsf_point(0,0,ss,TAHOMA_8x10);
-    sprintf(ss , "Time:%d " , TimeSet);
-    lcd_putsf_point(0,20,ss,TAHOMA_8x10);
     Lcd_Refresh();
     HAL_Delay(100);
   }
@@ -359,7 +347,7 @@ void MainCod(){
   
   //if(mode_eeprom == 0)SoftStartMode();
   if(mode_eeprom == 1)SetControlMode();
-  //if(mode_eeprom == 2)DigitalDimmerMode();
+  if(mode_eeprom == 2)DigitalDimmerMode();
   
 }
 

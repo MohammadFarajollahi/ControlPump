@@ -1,0 +1,5 @@
+Removed Pin From Net: NetName=GND Pin=C8-1
+Removed Pin From Net: NetName=RESET Pin=C8-2
+Removed Member From Class: ClassName=LOAD CONTROL_Final2 Member=C8
+Added Member To Class: ClassName=LOAD CONTROL_Final2 Member=Component R11 1K
+Added Room: Name=LOAD CONTROL_Final2

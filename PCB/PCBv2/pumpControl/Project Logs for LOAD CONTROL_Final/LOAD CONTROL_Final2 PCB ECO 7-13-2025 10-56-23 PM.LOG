@@ -1,0 +1,6 @@
+Removed Pin From Net: NetName=VCC_5V Pin=R1-1
+Removed Member From Class: ClassName=LOAD CONTROL_Final2 Member=R1
+Added Pin To Net: NetName=VCC_5V Pin=C2-2
+Added Pin To Net: NetName=VCC_5V Pin=P1-1
+Added Member To Class: ClassName=LOAD CONTROL_Final2 Member=Component R11 1K
+Added Room: Name=LOAD CONTROL_Final2

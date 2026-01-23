@@ -1,0 +1,9 @@
+Removed Pin From Net: NetName=n Pin=C?-1
+Added Pin To Net: NetName=n Pin=C?-2
+Added Pin To Net: NetName=NetC?_1 Pin=C?-1
+Added Pin To Net: NetName=NetC?_1 Pin=RT4-2
+Added Pin To Net: NetName=NetC?_1 Pin=RT5-2
+Added Net: Name=NetC?_1
+Added Member To Class: ClassName=LOAD CONTROL_Final2 Member=Component C5 0.1uF
+Added Member To Class: ClassName=LOAD CONTROL_Final2 Member=Component R3 1K
+Added Room: Name=LOAD CONTROL_Final2

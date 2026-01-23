@@ -1,0 +1,9 @@
+Change Component Designator: OldDesignator=C55 NewDesignator=C5
+Added Component: Designator=R?(RES 1206 (3216X08L))
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Power"; Value = "1/8 W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "5%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "1K"; VariantName = "[No Variations]"
+Added Member To Class: ClassName=LOAD CONTROL_Final2 Member=Component R3 1K
+Added Member To Class: ClassName=LOAD CONTROL_Final2 Member=Component R? 1K
+Added Room: Name=LOAD CONTROL_Final2

@@ -1,0 +1,7 @@
+Removed Pin From Net: NetName=VCC_5V Pin=P3-1
+Change Component Designator: OldDesignator=C? NewDesignator=C11
+Add Component: Footprint Not Found R1206
+Add Pin To Net: Unknown Pin: Pin R9-2
+Added Pin To Net: NetName=NetP3_1 Pin=P3-1
+Added Net: Name=NetP3_1
+Add Class Member: Failed to add class member : Component R9 Res Semi

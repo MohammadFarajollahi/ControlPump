@@ -1,0 +1,52 @@
+Change Component Footprint: Designator=L2 Old Footprint=inductor 0.25w New Footprint=WE-TI_8075
+Change Component Footprint: Designator=L3 Old Footprint=inductor 0.25w New Footprint=WE-TI_8075
+Change Component Comment : Designator=L2 Old Comment=100uh New Comment=3900uH, 0.18A
+Change Component Comment : Designator=L3 Old Comment=100uh New Comment=3900uH, 0.18A
+Change component parameters: Designator = "L2"; Footprint = "WE-TI_8075"; UniqueID = "\KPONVLEF"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Case/Size Code"; Value = "8075"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Category"; Value = "Power Inductors"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Website Link"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.we-online.com/redexpert/article/744730392?ad"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet Link"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2URL"; Value = "https://www.we-online.com/redexpert/spec/744730392?ad"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "DC Resistance Max"; Value = "12Ohm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Diameter"; Value = "9.5mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Height"; Value = "8mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Inductance"; Value = "3900uH"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Wurth Elektronik"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number"; Value = "744730392"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Match Code"; Value = "WE-TI"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mount"; Value = "Through Hole"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Operating Temperature Max"; Value = "125°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Operating Temperature Min"; Value = "-40°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Packaging"; Value = "Tray"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Rated Current"; Value = "0.18A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Saturation Current @ 10%"; Value = "0.2A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Self Resonant Frequency"; Value = "1.1MHz"; VariantName = "[No Variations]"
+Change component parameters: Designator = "L3"; Footprint = "WE-TI_8075"; UniqueID = "\MYQSDDHE"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Case/Size Code"; Value = "8075"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Category"; Value = "Power Inductors"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Website Link"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.we-online.com/redexpert/article/744730392?ad"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet Link"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2URL"; Value = "https://www.we-online.com/redexpert/spec/744730392?ad"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "DC Resistance Max"; Value = "12Ohm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Diameter"; Value = "9.5mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Height"; Value = "8mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Inductance"; Value = "3900uH"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Wurth Elektronik"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number"; Value = "744730392"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Match Code"; Value = "WE-TI"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mount"; Value = "Through Hole"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Operating Temperature Max"; Value = "125°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Operating Temperature Min"; Value = "-40°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Packaging"; Value = "Tray"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Rated Current"; Value = "0.18A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Saturation Current @ 10%"; Value = "0.2A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Self Resonant Frequency"; Value = "1.1MHz"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetC16_2 Pin=L2-1
+Added Pin To Net: NetName=NetC12_1 Pin=L2-2
+Added Member To Class: ClassName=LOAD CONTROL_Final2 Member=Component L2 3900uH, 0.18A
+Added Room: Name=LOAD CONTROL_Final2

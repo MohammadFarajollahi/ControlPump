@@ -1,0 +1,7 @@
+Removed Pin From Net: NetName=NetBR2_1 Pin=NTC-1
+Removed Pin From Net: NetName=VCC-310V Pin=NTC-2
+Removed Member From Class: ClassName=LOAD CONTROL_Final2 Member=NTC
+Add Component: Footprint Not Found VAR 5MM
+Add Pin To Net: Unknown Pin: Pin RT?1-1
+Add Pin To Net: Unknown Pin: Pin RT?1-2
+Add Class Member: Failed to add class member : Component RT?1 5D-9

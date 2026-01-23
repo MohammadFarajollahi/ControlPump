@@ -1,0 +1,8 @@
+Added Member To Class: ClassName=LOAD CONTROL_Final2 Member=Component C7 100nf
+Added Member To Class: ClassName=LOAD CONTROL_Final2 Member=Component C8 100NF
+Added Member To Class: ClassName=LOAD CONTROL_Final2 Member=Component L1 0
+Added Member To Class: ClassName=LOAD CONTROL_Final2 Member=Component P1 Header 3
+Added Member To Class: ClassName=LOAD CONTROL_Final2 Member=Component R4 Res Semi
+Added Member To Class: ClassName=LOAD CONTROL_Final2 Member=Component R5 Res Semi
+Added Member To Class: ClassName=LOAD CONTROL_Final2 Member=Component R7 Res Semi
+Added Room: Name=LOAD CONTROL_Final2

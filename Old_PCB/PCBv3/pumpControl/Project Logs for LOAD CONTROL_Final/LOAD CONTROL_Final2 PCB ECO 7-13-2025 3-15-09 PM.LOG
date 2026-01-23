@@ -1,0 +1,116 @@
+Removed Pin From Net: NetName=n Pin=C15-2
+Removed Pin From Net: NetName=NetC13_2 Pin=D7-1
+Removed Pin From Net: NetName=NetC17_2 Pin=D7-2
+Removed Pin From Net: NetName=NetC17_2 Pin=D8-2
+Removed Pin From Net: NetName=GND Pin=D9-1
+Removed Pin From Net: NetName=GND Pin=D10-1
+Removed Pin From Net: NetName=NetC13_2 Pin=D10-2
+Removed Pin From Net: NetName=L Pin=Fuse 1-1
+Removed Pin From Net: NetName=L Pin=in1-2
+Removed Pin From Net: NetName=NetC13_1 Pin=RT1-1
+Removed Member From Class: ClassName=LOAD CONTROL_Final2 Member=C15
+Removed Member From Class: ClassName=LOAD CONTROL_Final2 Member=C16
+Removed Member From Class: ClassName=LOAD CONTROL_Final2 Member=D7
+Removed Member From Class: ClassName=LOAD CONTROL_Final2 Member=D8
+Removed Member From Class: ClassName=LOAD CONTROL_Final2 Member=D9
+Removed Member From Class: ClassName=LOAD CONTROL_Final2 Member=D10
+Removed Member From Class: ClassName=LOAD CONTROL_Final2 Member=RT1
+Removed Member From Class: ClassName=LOAD CONTROL_Final2 Member=S1
+Change Component Comment : Designator=RT3 Old Comment=330r New Comment=100r
+Added Component: Designator=C?(Cap-100nF-400V)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Designer"; Value = "Ali Hafizi"; VariantName = "[No Variations]"
+Added Component: Designator=C?(Cap-100nF-400V)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Designer"; Value = "Ali Hafizi"; VariantName = "[No Variations]"
+Added Component: Designator=D?(DIOM4629X24N)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Data"; Value = "16-12-2016"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Designer"; Value = "Abbas Basereh"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Link"; Value = "http://www.tme.eu/en/details/m7/smd-universal-diodes/dc-components/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "DC COMPONENTS"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part. No"; Value = "M7"; VariantName = "[No Variations]"
+Added Component: Designator=D?(DIOM4629X24N)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Data"; Value = "16-12-2016"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Designer"; Value = "Abbas Basereh"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Link"; Value = "http://www.tme.eu/en/details/m7/smd-universal-diodes/dc-components/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "DC COMPONENTS"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part. No"; Value = "M7"; VariantName = "[No Variations]"
+Added Component: Designator=D?(DIOM4629X24N)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Data"; Value = "16-12-2016"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Designer"; Value = "Abbas Basereh"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Link"; Value = "http://www.tme.eu/en/details/m7/smd-universal-diodes/dc-components/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "DC COMPONENTS"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part. No"; Value = "M7"; VariantName = "[No Variations]"
+Added Component: Designator=D?(DIOM4629X24N)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Data"; Value = "16-12-2016"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Designer"; Value = "Abbas Basereh"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Link"; Value = "http://www.tme.eu/en/details/m7/smd-universal-diodes/dc-components/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "DC COMPONENTS"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part. No"; Value = "M7"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "1n4007"; VariantName = "[No Variations]"
+Added Component: Designator=R?(Axial 3W 9_0mm)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Data"; Value = "4-1-2017"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Desc."; Value = "RES Axial 3W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Designer"; Value = "Abbas Basereh"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10r"; VariantName = "[No Variations]"
+Added Component: Designator=R?(Axial 3W 9_0mm)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Data"; Value = "4-1-2017"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Desc."; Value = "RES Axial 3W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Designer"; Value = "Abbas Basereh"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10r"; VariantName = "[No Variations]"
+Added Component: Designator=R?(RESC4817X04N)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Data"; Value = "16-12-2016"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Desc."; Value = "RES SMD 1206"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Designer"; Value = "Abbas Basereh"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=n Pin=C?-1
+Added Pin To Net: NetName=NetC13_1 Pin=C?-2
+Added Pin To Net: NetName=GND Pin=D?-1
+Added Pin To Net: NetName=GND Pin=D?-1
+Added Pin To Net: NetName=NetC13_2 Pin=D?-1
+Added Pin To Net: NetName=NetC13_2 Pin=D?-2
+Added Pin To Net: NetName=NetC17_2 Pin=D?-2
+Added Pin To Net: NetName=NetC17_2 Pin=D?-2
+Added Pin To Net: NetName=GND Pin=pc1-3
+Added Pin To Net: NetName=NetC17_2 Pin=R?-1
+Added Pin To Net: NetName=9v Pin=R?-2
+Added Pin To Net: NetName=Net1_1 Pin=pc1-4
+Added Net: Name=Net1_1
+Added Pin To Net: NetName=NetC?_1 Pin=C?-1
+Added Pin To Net: NetName=NetC?_1 Pin=L3-2
+Added Pin To Net: NetName=NetC?_1 Pin=R?-1
+Added Net: Name=NetC?_1
+Added Pin To Net: NetName=NetC?_2 Pin=C?-2
+Added Pin To Net: NetName=NetC?_2 Pin=RT2-1
+Added Net: Name=NetC?_2
+Added Pin To Net: NetName=NetD?_1 Pin=D?-1
+Added Pin To Net: NetName=NetD?_1 Pin=D?-2
+Added Pin To Net: NetName=NetD?_1 Pin=R?-2
+Added Net: Name=NetD?_1
+Added Pin To Net: NetName=NetFuse 1_1 Pin=Fuse 1-1
+Added Pin To Net: NetName=NetFuse 1_1 Pin=in1-2
+Added Net: Name=NetFuse 1_1
+Added Pin To Net: NetName=NetFuse 1_2 Pin=Fuse 1-2
+Added Pin To Net: NetName=NetFuse 1_2 Pin=RT2-2
+Added Net: Name=NetFuse 1_2
+Added Pin To Net: NetName=Netpc1_1 Pin=pc1-1
+Added Net: Name=Netpc1_1
+Added Pin To Net: NetName=Netpc1_2 Pin=pc1-2
+Added Net: Name=Netpc1_2
+Added Member To Class: ClassName=LOAD CONTROL_Final2 Member=Component C? 100nF
+Added Member To Class: ClassName=LOAD CONTROL_Final2 Member=Component C? 100nF
+Added Member To Class: ClassName=LOAD CONTROL_Final2 Member=Component D? 1n4007
+Added Member To Class: ClassName=LOAD CONTROL_Final2 Member=Component D? 1n4007
+Added Member To Class: ClassName=LOAD CONTROL_Final2 Member=Component D? 1n4007
+Added Member To Class: ClassName=LOAD CONTROL_Final2 Member=Component D? 1n4007
+Added Member To Class: ClassName=LOAD CONTROL_Final2 Member=Component R? 10r
+Added Member To Class: ClassName=LOAD CONTROL_Final2 Member=Component R? 10r
+Added Member To Class: ClassName=LOAD CONTROL_Final2 Member=Component R? 1K
+Added Member To Class: ClassName=LOAD CONTROL_Final2 Member=Component RT2 330r
+Added Room: Name=LOAD CONTROL_Final2

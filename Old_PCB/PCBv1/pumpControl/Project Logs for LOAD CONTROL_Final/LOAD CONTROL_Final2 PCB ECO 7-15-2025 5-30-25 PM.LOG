@@ -1,0 +1,5 @@
+Removed Pin From Net: NetName=SDA Pin=IC1-21
+Added Pin To Net: NetName=SCL Pin=IC1-21
+Added Member To Class: ClassName=LOAD CONTROL_Final2 Member=Component C5 0.1uF
+Added Member To Class: ClassName=LOAD CONTROL_Final2 Member=Component R3 1K
+Added Room: Name=LOAD CONTROL_Final2

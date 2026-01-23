@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BuildDb>
+    <Tool>
+        <Name>linker</Name>
+        <Parent>
+            <Path>D:\LOAD_CONTROL\Load_Control_K6T6\Program\Backup_12.27_persian_menu_V.F_1.5 - (iar-v,,9.3) - 1403.08.17 - new board_auto_WD\EWARM\Load_Control_K6T6\Exe\Load_Control_K6T6.out</Path>
+            <Output>
+                <Path>D:\LOAD_CONTROL\Load_Control_K6T6\Program\Backup_12.27_persian_menu_V.F_1.5 - (iar-v,,9.3) - 1403.08.17 - new board_auto_WD\EWARM\Load_Control_K6T6\List\Load_Control_K6T6.map</Path>
+            </Output>
+        </Parent>
+        <Parent>
+            <Path>D:\LOAD_CONTROL\Load_Control_K6T6\Program\Backup_12.27_persian_menu_V.F_1.5 - (iar-v,,9.3) - 1403.04.30 - new board_auto_WD - Copy\EWARM\Load_Control_K6T6\Exe\Load_Control_K6T6.out</Path>
+            <Output>
+                <Path>D:\LOAD_CONTROL\Load_Control_K6T6\Program\Backup_12.27_persian_menu_V.F_1.5 - (iar-v,,9.3) - 1403.04.30 - new board_auto_WD - Copy\EWARM\Load_Control_K6T6\List\Load_Control_K6T6.map</Path>
+            </Output>
+        </Parent>
+        <Parent>
+            <Path>D:\LOAD_CONTROL\Load_Control_K6T6\Program\Backup_12.27_persian_menu_V.F_1.5 - (iar-v,,9.3) - 1403.04.30 - new board_auto_WD\EWARM\Load_Control_K6T6\Exe\Load_Control_K6T6.out</Path>
+            <Output>
+                <Path>D:\LOAD_CONTROL\Load_Control_K6T6\Program\Backup_12.27_persian_menu_V.F_1.5 - (iar-v,,9.3) - 1403.04.30 - new board_auto_WD\EWARM\Load_Control_K6T6\List\Load_Control_K6T6.map</Path>
+            </Output>
+        </Parent>
+        <Parent>
+            <Path>F:\ELECTRONIC\cod\KAMALI\LOAD CONTROL\PROGRAM\V2\EWARM\Load_Control_K6T6\Exe\Load_Control_K6T6.out</Path>
+            <Output>
+                <Path>F:\ELECTRONIC\cod\KAMALI\LOAD CONTROL\PROGRAM\V2\EWARM\Load_Control_K6T6\List\Load_Control_K6T6.map</Path>
+            </Output>
+        </Parent>
+    </Tool>
+</BuildDb>

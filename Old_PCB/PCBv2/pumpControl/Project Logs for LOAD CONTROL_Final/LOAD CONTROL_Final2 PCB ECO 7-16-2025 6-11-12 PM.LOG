@@ -1,0 +1,10 @@
+Removed Pin From Net: NetName=VDD Pin=Buzzer1-1
+Removed Pin From Net: NetName=NetBuzzer1_2 Pin=RB1-2
+Added Pin To Net: NetName=NetBuzzer1_2 Pin=Q1-3
+Added Pin To Net: NetName=VDD Pin=RB1-1
+Added Pin To Net: NetName=NetBuzzer1_1 Pin=Buzzer1-1
+Added Pin To Net: NetName=NetBuzzer1_1 Pin=RB1-2
+Added Net: Name=NetBuzzer1_1
+Added Member To Class: ClassName=LOAD CONTROL_Final2 Member=Component C5 0.1uF
+Added Member To Class: ClassName=LOAD CONTROL_Final2 Member=Component R3 1K
+Added Room: Name=LOAD CONTROL_Final2

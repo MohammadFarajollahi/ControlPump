@@ -23,6 +23,8 @@
 /* USER CODE BEGIN Includes */
 #include <stdio.h>
 #include <string.h>
+#include <stdlib.h>
+
 //#include "cJSON.h"
 /* USER CODE END Includes */
 
@@ -259,22 +261,23 @@ int main(void)
   HAL_GPIO_WritePin(LcdLight_GPIO_Port, LcdLight_Pin, GPIO_PIN_SET);
   //eeprom config
   I2C_init();
-  //HAL_Delay(5);
-   if(HAL_GPIO_ReadPin(k_up_GPIO_Port, k_up_Pin) == 0){
+  //HAL_Delay(1000);
+  if(HAL_GPIO_ReadPin(k_up_GPIO_Port, k_up_Pin) == 0){
     HAL_GPIO_WritePin(blut_GPIO_Port, blut_Pin, GPIO_PIN_SET); 
-    HAL_GPIO_WritePin(buzzer_GPIO_Port, buzzer_Pin, GPIO_PIN_SET);   
+    
+    HAL_GPIO_WritePin(buzzer_GPIO_Port, buzzer_Pin, GPIO_PIN_SET);  
+    HAL_Delay(2000);
+    HAL_GPIO_WritePin(buzzer_GPIO_Port, buzzer_Pin, GPIO_PIN_RESET);  
     HAL_Delay(5000);
     show_uart("AT");
     HAL_Delay(1000);
     show_uart("AT");
     HAL_Delay(1000);
-    show_uart("AT+NAME=Pump-V1_3");
+    show_uart("AT+NAME=Pump-V1_4");
     HAL_Delay(1000);
     show_uart("AT+UART=38400,0,0");
     HAL_Delay(1000);
-    HAL_GPIO_WritePin(buzzer_GPIO_Port, buzzer_Pin, GPIO_PIN_SET);
-    HAL_Delay(100);
-    HAL_GPIO_WritePin(buzzer_GPIO_Port, buzzer_Pin, GPIO_PIN_RESET);
+    
     eeprom_write_int16(110,0);
     HAL_Delay(5);
     eeprom_write_int16(2500,10);
@@ -299,10 +302,10 @@ int main(void)
     HAL_Delay(5);
     eeprom_write_int16(15,110);
     HAL_Delay(5);
-    eeprom_write_int16(120,120);
+    eeprom_write_int16(1,120);
     HAL_Delay(5);  
     hang = 1;
-    HAL_Delay(1000); 
+    HAL_Delay(500); 
   }
   
   StartVoltage_eeprom = eeprom_read_int16(0);
@@ -334,7 +337,7 @@ int main(void)
   TimeHavaKeshi_eeprom = eeprom_read_int16(110);
   HAL_Delay(5);
   CurrentDownRealizeTime_eeprom = eeprom_read_int16(120);
-  CurrentDownRealizeTime_eeprom*=60;
+  CurrentDownRealizeTime_eeprom *= 60;
   HAL_Delay(5);
   
   //LCD

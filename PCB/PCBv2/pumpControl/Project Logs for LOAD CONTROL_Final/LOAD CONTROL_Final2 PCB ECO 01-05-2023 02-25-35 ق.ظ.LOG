@@ -1,0 +1,3 @@
+Added Pin To Net: NetName=GND Pin=C?-1
+Added Pin To Net: NetName=INPUT Pin=C?-2
+Added Member To Class: ClassName=LOAD CONTROL_Final2 Member=Component C? 100NF

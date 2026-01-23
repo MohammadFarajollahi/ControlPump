@@ -1,9 +1,12 @@
 ﻿ModuleBookmarks0=
 ModuleBookmarks1=
+ModuleBookmarks2=
 ModuleBreakpoints0=
 ModuleBreakpoints1=
+ModuleBreakpoints2=
 ModuleClosedNodes0=
-ModuleClosedNodes1=1
-NavigationStack=Main,Activity_Resume,66,0,Main,Activity_Pause,69,0,Main,Button2_Click,187,0,Main,btnSend_Click,125,0,Main,Button3_Click,192,1,Visual Designer,main.bal,-100,6,Main,Activity_Create,61,0,Main,Globals,51,0,Main,Serial1_Connected,116,1,Main,ParseEEPROMData,165,6,Main,Button1_Click,80,0
+ModuleClosedNodes1=
+ModuleClosedNodes2=1
+NavigationStack=Main,btnSend_Click,133,0,MainScreen,Button3_Click,174,2,MainScreen,Serial1_Connected,101,0,MainScreen,AStream_NewData,126,0,MainScreen,Globals,43,0,MainScreen,Button2_Click,195,6,MainScreen,ParseEEPROMData,133,6,MainScreen,Activity_Resume,69,0,Visual Designer,MainScreen.bal,-100,6,MainScreen,Activity_Create,63,6,MainScreen,Close_Click,82,0
 SelectedBuild=0
-VisibleModules=1
+VisibleModules=2,1

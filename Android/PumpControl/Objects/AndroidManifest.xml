@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest
 	xmlns:android="http://schemas.android.com/apk/res/android"
-	package="b4a.example"
+	package="Abronic.Pavan"
 	android:versionCode="1"
-	android:versionName=""
+	android:versionName="1.1"
 	android:installLocation="preferExternal">
 	
-	<uses-sdk android:minSdkVersion="28" android:targetSdkVersion="32"/>
+	<uses-sdk android:minSdkVersion="28" android:targetSdkVersion="34"/>
 	<supports-screens android:largeScreens="true" 
 	    android:normalScreens="true" 
 	    android:smallScreens="true" 
@@ -20,13 +20,13 @@
 	<application
 		android:name="androidx.multidex.MultiDexApplication"
 		android:icon="@drawable/icon"
-		android:label="Pump Control"
+		android:label="آبرونیک"
 		android:theme="@style/LightTheme">
 		<activity
 			android:windowSoftInputMode="stateHidden"
 			android:launchMode="singleTop"
 			android:name=".main"
-			android:label="Pump Control"
+			android:label="آبرونیک"
 			android:screenOrientation="portrait"
 			android:exported="true">
 			<intent-filter>
@@ -43,5 +43,13 @@
 			android:name=".starter$starter_BR"
 			android:exported="true">
 		</receiver>
+		<activity
+			android:windowSoftInputMode="stateHidden"
+			android:launchMode="singleTop"
+			android:name=".mainscreen"
+			android:label="آبرونیک"
+			android:screenOrientation="portrait"
+			android:exported="true">
+		</activity>
 	</application>
 </manifest>

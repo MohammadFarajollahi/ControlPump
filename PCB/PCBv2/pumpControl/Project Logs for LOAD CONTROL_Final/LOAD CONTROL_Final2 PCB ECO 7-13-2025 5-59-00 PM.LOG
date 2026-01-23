@@ -1,0 +1,18 @@
+Removed Pin From Net: NetName=NetC16_2 Pin=NTC-1
+Removed Pin From Net: NetName=NetFuse 1_2 Pin=NTC-2
+Added Component: Designator=VR4(14D XXX)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Data"; Value = "2017-1-5"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Designer"; Value = "Abbas Basereh"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Link"; Value = "digikey.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "china-canada-philipina"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Models"; Value = "MOV-VDR-COV"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part. No"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PUBLISHER"; Value = "ABBAS BASEREH"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "VALUE"; Value = "xxDxxx"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=n Pin=Fuse 1-1
+Added Pin To Net: NetName=n Pin=in1-2
+Added Pin To Net: NetName=NetC16_2 Pin=VR4-1
+Added Pin To Net: NetName=NetFuse 1_2 Pin=VR4-2
+Added Member To Class: ClassName=LOAD CONTROL_Final2 Member=Component VR4 xxDxxx
+Added Room: Name=LOAD CONTROL_Final2

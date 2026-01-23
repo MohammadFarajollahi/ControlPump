@@ -1,0 +1,9 @@
+Removed Pin From Net: NetName=ZeroCross Pin=IC1-25
+Removed Pin From Net: NetName=sw3 Pin=IC1-26
+Removed Pin From Net: NetName=SW4 Pin=IC1-27
+Removed Pin From Net: NetName=triakPulse Pin=IC1-28
+Removed Pin From Net: NetName=SW2 Pin=IC1-29
+Removed Pin From Net: NetName=sw1 Pin=IC1-30
+Added Pin To Net: NetName=ZeroCross Pin=IC1-29
+Added Pin To Net: NetName=triakPulse Pin=IC1-30
+Added Room: Name=LOAD CONTROL_Final2

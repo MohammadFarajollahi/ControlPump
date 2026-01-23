@@ -1,0 +1,4 @@
+Change Component Designator: OldDesignator=C5 NewDesignator=C55
+Added Member To Class: ClassName=LOAD CONTROL_Final2 Member=Component C55 0.1uF
+Added Member To Class: ClassName=LOAD CONTROL_Final2 Member=Component R3 1K
+Added Room: Name=LOAD CONTROL_Final2

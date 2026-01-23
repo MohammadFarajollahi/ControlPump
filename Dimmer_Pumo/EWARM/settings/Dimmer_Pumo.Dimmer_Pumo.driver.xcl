@@ -6,7 +6,7 @@
 
 -p
 
-C:\iar\ewarm-9.60.3\arm\config\debugger\ST\STM32F030K6.ddf
+C:\iar\ewarm-9.70.1\arm\config\debugger\ST\STM32F030K6.ddf
 
 --drv_verify_download
 

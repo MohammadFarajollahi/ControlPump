@@ -1,0 +1,32 @@
+Removed Pin From Net: NetName=NetC16_2 Pin=L2-1
+Removed Pin From Net: NetName=NetC12_1 Pin=L2-2
+Removed Pin From Net: NetName=n Pin=L3-1
+Removed Pin From Net: NetName=NetC17_1 Pin=L3-2
+Removed Member From Class: ClassName=LOAD CONTROL_Final2 Member=L2
+Removed Member From Class: ClassName=LOAD CONTROL_Final2 Member=L3
+Change Component Designator: OldDesignator=R? NewDesignator=R25
+Added Component: Designator=R26(RESAD640W45L370D200)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/LR0204F13K3/TE/view-part/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Comment_1"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "TE Connectivity Passive Product"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "LR0204F13K3"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "Axial TE Connectivity Passive Product"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/LR0204F13K3/TE/view-part/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R27(RESAD640W45L370D200)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/LR0204F13K3/TE/view-part/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Comment_1"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "TE Connectivity Passive Product"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "LR0204F13K3"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "Axial TE Connectivity Passive Product"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/LR0204F13K3/TE/view-part/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetC16_2 Pin=R26-1
+Added Pin To Net: NetName=NetC12_1 Pin=R26-2
+Added Pin To Net: NetName=n Pin=R27-1
+Added Pin To Net: NetName=NetC17_1 Pin=R27-2
+Added Member To Class: ClassName=LOAD CONTROL_Final2 Member=Component R26 1614997-1
+Added Member To Class: ClassName=LOAD CONTROL_Final2 Member=Component R27 1614997-1
+Added Room: Name=LOAD CONTROL_Final2

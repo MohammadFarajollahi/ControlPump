@@ -337,8 +337,8 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #Capability_queryPatterns b4a.example:queryPatterns}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Capability_shortcutMatchRequired b4a.example:shortcutMatchRequired}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Capability_queryPatterns Abronic.Pavan:queryPatterns}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Capability_shortcutMatchRequired Abronic.Pavan:shortcutMatchRequired}</code></td><td></td></tr>
      * </table>
      * @see #Capability_queryPatterns
      * @see #Capability_shortcutMatchRequired
@@ -347,7 +347,7 @@ public final class R {
       0x7f01000e, 0x7f01000f
     };
     /**
-     * <p>This symbol is the offset where the {@link b4a.example.R.attr#queryPatterns}
+     * <p>This symbol is the offset where the {@link Abronic.Pavan.R.attr#queryPatterns}
      * attribute's value can be found in the {@link #Capability} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -355,17 +355,17 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name b4a.example:queryPatterns
+     * @attr name Abronic.Pavan:queryPatterns
      */
     public static final int Capability_queryPatterns=0;
     /**
-     * <p>This symbol is the offset where the {@link b4a.example.R.attr#shortcutMatchRequired}
+     * <p>This symbol is the offset where the {@link Abronic.Pavan.R.attr#shortcutMatchRequired}
      * attribute's value can be found in the {@link #Capability} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name b4a.example:shortcutMatchRequired
+     * @attr name Abronic.Pavan:shortcutMatchRequired
      */
     public static final int Capability_shortcutMatchRequired=1;
     /**
@@ -378,8 +378,8 @@ public final class R {
      * <tr><td><code>{@link #ColorStateListItem_android_color android:color}</code></td><td></td></tr>
      * <tr><td><code>{@link #ColorStateListItem_android_alpha android:alpha}</code></td><td></td></tr>
      * <tr><td><code>{@link #ColorStateListItem_android_lStar android:lStar}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ColorStateListItem_alpha b4a.example:alpha}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ColorStateListItem_lStar b4a.example:lStar}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ColorStateListItem_alpha Abronic.Pavan:alpha}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ColorStateListItem_lStar Abronic.Pavan:lStar}</code></td><td></td></tr>
      * </table>
      * @see #ColorStateListItem_android_color
      * @see #ColorStateListItem_android_alpha
@@ -421,21 +421,21 @@ public final class R {
      */
     public static final int ColorStateListItem_android_lStar=2;
     /**
-     * <p>This symbol is the offset where the {@link b4a.example.R.attr#alpha}
+     * <p>This symbol is the offset where the {@link Abronic.Pavan.R.attr#alpha}
      * attribute's value can be found in the {@link #ColorStateListItem} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name b4a.example:alpha
+     * @attr name Abronic.Pavan:alpha
      */
     public static final int ColorStateListItem_alpha=3;
     /**
-     * <p>This symbol is the offset where the {@link b4a.example.R.attr#lStar}
+     * <p>This symbol is the offset where the {@link Abronic.Pavan.R.attr#lStar}
      * attribute's value can be found in the {@link #ColorStateListItem} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name b4a.example:lStar
+     * @attr name Abronic.Pavan:lStar
      */
     public static final int ColorStateListItem_lStar=4;
     /**
@@ -445,13 +445,13 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #FontFamily_fontProviderAuthority b4a.example:fontProviderAuthority}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamily_fontProviderCerts b4a.example:fontProviderCerts}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamily_fontProviderFetchStrategy b4a.example:fontProviderFetchStrategy}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamily_fontProviderFetchTimeout b4a.example:fontProviderFetchTimeout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamily_fontProviderPackage b4a.example:fontProviderPackage}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamily_fontProviderQuery b4a.example:fontProviderQuery}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamily_fontProviderSystemFontFamily b4a.example:fontProviderSystemFontFamily}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamily_fontProviderAuthority Abronic.Pavan:fontProviderAuthority}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamily_fontProviderCerts Abronic.Pavan:fontProviderCerts}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamily_fontProviderFetchStrategy Abronic.Pavan:fontProviderFetchStrategy}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamily_fontProviderFetchTimeout Abronic.Pavan:fontProviderFetchTimeout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamily_fontProviderPackage Abronic.Pavan:fontProviderPackage}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamily_fontProviderQuery Abronic.Pavan:fontProviderQuery}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamily_fontProviderSystemFontFamily Abronic.Pavan:fontProviderSystemFontFamily}</code></td><td></td></tr>
      * </table>
      * @see #FontFamily_fontProviderAuthority
      * @see #FontFamily_fontProviderCerts
@@ -466,17 +466,17 @@ public final class R {
       0x7f010006, 0x7f010007, 0x7f010008
     };
     /**
-     * <p>This symbol is the offset where the {@link b4a.example.R.attr#fontProviderAuthority}
+     * <p>This symbol is the offset where the {@link Abronic.Pavan.R.attr#fontProviderAuthority}
      * attribute's value can be found in the {@link #FontFamily} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name b4a.example:fontProviderAuthority
+     * @attr name Abronic.Pavan:fontProviderAuthority
      */
     public static final int FontFamily_fontProviderAuthority=0;
     /**
-     * <p>This symbol is the offset where the {@link b4a.example.R.attr#fontProviderCerts}
+     * <p>This symbol is the offset where the {@link Abronic.Pavan.R.attr#fontProviderCerts}
      * attribute's value can be found in the {@link #FontFamily} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -484,11 +484,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name b4a.example:fontProviderCerts
+     * @attr name Abronic.Pavan:fontProviderCerts
      */
     public static final int FontFamily_fontProviderCerts=1;
     /**
-     * <p>This symbol is the offset where the {@link b4a.example.R.attr#fontProviderFetchStrategy}
+     * <p>This symbol is the offset where the {@link Abronic.Pavan.R.attr#fontProviderFetchStrategy}
      * attribute's value can be found in the {@link #FontFamily} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -509,11 +509,11 @@ public final class R {
      * default typeface will be used instead.</td></tr>
      * </table>
      *
-     * @attr name b4a.example:fontProviderFetchStrategy
+     * @attr name Abronic.Pavan:fontProviderFetchStrategy
      */
     public static final int FontFamily_fontProviderFetchStrategy=2;
     /**
-     * <p>This symbol is the offset where the {@link b4a.example.R.attr#fontProviderFetchTimeout}
+     * <p>This symbol is the offset where the {@link Abronic.Pavan.R.attr#fontProviderFetchTimeout}
      * attribute's value can be found in the {@link #FontFamily} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
@@ -527,37 +527,37 @@ public final class R {
      * timeout and wait until a reply is received from the font provider.</td></tr>
      * </table>
      *
-     * @attr name b4a.example:fontProviderFetchTimeout
+     * @attr name Abronic.Pavan:fontProviderFetchTimeout
      */
     public static final int FontFamily_fontProviderFetchTimeout=3;
     /**
-     * <p>This symbol is the offset where the {@link b4a.example.R.attr#fontProviderPackage}
+     * <p>This symbol is the offset where the {@link Abronic.Pavan.R.attr#fontProviderPackage}
      * attribute's value can be found in the {@link #FontFamily} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name b4a.example:fontProviderPackage
+     * @attr name Abronic.Pavan:fontProviderPackage
      */
     public static final int FontFamily_fontProviderPackage=4;
     /**
-     * <p>This symbol is the offset where the {@link b4a.example.R.attr#fontProviderQuery}
+     * <p>This symbol is the offset where the {@link Abronic.Pavan.R.attr#fontProviderQuery}
      * attribute's value can be found in the {@link #FontFamily} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name b4a.example:fontProviderQuery
+     * @attr name Abronic.Pavan:fontProviderQuery
      */
     public static final int FontFamily_fontProviderQuery=5;
     /**
-     * <p>This symbol is the offset where the {@link b4a.example.R.attr#fontProviderSystemFontFamily}
+     * <p>This symbol is the offset where the {@link Abronic.Pavan.R.attr#fontProviderSystemFontFamily}
      * attribute's value can be found in the {@link #FontFamily} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name b4a.example:fontProviderSystemFontFamily
+     * @attr name Abronic.Pavan:fontProviderSystemFontFamily
      */
     public static final int FontFamily_fontProviderSystemFontFamily=6;
     /**
@@ -572,11 +572,11 @@ public final class R {
      * <tr><td><code>{@link #FontFamilyFont_android_fontStyle android:fontStyle}</code></td><td></td></tr>
      * <tr><td><code>{@link #FontFamilyFont_android_ttcIndex android:ttcIndex}</code></td><td></td></tr>
      * <tr><td><code>{@link #FontFamilyFont_android_fontVariationSettings android:fontVariationSettings}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamilyFont_font b4a.example:font}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamilyFont_fontStyle b4a.example:fontStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamilyFont_fontVariationSettings b4a.example:fontVariationSettings}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamilyFont_fontWeight b4a.example:fontWeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamilyFont_ttcIndex b4a.example:ttcIndex}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamilyFont_font Abronic.Pavan:font}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamilyFont_fontStyle Abronic.Pavan:fontStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamilyFont_fontVariationSettings Abronic.Pavan:fontVariationSettings}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamilyFont_fontWeight Abronic.Pavan:fontWeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamilyFont_ttcIndex Abronic.Pavan:ttcIndex}</code></td><td></td></tr>
      * </table>
      * @see #FontFamilyFont_android_font
      * @see #FontFamilyFont_android_fontWeight
@@ -652,7 +652,7 @@ public final class R {
      */
     public static final int FontFamilyFont_android_fontVariationSettings=4;
     /**
-     * <p>This symbol is the offset where the {@link b4a.example.R.attr#font}
+     * <p>This symbol is the offset where the {@link Abronic.Pavan.R.attr#font}
      * attribute's value can be found in the {@link #FontFamilyFont} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -660,11 +660,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name b4a.example:font
+     * @attr name Abronic.Pavan:font
      */
     public static final int FontFamilyFont_font=5;
     /**
-     * <p>This symbol is the offset where the {@link b4a.example.R.attr#fontStyle}
+     * <p>This symbol is the offset where the {@link Abronic.Pavan.R.attr#fontStyle}
      * attribute's value can be found in the {@link #FontFamilyFont} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -677,35 +677,35 @@ public final class R {
      * <tr><td>normal</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name b4a.example:fontStyle
+     * @attr name Abronic.Pavan:fontStyle
      */
     public static final int FontFamilyFont_fontStyle=6;
     /**
-     * <p>This symbol is the offset where the {@link b4a.example.R.attr#fontVariationSettings}
+     * <p>This symbol is the offset where the {@link Abronic.Pavan.R.attr#fontVariationSettings}
      * attribute's value can be found in the {@link #FontFamilyFont} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name b4a.example:fontVariationSettings
+     * @attr name Abronic.Pavan:fontVariationSettings
      */
     public static final int FontFamilyFont_fontVariationSettings=7;
     /**
-     * <p>This symbol is the offset where the {@link b4a.example.R.attr#fontWeight}
+     * <p>This symbol is the offset where the {@link Abronic.Pavan.R.attr#fontWeight}
      * attribute's value can be found in the {@link #FontFamilyFont} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name b4a.example:fontWeight
+     * @attr name Abronic.Pavan:fontWeight
      */
     public static final int FontFamilyFont_fontWeight=8;
     /**
-     * <p>This symbol is the offset where the {@link b4a.example.R.attr#ttcIndex}
+     * <p>This symbol is the offset where the {@link Abronic.Pavan.R.attr#ttcIndex}
      * attribute's value can be found in the {@link #FontFamilyFont} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name b4a.example:ttcIndex
+     * @attr name Abronic.Pavan:ttcIndex
      */
     public static final int FontFamilyFont_ttcIndex=9;
     /**

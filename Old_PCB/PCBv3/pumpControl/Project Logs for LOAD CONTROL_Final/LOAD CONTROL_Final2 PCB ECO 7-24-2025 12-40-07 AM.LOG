@@ -1,0 +1,19 @@
+Removed Pin From Net: NetName=GND Pin=P2-1
+Removed Pin From Net: NetName=VCC_5V Pin=P2-2
+Removed Pin From Net: NetName=TCK Pin=P2-3
+Removed Pin From Net: NetName=TMS Pin=P2-4
+Removed Pin From Net: NetName=RESET Pin=P2-5
+Removed Member From Class: ClassName=LOAD CONTROL_Final2 Member=P2
+Added Component: Designator=Program(HDR1X4)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=Program-1
+Added Pin To Net: NetName=VCC_5V Pin=Program-2
+Added Pin To Net: NetName=TCK Pin=Program-3
+Added Pin To Net: NetName=TMS Pin=Program-4
+Added Member To Class: ClassName=LOAD CONTROL_Final2 Member=Component C14 C1206C120J5GACTU
+Added Member To Class: ClassName=LOAD CONTROL_Final2 Member=Component C18 C1206C120J5GACTU
+Added Member To Class: ClassName=LOAD CONTROL_Final2 Member=Component Program Header 4
+Added Room: Name=LOAD CONTROL_Final2

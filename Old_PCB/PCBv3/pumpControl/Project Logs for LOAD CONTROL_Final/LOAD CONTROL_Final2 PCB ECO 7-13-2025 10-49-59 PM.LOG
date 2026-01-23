@@ -1,0 +1,37 @@
+Removed Pin From Net: NetName=NetC9_2 Pin=R12-1
+Removed Pin From Net: NetName=NetC11_2 Pin=R12-2
+Removed Pin From Net: NetName=amper Pin=R13-1
+Removed Pin From Net: NetName=NetC9_2 Pin=R13-2
+Removed Pin From Net: NetName=GND Pin=R14-1
+Removed Pin From Net: NetName=NetC11_2 Pin=R14-2
+Removed Member From Class: ClassName=LOAD CONTROL_Final2 Member=R14
+Change Component Footprint: Designator=R12 Old Footprint=RES-(1/2)-Stand New Footprint=RESC4817X04N
+Change Component Footprint: Designator=R13 Old Footprint=RES-(1/2)-Stand New Footprint=RESC4817X04N
+Change Component Comment : Designator=R12 Old Comment=10r New Comment=1K
+Change Component Comment : Designator=R13 Old Comment=10r New Comment=1K
+Change component parameters: Designator = "R12"; Footprint = "RESC4817X04N"; UniqueID = "\VTFTDSKX"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Data"; Value = "16-12-2016"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Desc."; Value = "RES SMD 1206"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Designer"; Value = "Abbas Basereh"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "1k"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R13"; Footprint = "RESC4817X04N"; UniqueID = "\ESORCFQG"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Data"; Value = "16-12-2016"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Desc."; Value = "RES SMD 1206"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Designer"; Value = "Abbas Basereh"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "1k"; VariantName = "[No Variations]"
+Added Component: Designator=R11(RESC4817X04N)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Data"; Value = "16-12-2016"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Desc."; Value = "RES SMD 1206"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Designer"; Value = "Abbas Basereh"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "1k"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetC11_2 Pin=R11-1
+Added Pin To Net: NetName=GND Pin=R11-2
+Added Pin To Net: NetName=NetC11_2 Pin=R12-1
+Added Pin To Net: NetName=NetC9_2 Pin=R12-2
+Added Pin To Net: NetName=NetC9_2 Pin=R13-1
+Added Pin To Net: NetName=amper Pin=R13-2
+Added Member To Class: ClassName=LOAD CONTROL_Final2 Member=Component R11 1K
+Added Room: Name=LOAD CONTROL_Final2

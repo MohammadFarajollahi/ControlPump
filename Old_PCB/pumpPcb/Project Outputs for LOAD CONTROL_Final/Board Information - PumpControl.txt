@@ -1,0 +1,12 @@
+Board Information Report
+Filename     : C:\Users\Mohammad\Desktop\pumpPcb\PumpControl.PcbDoc
+Date         : 8/8/2025
+Time         : 12:51:20 PM
+Time Elapsed : 00:00:00
+
+Routing Information
+    Routing completion, 57.07%
+    Connections, 184
+    Connections routed, 105
+    Connections remaining, 79
+count : 4

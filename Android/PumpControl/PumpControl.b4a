@@ -1,30 +1,42 @@
-﻿Build1=Default,b4a.example
+﻿Build1=Abronic_Pavan,Abronic.Pavan
+Build2=Default,b4a.example
 File1=connected_500px.png
 File2=disconnected_512px.png
 File3=Layout.bal
 File4=main.bal
+File5=MainScreen.bal
+File6=pavan-logo.png
+File7=shadow.png
+File8=theme2.png
+File9=yekan.ttf
 FileGroup1=Default Group
 FileGroup2=Default Group
 FileGroup3=Default Group
 FileGroup4=Default Group
+FileGroup5=Default Group
+FileGroup6=Default Group
+FileGroup7=Default Group
+FileGroup8=Default Group
+FileGroup9=Default Group
 Group=Default Group
 Library1=core
-Library2=runtimepermissions
+Library2=randomaccessfile
 Library3=serial
 Library4=usbserial
 Library5=xui
-Library6=randomaccessfile
-ManifestCode='This code will be applied to the manifest file during compilation.~\n~'You do not need to modify it in most cases.~\n~'See this link for for more information: https://www.b4x.com/forum/showthread.php?p=78136~\n~AddManifestText(~\n~<uses-sdk android:minSdkVersion="28" android:targetSdkVersion="32"/>~\n~<supports-screens android:largeScreens="true" ~\n~    android:normalScreens="true" ~\n~    android:smallScreens="true" ~\n~    android:anyDensity="true"/>)~\n~SetApplicationAttribute(android:icon, "@drawable/icon")~\n~SetApplicationAttribute(android:label, "$LABEL$")~\n~CreateResourceFromFile(Macro, Themes.LightTheme)~\n~AddPermission(android.permission.BLUETOOTH)~\n~AddPermission(android.permission.BLUETOOTH_ADMIN)~\n~AddPermission(android.permission.ACCESS_FINE_LOCATION)~\n~~\n~' برای اندروید 12 به بالا:~\n~AddPermission(android.permission.BLUETOOTH_CONNECT)~\n~AddPermission(android.permission.BLUETOOTH_SCAN)~\n~CreateResource(values-v20, theme.xml,~\n~~\n~~\n~<resources>~\n~  <style~\n~  name="Custom" parent="@android:style/Theme.Material.Light.NoActionBar">~\n~    ~\n~     <item name="android:forceDarkAllowed">false</item>~\n~  </style>~\n~</resources>~\n~)~\n~'End of default text.~\n~
-Module1=Starter
-NumberOfFiles=4
+Library6=runtimepermissions
+ManifestCode='This code will be applied to the manifest file during compilation.~\n~'You do not need to modify it in most cases.~\n~'See this link for for more information: https://www.b4x.com/forum/showthread.php?p=78136~\n~AddManifestText(~\n~<uses-sdk android:minSdkVersion="28" android:targetSdkVersion="34"/>~\n~<supports-screens android:largeScreens="true" ~\n~    android:normalScreens="true" ~\n~    android:smallScreens="true" ~\n~    android:anyDensity="true"/>)~\n~SetApplicationAttribute(android:icon, "@drawable/icon")~\n~SetApplicationAttribute(android:label, "$LABEL$")~\n~CreateResourceFromFile(Macro, Themes.LightTheme)~\n~AddPermission(android.permission.BLUETOOTH)~\n~AddPermission(android.permission.BLUETOOTH_ADMIN)~\n~AddPermission(android.permission.ACCESS_FINE_LOCATION)~\n~~\n~' برای اندروید 12 به بالا:~\n~AddPermission(android.permission.BLUETOOTH_CONNECT)~\n~AddPermission(android.permission.BLUETOOTH_SCAN)~\n~CreateResource(values-v20, theme.xml,~\n~~\n~~\n~<resources>~\n~  <style~\n~  name="Custom" parent="@android:style/Theme.Material.Light.NoActionBar">~\n~    ~\n~     <item name="android:forceDarkAllowed">false</item>~\n~  </style>~\n~</resources>~\n~)~\n~'End of default text.~\n~
+Module1=MainScreen
+Module2=Starter
+NumberOfFiles=9
 NumberOfLibraries=6
-NumberOfModules=1
+NumberOfModules=2
 Version=13.1
 @EndOfDesignText@
 #Region  Project Attributes 
-	#ApplicationLabel: Pump Control
+	#ApplicationLabel:آبرونیک
 	#VersionCode: 1
-	#VersionName: 
+	#VersionName: 1.1
 	'SupportedOrientations possible values: unspecified, landscape or portrait.
 	#SupportedOrientations: portrait
 	#CanInstallToExternalStorage: True
@@ -73,6 +85,8 @@ Sub Globals
 	Private Button3 As Button
 	Private ImageView1 As ImageView
 	Dim bmp As BitmapDrawable
+	Private Button4 As Button
+	Private pPopup As Panel
 End Sub
 
 Sub Activity_Create(FirstTime As Boolean)
@@ -83,6 +97,8 @@ Sub Activity_Create(FirstTime As Boolean)
 	If Result = False Then
 		ToastMessageShow("دسترسی داده نشد!", True)
 	End If
+	StartActivity(MainScreen)
+	Activity.Finish
 	Activity.LoadLayout("Main")   ' توی دیزاین، دکمه‌ها و لیست رو بذار
 	Serial1.Initialize("Serial1")
 	
@@ -196,9 +212,9 @@ Sub ParseEEPROMData(Data As String)
 	If Data.StartsWith("value/") = True Then
 		Dim parts() As String = Regex.Split("/", Data)
 		If parts.Length == 6 Then
-			Label20.Text = parts(1)
-			Label16.Text = parts(2)
-			Label17.Text = parts(3) 
+			Label20.Text = parts(1) ' ولتاژ پمپ
+			Label16.Text = parts(2) ' جریان پمپ
+			Label17.Text = parts(3)  ' فشار پمپ
 			If parts(4) = 1 Then Label34.Text = "پمپ روشن"
 			If parts(4) = 0 Then Label34.Text = "پمپ خاموش"
 			
@@ -222,3 +238,12 @@ Private Sub Button3_Click
 	Dim data() As Byte = ss.GetBytes("UTF8")'txtData.Text.GetBytes("UTF8")
 	AStream.Write(data)
 End Sub
+
+Private Sub Button4_Click
+	pPopup.Visible=True
+	pPopup.Left = (100%x - pPopup.Width) / 2
+	pPopup.Top  = (100%y - pPopup.Height) / 2
+	pPopup.Visible = True
+End Sub
+
+

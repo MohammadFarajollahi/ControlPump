@@ -1,0 +1,5 @@
+Removed Pin From Net: NetName=ZeroCross Pin=IC1-13
+Removed Pin From Net: NetName=buzzer Pin=IC1-25
+Added Pin To Net: NetName=buzzer Pin=IC1-13
+Added Pin To Net: NetName=ZeroCross Pin=IC1-25
+Added Room: Name=LOAD CONTROL_Final2

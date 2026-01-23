@@ -32,7 +32,7 @@ void MC60Uart(void)
     ++uartTimeTest;
   }
   
-  if(uartTimeTest >=5 && UartTrig == 1){
+  if(uartTimeTest >=2 && UartTrig == 1){
     uartTimeTest = 0;
     char *token;
     char *rest = (char*)rx_buffer1;

@@ -1,0 +1,5 @@
+Removed Pin From Net: NetName=NetBR2_1 Pin=NTC-1
+Removed Pin From Net: NetName=VCC-310V Pin=NTC-2
+Added Pin To Net: NetName=VCC-310V Pin=RT1-1
+Added Pin To Net: NetName=NetBR2_1 Pin=RT1-2
+Added Member To Class: ClassName=LOAD CONTROL_Final2 Member=Component RT1 5D-9

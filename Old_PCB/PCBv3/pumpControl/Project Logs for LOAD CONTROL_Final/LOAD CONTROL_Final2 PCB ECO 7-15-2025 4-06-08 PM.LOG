@@ -1,0 +1,112 @@
+Removed Pin From Net: NetName=amper Pin=C8-2
+Removed Pin From Net: NetName=NetC11_1 Pin=C15-2
+Removed Pin From Net: NetName=GND Pin=C16-1
+Removed Pin From Net: NetName=NetC14_1 Pin=C16-2
+Removed Pin From Net: NetName=9v Pin=D11-1
+Removed Pin From Net: NetName=L Pin=Fuse 1-1
+Removed Pin From Net: NetName=GND Pin=J1-N
+Removed Pin From Net: NetName=VCC_5V Pin=P1-1
+Removed Pin From Net: NetName=GND Pin=Q2-2
+Removed Pin From Net: NetName=ZeroCross Pin=Q2-3
+Removed Pin From Net: NetName=VCC-3.3v Pin=R12-1
+Removed Pin From Net: NetName=SCL1 Pin=R12-2
+Removed Pin From Net: NetName=VCC-3.3v Pin=R13-1
+Removed Pin From Net: NetName=amper Pin=R14-2
+Removed Pin From Net: NetName=VCC-3.3v Pin=R16-1
+Removed Pin From Net: NetName=SDA1 Pin=R16-2
+Removed Pin From Net: NetName=NetC11_2 Pin=R20-1
+Removed Pin From Net: NetName=NetC11_1 Pin=R20-2
+Removed Pin From Net: NetName=VCC-3.3v Pin=R26-1
+Removed Pin From Net: NetName=ZeroCross Pin=R26-2
+Removed Pin From Net: NetName=NetD13_2 Pin=R29-1
+Removed Pin From Net: NetName=VCC-3.3v Pin=RT1-1
+Removed Pin From Net: NetName=GND Pin=RT2-1
+Removed Pin From Net: NetName=GND Pin=U2-4
+Removed Pin From Net: NetName=SDA1 Pin=U2-5
+Removed Pin From Net: NetName=SCL1 Pin=U2-6
+Removed Pin From Net: NetName=VCC-3.3v Pin=U2-8
+Removed Pin From Net: NetName=GND Pin=VR2-1
+Removed Pin From Net: NetName=VCC_5V Pin=VR2-2
+Removed Pin From Net: NetName=VCC_5V Pin=VR2-4
+Removed Member From Class: ClassName=LOAD CONTROL_Final2 Member=C15
+Removed Member From Class: ClassName=LOAD CONTROL_Final2 Member=C16
+Removed Member From Class: ClassName=LOAD CONTROL_Final2 Member=D11
+Removed Member From Class: ClassName=LOAD CONTROL_Final2 Member=Fuse 1
+Removed Member From Class: ClassName=LOAD CONTROL_Final2 Member=J1
+Removed Member From Class: ClassName=LOAD CONTROL_Final2 Member=Q2
+Removed Member From Class: ClassName=LOAD CONTROL_Final2 Member=R12
+Removed Member From Class: ClassName=LOAD CONTROL_Final2 Member=R13
+Removed Member From Class: ClassName=LOAD CONTROL_Final2 Member=R16
+Removed Member From Class: ClassName=LOAD CONTROL_Final2 Member=R19
+Removed Member From Class: ClassName=LOAD CONTROL_Final2 Member=R20
+Removed Member From Class: ClassName=LOAD CONTROL_Final2 Member=R26
+Removed Member From Class: ClassName=LOAD CONTROL_Final2 Member=R28
+Removed Member From Class: ClassName=LOAD CONTROL_Final2 Member=R29
+Removed Member From Class: ClassName=LOAD CONTROL_Final2 Member=RT1
+Removed Member From Class: ClassName=LOAD CONTROL_Final2 Member=RT2
+Removed Member From Class: ClassName=LOAD CONTROL_Final2 Member=U2
+Removed Member From Class: ClassName=LOAD CONTROL_Final2 Member=VR2
+Removed Member From Class: ClassName=LOAD CONTROL_Final2 Member=Y1
+Added Component: Designator=C5(CAPC4817X12N)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Data"; Value = "16-12-2016"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Desc."; Value = "CAP SMD 1206"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Designer"; Value = "Abbas Basereh"; VariantName = "[No Variations]"
+Added Component: Designator=C6(CAPC4817X12N)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Data"; Value = "16-12-2016"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Desc."; Value = "CAP SMD 1206"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Designer"; Value = "Abbas Basereh"; VariantName = "[No Variations]"
+Added Component: Designator=C9(CAPC4817X12N)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Data"; Value = "16-12-2016"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Desc."; Value = "CAP SMD 1206"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Designer"; Value = "Abbas Basereh"; VariantName = "[No Variations]"
+Added Component: Designator=IC?(TO-263)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R3(RESC4817X04N)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Data"; Value = "16-12-2016"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Desc."; Value = "RES SMD 1206"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Designer"; Value = "Abbas Basereh"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "1k"; VariantName = "[No Variations]"
+Added Component: Designator=R15(RESC4817X04N)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Data"; Value = "16-12-2016"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Desc."; Value = "RES SMD 1206"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Designer"; Value = "Abbas Basereh"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "1k"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=C5-2
+Added Pin To Net: NetName=GND Pin=C6-1
+Added Pin To Net: NetName=RESET Pin=C6-2
+Added Pin To Net: NetName=GND Pin=C9-1
+Added Pin To Net: NetName=amper Pin=C9-2
+Added Pin To Net: NetName=9v Pin=C17-1
+Added Pin To Net: NetName=9v Pin=C20-2
+Added Pin To Net: NetName=9v Pin=IC?-1
+Added Pin To Net: NetName=VCC_5V Pin=IC?-3
+Added Pin To Net: NetName=GND Pin=IC?-4
+Added Pin To Net: NetName=NetD13_2 Pin=pc1-2
+Added Pin To Net: NetName=ZeroCross Pin=pc1-4
+Added Pin To Net: NetName=VCC_5V Pin=R3-2
+Added Pin To Net: NetName=amper Pin=R15-2
+Added Pin To Net: NetName=L Pin=R22-1
+Added Pin To Net: NetName=ZeroCross Pin=R25-1
+Added Pin To Net: NetName=NetC5_1 Pin=C5-1
+Added Pin To Net: NetName=NetC5_1 Pin=P1-1
+Added Pin To Net: NetName=NetC5_1 Pin=R3-1
+Added Net: Name=NetC5_1
+Added Pin To Net: NetName=NetC8_2 Pin=C8-2
+Added Pin To Net: NetName=NetC8_2 Pin=R14-2
+Added Pin To Net: NetName=NetC8_2 Pin=R15-1
+Added Net: Name=NetC8_2
+Added Pin To Net: NetName=NetR23_2 Pin=R23-2
+Added Pin To Net: NetName=NetR23_2 Pin=R24-1
+Added Net: Name=NetR23_2
+Added Member To Class: ClassName=LOAD CONTROL_Final2 Member=Component C5 0.1uF
+Added Member To Class: ClassName=LOAD CONTROL_Final2 Member=Component C6 0.1uF
+Added Member To Class: ClassName=LOAD CONTROL_Final2 Member=Component C9 0.1uF
+Added Member To Class: ClassName=LOAD CONTROL_Final2 Member=Component IC? L78M05
+Added Member To Class: ClassName=LOAD CONTROL_Final2 Member=Component R3 1K
+Added Member To Class: ClassName=LOAD CONTROL_Final2 Member=Component R15 1K
+Added Room: Name=LOAD CONTROL_Final2

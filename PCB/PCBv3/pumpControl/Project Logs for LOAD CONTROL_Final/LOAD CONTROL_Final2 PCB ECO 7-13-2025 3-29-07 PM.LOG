@@ -1,0 +1,23 @@
+Added Component: Designator=5d-15(Cap-100nF-400V)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Designer"; Value = "Ali Hafizi"; VariantName = "[No Variations]"
+Added Component: Designator=R?(RES-(1/2)-Stand)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Designer"; Value = "Ali Hafizi"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetMOC1_6 Pin=RT2-1
+Added Pin To Net: NetName=n Pin=RT2-2
+Added Pin To Net: NetName=Net5d-15_1 Pin=5d-15-1
+Added Pin To Net: NetName=Net5d-15_1 Pin=C?-2
+Added Net: Name=Net5d-15_1
+Added Pin To Net: NetName=Net5d-15_2 Pin=5d-15-2
+Added Pin To Net: NetName=Net5d-15_2 Pin=Fuse 1-2
+Added Net: Name=Net5d-15_2
+Added Member To Class: ClassName=LOAD CONTROL_Final2 Member=Component 5d-15
+Added Member To Class: ClassName=LOAD CONTROL_Final2 Member=Component C? 100nF
+Added Member To Class: ClassName=LOAD CONTROL_Final2 Member=Component D? 1n4007
+Added Member To Class: ClassName=LOAD CONTROL_Final2 Member=Component D? 1n4007
+Added Member To Class: ClassName=LOAD CONTROL_Final2 Member=Component D? 1n4007
+Added Member To Class: ClassName=LOAD CONTROL_Final2 Member=Component R? 1K
+Added Member To Class: ClassName=LOAD CONTROL_Final2 Member=Component R? 10r
+Added Member To Class: ClassName=LOAD CONTROL_Final2 Member=Component R? 1K
+Added Room: Name=LOAD CONTROL_Final2
