@@ -13,7 +13,7 @@ Sub Process_Globals
 	Dim Serial1 As Serial
 	Dim AStream As AsyncStreams
 	Dim DeviceList As List
-
+	
 End Sub
 
 Sub Globals
@@ -137,38 +137,38 @@ Sub AStream_NewData (Buffer() As Byte)
 	BufferString = BufferString & msg   ' تکه جدید رو به بافر اضافه کن
 	
 	If BufferString.Contains(Chr(10)) Then
-	'	EditText14.Text =BufferString
+		'	EditText14.Text =BufferString
 		Dim lines() As String = Regex.Split(Chr(10), BufferString)
 		For i = 0 To lines.Length - 1
 			Dim line As String = lines(i).Trim
-		If line.Length > 0 Then ParseEEPROMData(line)
+			If line.Length > 0 Then ParseEEPROMData(line)
 		Next
 		BufferString = lines(lines.Length - 1)
 		BufferString = ""
 	End If
-	End Sub
+End Sub
 
 Sub ParseEEPROMData(Data As String)
 	'EditText14.Text = Data
 	If Data.StartsWith("eeprom/") = True Then
-		Dim parts() As String = Regex.Split("/", Data)
-		If parts.Length == 14 Then
-			EditText1.Text = parts(1)
-			EditText2.Text = parts(2)
-			EditText3.Text = parts(3)
-			EditText4.Text = parts(4)
-			EditText5.Text = parts(5)
-			EditText6.Text = parts(6)
-			EditText7.Text = parts(7)
-			EditText8.Text = parts(8) / 10
-			EditText9.Text = parts(9) / 10
-			EditText10.Text = parts(10) / 10
-			EditText11.Text = parts(11)
-			EditText12.Text = parts(12)
-			EditText13.Text = parts(13)
-			If parts(13) = 0 Then Spinner1.SelectedIndex = 0
-			If parts(13) = 1 Then Spinner1.SelectedIndex = 1
-			If parts(13) = 2 Then Spinner1.SelectedIndex = 2
+		Main.parts  = Regex.Split("/", Data)
+		If Main.parts.Length == 14 Then
+			EditText1.Text = Main.parts(1)
+			EditText2.Text = Main.parts(2)
+			EditText3.Text = Main.parts(3)
+			EditText4.Text = Main.parts(4)
+			EditText5.Text = Main.parts(5)
+			EditText6.Text = Main.parts(6)
+			EditText7.Text = Main.parts(7)
+			EditText8.Text = Main.parts(8) / 10
+			EditText9.Text = Main.parts(9) / 10
+			EditText10.Text = Main.parts(10) / 10
+			EditText11.Text =Main.parts(11)
+			EditText12.Text = Main.parts(12)
+			EditText13.Text = Main.parts(13)
+			If Main.parts(13) = 0 Then Spinner1.SelectedIndex = 0
+			If Main.parts(13) = 1 Then Spinner1.SelectedIndex = 1
+			If Main.parts(13) = 2 Then Spinner1.SelectedIndex = 2
 		
 		End If
 	End If

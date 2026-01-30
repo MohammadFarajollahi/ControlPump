@@ -1,0 +1,24 @@
+Change Component Comment : Designator=R1 Old Comment=40R New Comment=20r
+Change Component Comment : Designator=R16 Old Comment=100R New Comment=40r
+Change Component Comment : Designator=VR1 Old Comment=AMS1117 New Comment=AMS1117-xx
+Change Component Comment : Designator=MOC1 Old Comment=MOC3021 New Comment=MOC3021-3
+Change Component Comment : Designator=IC1 Old Comment=STM32F030K6T6 New Comment=STM32F030K6T6TR
+Change Component Description : Designator=C1 Old Description=1206 C 12pF Ceramic Multilayer Capacitor, 50 VDC, +125degC, C0G Dielec, +/-5% New Description=1206 C 12pF Ceramic Multilayer Capacitor, 50 VDC, +125degC, C0G Dielec, +/-5% | KEMET C1206C120J5GACTU
+Change Component Description : Designator=C2 Old Description=1206 C 12pF Ceramic Multilayer Capacitor, 50 VDC, +125degC, C0G Dielec, +/-5% New Description=1206 C 12pF Ceramic Multilayer Capacitor, 50 VDC, +125degC, C0G Dielec, +/-5% | KEMET C1206C120J5GACTU
+Change Component Description : Designator=C3 Old Description=1206 C 12pF Ceramic Multilayer Capacitor, 50 VDC, +125degC, C0G Dielec, +/-5% New Description=1206 C 12pF Ceramic Multilayer Capacitor, 50 VDC, +125degC, C0G Dielec, +/-5% | KEMET C1206C120J5GACTU
+Change Component Description : Designator=C4 Old Description=1206 C 12pF Ceramic Multilayer Capacitor, 50 VDC, +125degC, C0G Dielec, +/-5% New Description=1206 C 12pF Ceramic Multilayer Capacitor, 50 VDC, +125degC, C0G Dielec, +/-5% | KEMET C1206C120J5GACTU
+Change Component Description : Designator=C5 Old Description=1206 C 12pF Ceramic Multilayer Capacitor, 50 VDC, +125degC, C0G Dielec, +/-5% New Description=1206 C 12pF Ceramic Multilayer Capacitor, 50 VDC, +125degC, C0G Dielec, +/-5% | KEMET C1206C120J5GACTU
+Change Component Description : Designator=C6 Old Description=1206 C 12pF Ceramic Multilayer Capacitor, 50 VDC, +125degC, C0G Dielec, +/-5% New Description=1206 C 12pF Ceramic Multilayer Capacitor, 50 VDC, +125degC, C0G Dielec, +/-5% | KEMET C1206C120J5GACTU
+Change Component Description : Designator=C7 Old Description=1206 C 12pF Ceramic Multilayer Capacitor, 50 VDC, +125degC, C0G Dielec, +/-5% New Description=1206 C 12pF Ceramic Multilayer Capacitor, 50 VDC, +125degC, C0G Dielec, +/-5% | KEMET C1206C120J5GACTU
+Change Component Description : Designator=C8 Old Description=1206 C 12pF Ceramic Multilayer Capacitor, 50 VDC, +125degC, C0G Dielec, +/-5% New Description=1206 C 12pF Ceramic Multilayer Capacitor, 50 VDC, +125degC, C0G Dielec, +/-5% | KEMET C1206C120J5GACTU
+Change Component Description : Designator=C9 Old Description=1206 C 12pF Ceramic Multilayer Capacitor, 50 VDC, +125degC, C0G Dielec, +/-5% New Description=1206 C 12pF Ceramic Multilayer Capacitor, 50 VDC, +125degC, C0G Dielec, +/-5% | KEMET C1206C120J5GACTU
+Change Component Description : Designator=C10 Old Description=1206 C 12pF Ceramic Multilayer Capacitor, 50 VDC, +125degC, C0G Dielec, +/-5% New Description=1206 C 12pF Ceramic Multilayer Capacitor, 50 VDC, +125degC, C0G Dielec, +/-5% | KEMET C1206C120J5GACTU
+Change Component Description : Designator=C11 Old Description=1206 C 12pF Ceramic Multilayer Capacitor, 50 VDC, +125degC, C0G Dielec, +/-5% New Description=1206 C 12pF Ceramic Multilayer Capacitor, 50 VDC, +125degC, C0G Dielec, +/-5% | KEMET C1206C120J5GACTU
+Change Component Description : Designator=C14 Old Description=1206 C 12pF Ceramic Multilayer Capacitor, 50 VDC, +125degC, C0G Dielec, +/-5% New Description=1206 C 12pF Ceramic Multilayer Capacitor, 50 VDC, +125degC, C0G Dielec, +/-5% | KEMET C1206C120J5GACTU
+Change Component Description : Designator=C17 Old Description=1206 C 12pF Ceramic Multilayer Capacitor, 50 VDC, +125degC, C0G Dielec, +/-5% New Description=1206 C 12pF Ceramic Multilayer Capacitor, 50 VDC, +125degC, C0G Dielec, +/-5% | KEMET C1206C120J5GACTU
+Change Component Description : Designator=C18 Old Description=1206 C 12pF Ceramic Multilayer Capacitor, 50 VDC, +125degC, C0G Dielec, +/-5% New Description=1206 C 12pF Ceramic Multilayer Capacitor, 50 VDC, +125degC, C0G Dielec, +/-5% | KEMET C1206C120J5GACTU
+Added Pin To Net: NetName=Blut Pin=IC1-10
+Added Pin To Net: NetName=Blut Pin=R24-2
+Added Pin To Net: NetName=Blut Pin=U2-34
+Added Net: Name=Blut
+Added Room: Name=LOAD CONTROL_Final2

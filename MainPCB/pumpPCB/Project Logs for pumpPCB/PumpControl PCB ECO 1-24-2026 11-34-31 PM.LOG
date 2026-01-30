@@ -1,0 +1,5 @@
+Removed Pin From Net: NetName=NetD12_2 Pin=pc1-2
+Removed Pin From Net: NetName=NetD13_1 Pin=R26-2
+Added Pin To Net: NetName=NetD13_1 Pin=pc1-2
+Added Pin To Net: NetName=NetD12_2 Pin=R26-2
+Added Room: Name=LOAD CONTROL_Final2

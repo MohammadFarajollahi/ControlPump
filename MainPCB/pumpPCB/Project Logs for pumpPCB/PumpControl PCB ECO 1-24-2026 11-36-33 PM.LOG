@@ -1,0 +1,17 @@
+Removed Pin From Net: NetName=L Pin=D12-1
+Removed Pin From Net: NetName=n Pin=D13-2
+Removed Pin From Net: NetName=n Pin=D14-1
+Removed Pin From Net: NetName=L Pin=D15-2
+Added Pin To Net: NetName=L Pin=D12-2
+Added Pin To Net: NetName=n Pin=D13-1
+Added Pin To Net: NetName=n Pin=D14-2
+Added Pin To Net: NetName=L Pin=D15-1
+Added Pin To Net: NetName=NetD12_1 Pin=D12-1
+Added Pin To Net: NetName=NetD12_1 Pin=D14-1
+Added Pin To Net: NetName=NetD12_1 Pin=pc1-2
+Added Net: Name=NetD12_1
+Added Pin To Net: NetName=NetD13_2 Pin=D13-2
+Added Pin To Net: NetName=NetD13_2 Pin=D15-2
+Added Pin To Net: NetName=NetD13_2 Pin=R26-2
+Added Net: Name=NetD13_2
+Added Room: Name=LOAD CONTROL_Final2

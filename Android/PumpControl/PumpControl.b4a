@@ -27,10 +27,11 @@ Library5=xui
 Library6=runtimepermissions
 ManifestCode='This code will be applied to the manifest file during compilation.~\n~'You do not need to modify it in most cases.~\n~'See this link for for more information: https://www.b4x.com/forum/showthread.php?p=78136~\n~AddManifestText(~\n~<uses-sdk android:minSdkVersion="28" android:targetSdkVersion="34"/>~\n~<supports-screens android:largeScreens="true" ~\n~    android:normalScreens="true" ~\n~    android:smallScreens="true" ~\n~    android:anyDensity="true"/>)~\n~SetApplicationAttribute(android:icon, "@drawable/icon")~\n~SetApplicationAttribute(android:label, "$LABEL$")~\n~CreateResourceFromFile(Macro, Themes.LightTheme)~\n~AddPermission(android.permission.BLUETOOTH)~\n~AddPermission(android.permission.BLUETOOTH_ADMIN)~\n~AddPermission(android.permission.ACCESS_FINE_LOCATION)~\n~~\n~' برای اندروید 12 به بالا:~\n~AddPermission(android.permission.BLUETOOTH_CONNECT)~\n~AddPermission(android.permission.BLUETOOTH_SCAN)~\n~CreateResource(values-v20, theme.xml,~\n~~\n~~\n~<resources>~\n~  <style~\n~  name="Custom" parent="@android:style/Theme.Material.Light.NoActionBar">~\n~    ~\n~     <item name="android:forceDarkAllowed">false</item>~\n~  </style>~\n~</resources>~\n~)~\n~'End of default text.~\n~
 Module1=MainScreen
-Module2=Starter
+Module2=Setting
+Module3=Starter
 NumberOfFiles=9
 NumberOfLibraries=6
-NumberOfModules=2
+NumberOfModules=3
 Version=13.1
 @EndOfDesignText@
 #Region  Project Attributes 
@@ -51,6 +52,7 @@ Sub Process_Globals
 	Dim Serial1 As Serial
 	Dim AStream As AsyncStreams
 	Dim DeviceList As List
+	Public parts() As String
 End Sub
 
 Sub Globals
